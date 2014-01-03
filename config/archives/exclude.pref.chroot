@@ -1,0 +1,183 @@
+Package: gnome-control-center
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-help
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-menus-blacklist
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-www-browser
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-open
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-settings-daemon
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-keyring-daemon
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-text-editor
+Pin: version *
+Pin-Priority: -1
+
+Package: nautilus
+Pin: version *
+Pin-Priority: -1
+
+Package: apache2-bin
+Pin: version *
+Pin-Priority: -1
+
+Package: geoip-bin
+Pin: version *
+Pin-Priority: -1
+
+Package: geoip-database-contrib
+Pin: version *
+Pin-Priority: -1
+
+Package: geoip-database
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-user-share
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-accessibility-themes
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-control-center-data
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-desktop3-data
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-menus
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-mime-data
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-online-accounts
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-settings-daemon
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-themes-standard:i386
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-sushi
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-themes-standard-data
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-user-guide
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-user-share
+Pin: version *
+Pin-Priority: -1
+
+Package: mousetweaks
+Pin: version *
+Pin-Priority: -1
+
+Package: aptitude
+Pin: version *
+Pin-Priority: -1
+
+Package: aptitude-common
+Pin: version *
+Pin-Priority: -1
+
+Package: gnuplot
+Pin: version *
+Pin-Priority: -1
+
+Package: gnuplot-nox
+Pin: version *
+Pin-Priority: -1
+
+Package: aglfn
+Pin: version *
+Pin-Priority: -1
+
+Package: gnome-bluetooth
+Pin: version *
+Pin-Priority: -1
+
+Package: mixmaster
+Pin: version *
+Pin-Priority: -1
+
+Package: xul-ext-torbutton
+Pin: version *
+Pin-Priority: -1
+
+Package: socat
+Pin: version *
+Pin-Priority: -1
+
+Package: tor-arm
+Pin: version *
+Pin-Priority: -1
+
+Package: apparmor-utils
+Pin: version *
+Pin-Priority: -1
+
+Package: vidalia
+Pin: version *
+Pin-Priority: -1
+
+Package: manpages
+Pin: version *
+Pin-Priority: -1
+
+Package: libreoffice-help-es
+Pin: version *
+Pin-Priority: -1
+
+Package: xfce4-panel
+Pin: version *
+Pin-Priority: -1
+
+Package: vim-tiny
+Pin: version *
+Pin-Priority: -1
+
+Package: vim-common
+Pin: version *
+Pin-Priority: -1
+
+Package: qpdf
+Pin: version *
+Pin-Priority: -1
+
+Package: aspell
+Pin: version *
+Pin-Priority: -1

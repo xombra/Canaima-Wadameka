@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i -e 's|timeout 0|timeout 50|' binary/isolinux/isolinux.cfg

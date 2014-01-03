@@ -1,0 +1,115 @@
+# Canaima LIve USB
+# This theme is 100% free and open source
+
+border.color: #362C2B
+border.width: 1
+
+padding.height: 3
+padding.width: 5
+
+slit: bevel1 solid
+slit.bg.color: #b2a382  
+slit.bg.colorTo:#b2a382
+
+menu.bullet.position: right
+menu.items.active.bg: Gradient Vertical Flat
+menu.items.active.bg.color:#778C31
+menu.items.active.bg.colorTo: #778C31
+menu.items.active.disabled.text.color: #404D46
+menu.items.active.text.color: #FFFFFF
+menu.items.bg: Solid Flat
+menu.items.bg.color: #404D46
+menu.items.disabled.text.color: #B2A382
+menu.items.font: shadow=n
+menu.items.text.color: #FFFFFF
+menu.items.fontheight: 12
+menu.overlap.x: 1
+menu.separator.color: #404D46
+menu.separator.padding.width: 10
+menu.title.bg: Gradient Vertical Flat
+menu.title.text.font: snap
+menu.title.bg.color: #4A571F
+menu.title.bg.colorTo: #5D6D27
+menu.title.text.color: #FFFFFF
+menu.title.text.font: shadow=y:shadowtint=100:shadowoffset=1
+menu.title.text.justify: center
+
+osd.bg: flat solid
+osd.bg.color: #B2A382
+osd.border.color: #404D46
+osd.border.width: 1
+osd.hilight.bg: flat gradient vertical
+osd.hilight.bg.color: #A7C4E0
+osd.hilight.bg.colorTo:#5D6D27
+osd.label.text.color: #3c3c3c
+osd.unhilight.bg: flat gradient vertical
+osd.unhilight.bg.color: #5D6D27
+osd.unhilight.bg.colorTo: #4A571F
+
+window.active.button.disabled.bg: parentrelative
+window.active.button.disabled.image.color: #4A571F
+window.active.button.hover.image.color: #5D6D27
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #4A571F
+window.active.button.toggled.image.color: #FCFCFC
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #FCFCFC
+
+window.active.grip.bg: Solid Flat
+window.active.grip.bg.color:#5D6D27
+window.inactive.grip.bg: Solid Flat
+window.inactive.grip.bg.color:#5D6D27
+
+window.client.padding.width: 0
+window.active.client.color: #5d6d27
+window.inactive.client.color: #b2a382
+
+window.handle.width: 4
+window.active.handle.bg: Gradient Vertical Flat
+window.active.handle.bg.color:#5D6D27
+window.active.handle.bg.colorTo: #4A571F
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #FCFCFC
+window.active.label.text.font: shadow=y:shadowtint=40:shadowoffset=1
+
+window.active.title.bg: flat Gradient SplitVertical
+window.active.title.bg.color: #4A571F
+window.active.title.bg.colorTo: #5D6D27
+window.active.title.bg.splitTo: #778C31
+window.active.title.bg.colorTo.splitTo: #778C31
+window.active.title.bg.shadow: 1
+window.active.title.separator.color: #5D6D27
+
+window.fontheight: 12
+
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.disabled.image.color: #5D6D27
+window.inactive.button.hover.image.color: #4A571F
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #4A571F
+window.inactive.button.toggled.image.color: #e5e5e5
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #e5e5e5
+
+window.inactive.handle.bg: Gradient Vertical Flat Border
+window.inactive.handle.bg.color:#5D6D27
+window.inactive.handle.bg.colorTo: #4A571F
+window.inactive.handle.bg.border.color: #4A571F
+
+window.inactive.label.bg: flat bevel2 gradient vertical
+window.inactive.label.bg.color: #778c31
+window.inactive.label.bg.colorTo: #4a571f
+window.inactive.label.text.color: #CCCCCC
+window.inactive.label.text.font: shadow=y:shadowtint=40:shadowoffset=1
+
+window.inactive.title.bg: flat Gradient SplitVertical
+window.inactive.title.bg.color: #4A571F
+window.inactive.title.bg.splitTo: #778C31
+window.inactive.title.bg.colorTo: #5D6D27
+window.inactive.title.bg.colorTo.splitTo: #778C31
+window.inactive.title.bg.shadow: 1
+window.inactive.title.separator.color: #5D6D27
+
+window.label.text.justify: center
+

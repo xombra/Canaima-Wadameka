@@ -1,0 +1,25 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+echo always > /sys/kernel/mm/transparent_hugepage/enabled
+echo 20000 > /sys/kernel/mm/transparent_hugepage/khugepaged/pages_to_scan
+echo 1 > /sys/kernel/mm/ksm/run
+echo 20000 > /sys/kernel/mm/ksm/pages_to_scan
+mkdir -p /dev/cgroup/cpu
+mount -t cgroup cgroup /dev/cgroup/cpu -o cpu
+mkdir -m 0777 /dev/cgroup/cpu/user
+echo "/usr/local/sbin/cgroup_clean" > /dev/cgroup/cpu/release_agent
+modprobe zram
+echo $((100*1024*1024)) > /sys/block/zram0/disksize
+mkswap /dev/zram0
+swapon -p 50 /dev/zram0
+exit 0

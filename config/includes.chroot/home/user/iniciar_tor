@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo service tor start
+sudo service privoxy start
+clear
+echo "Introduzca la siguiente configuracion para PROXY en su navegador: localhost puerto 8118"
+read -p "Presione una tecla para continuar..."
+exit 0

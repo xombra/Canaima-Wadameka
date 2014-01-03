@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo freshclam
+sudo clamtk
+exit 0
