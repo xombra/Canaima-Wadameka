@@ -14,4 +14,12 @@ Desarrolladores:
 	* Jesus Palencia
 	* William Cabrera
 
-Debian Enterprise Team: canaimacolibris@gmail.com
+
+Imagen ISO:
+
+http://www.4shared.com/file/OGQdRhk7/canaima-colibri-10-i386.html
+
+
+Firma MD5:
+
+http://www.4shared.com/file/WGpAjTVs/canaima-colibri-10-i386iso.html
