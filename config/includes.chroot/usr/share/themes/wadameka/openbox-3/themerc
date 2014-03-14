@@ -21,16 +21,18 @@ menu.items.bg: Solid Flat
 menu.items.bg.color: #404D46
 menu.items.disabled.text.color: #B2A382
 menu.items.font: shadow=n
-menu.items.text.color: #FFFFFF
 menu.items.fontheight: 12
+menu.items.text.color: #FFFFFF
+
 menu.overlap.x: 1
 menu.separator.color: #404D46
 menu.separator.padding.width: 10
+
 menu.title.bg: Gradient Vertical Flat
-menu.title.text.font: snap
 menu.title.bg.color: #4A571F
 menu.title.bg.colorTo: #5D6D27
 menu.title.text.color: #FFFFFF
+menu.title.text.font: snap
 menu.title.text.font: shadow=y:shadowtint=100:shadowoffset=1
 menu.title.text.justify: center
 
@@ -65,13 +67,13 @@ window.active.client.color: #5d6d27
 window.inactive.client.color: #b2a382
 
 window.handle.width: 4
-window.active.handle.bg: Gradient Vertical Flat
 window.active.handle.bg.color:#5D6D27
 window.active.handle.bg.colorTo: #4A571F
+window.active.handle.bg: Gradient Vertical Flat
 
-window.active.label.bg: parentrelative
 window.active.label.text.color: #FCFCFC
 window.active.label.text.font: shadow=y:shadowtint=40:shadowoffset=1
+window.active.label.bg: parentrelative
 
 window.active.title.bg: flat Gradient SplitVertical
 window.active.title.bg.color: #4A571F
@@ -93,9 +95,9 @@ window.inactive.button.unpressed.bg: parentrelative
 window.inactive.button.unpressed.image.color: #e5e5e5
 
 window.inactive.handle.bg: Gradient Vertical Flat Border
+window.inactive.handle.bg.border.color: #4A571F
 window.inactive.handle.bg.color:#5D6D27
 window.inactive.handle.bg.colorTo: #4A571F
-window.inactive.handle.bg.border.color: #4A571F
 
 window.inactive.label.bg: flat bevel2 gradient vertical
 window.inactive.label.bg.color: #778c31
@@ -105,10 +107,10 @@ window.inactive.label.text.font: shadow=y:shadowtint=40:shadowoffset=1
 
 window.inactive.title.bg: flat Gradient SplitVertical
 window.inactive.title.bg.color: #4A571F
-window.inactive.title.bg.splitTo: #778C31
 window.inactive.title.bg.colorTo: #5D6D27
 window.inactive.title.bg.colorTo.splitTo: #778C31
 window.inactive.title.bg.shadow: 1
+window.inactive.title.bg.splitTo: #778C31
 window.inactive.title.separator.color: #5D6D27
 
 window.label.text.justify: center
