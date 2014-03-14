@@ -1,9 +1,111 @@
 #!/bin/bash
+#elaborado por sinfallas
+# realiza limpieza de varios elementos de la distro
 localepurge
-apt-get -y remove aptitude aptitude-common vim-tiny manpages
-rm /usr/share/doc -R
+echo "## archivo de version ##"
+echo "live-boot: `dpkg-query -W -f='${Version}\n' live-boot`" >> /etc/xanadu/version
+echo "live-config: `dpkg-query -W -f='${Version}\n' live-config`" >> /etc/xanadu/version
+echo "lxde: `dpkg-query -W -f='${Version}\n' lxde`" >> /etc/xanadu/version
+echo "tor: `dpkg-query -W -f='${Version}\n' tor`" >> /etc/xanadu/version
+echo "i2p: `dpkg-query -W -f='${Version}\n' i2p`" >> /etc/xanadu/version
+echo "yad: `dpkg-query -W -f='${Version}\n' yad`" >> /etc/xanadu/version
+echo "zenity: `dpkg-query -W -f='${Version}\n' zenity`" >> /etc/xanadu/version
+echo "## pci ids ##"
 update-pciids
+echo "## usb ids ##"
 update-usbids
+groupadd -r dnsmasq
+adduser dnsmasq dnsmasq
+aide --config /etc/aide/aide.conf --init
+# echo "Se ejecutara aideinit por favor espere"
+# aideinit -y -f
+# mv -f -v /var/lib/aide/aide.db.new /var/lib/aide/aide.db
+echo "## permisos ##"
+chmod 644 /usr/lib/libvte9/gnome-pty-helper
+chmod 644 /usr/lib/libvte-2.90-9/gnome-pty-helper
+echo "## proteger paquetes ##"
+/bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
+/bin/echo dash hold | /usr/bin/dpkg --set-selections
+/bin/echo locales hold | /usr/bin/dpkg --set-selections
+/bin/echo microcode.ctl hold | /usr/bin/dpkg --set-selections
+/bin/echo i965-va-driver hold | /usr/bin/dpkg --set-selections
+echo "## purge ##"
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny man-db manpages libc6-dev gcc g++ make dpkg-dev build-essential
+echo "## purge headers ##"
+apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
+echo "## autoremove ##"
+apt-get -y --force-yes autoremove
+echo "## deborphan ##"
+apt-get -y purge $(deborphan)
 apt-get clean
-apt-get -y autoremove
-prelink -amvR
+echo "## Limpieza de directorios ##"
+rm -rf /usr/share/doc/*
+# rm -rf /usr/share/doc-base/*
+rm -rf /usr/share/gtk-doc/*
+rm -rf /usr/share/help/*
+rm -rf /usr/share/info/*
+rm -rf /usr/share/kde4/*
+rm -rf /usr/share/lintian/*
+rm -rf /usr/share/man/*
+rm -rf /var/cache/man/*
+rm -rf /tmp/*
+rm -rf /var/tmp/*
+rm -rf /usr/share/icons/Mint-X-Dark/*
+rm -rf /usr/share/icons/nuoveXT2/*
+rm -rf /usr/share/themes/Crux/*
+rm -rf /usr/share/themes/Industrial/*
+rm -rf /usr/share/themes/Mikachu/*
+rm -rf /usr/share/themes/Mint-X/*
+rm -rf /usr/share/themes/Mint-Z/*
+rm -rf /usr/share/themes/Mist/*
+rm -rf /usr/share/themes/Natura/*
+rm -rf /usr/share/themes/Onyx/*
+rm -rf /usr/share/themes/Onyx-Citrus/*
+rm -rf /usr/share/themes/Orang/*
+rm -rf /usr/share/themes/Raleigh/*
+rm -rf /usr/share/themes/Redmond/*
+rm -rf /usr/share/themes/Syscrash/*
+rm -rf /usr/share/themes/ThinIce/*
+rm -rf /usr/share/themes/Artwiz-boxed/*
+rm -rf /usr/share/themes/Bear2/*
+echo "## Limpieza de archivos ##"
+rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/bing*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/drae*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/eBay*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/twitter*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/wikipedia*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/yahoo*.xml
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-640x480.png
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper.svg
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-widescreen.svg
+rm -f /usr/share/images/desktop-base/gnome-splash-curves.png
+rm -f /usr/share/images/desktop-base/joy-inksplat-wallpaper_1920x1080.svg
+rm -f /usr/share/images/desktop-base/moreblue-orbit-grub.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-splash.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.svg
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.svg
+rm -f /usr/share/images/desktop-base/nightly-wallpaper.png
+rm -f /usr/share/images/desktop-base/spacefun-grub.png
+rm -f /usr/share/images/desktop-base/spacefun-grub-widescreen.png
+rm -f /usr/share/images/desktop-base/spacefun-splash.svg
+rm -f /usr/share/images/desktop-base/spacefun-wallpaper.svg
+rm -f /usr/share/images/desktop-base/spacefun-wallpaper-widescreen.svg
+rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
+rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
+rm -f /var/cache/apt/pkgcache.bin
+rm -f /var/cache/apt/srcpkgcache.bin
+echo "## limpieza de log ##"
+for FILE in $(find /var/log/ -type f)
+do
+	: > ${FILE}
+done
+echo "## hardlink por favor espere ##"
+hardlink -f -x /sys -t -o /
+echo "## prelink por favor espere ##"
+prelink -amR
