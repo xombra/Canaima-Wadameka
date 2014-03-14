@@ -1,57 +1,21 @@
-Canaima Colibri Live-USB.
---------------------------
+Canaima Wadameka Live-USB.
+---------------------------
 
-Descripción: Live-USB basado en GNU/Linux Debian para la distribución GNU/Linux Canaima.
+Descripción: Live-USB basado en GNU/Linux Canaima con escritorio LXDE.
 
 La distribución está enfocada en el escritorio LXDE.
 
 Desarrolladores:
+	* Jesus Palencia (sinfallas)
+	* Hector Mantellini (xombra)
+	* Angel Cruz (abr4xas)
 
-	* Ernesto Crespo
-	* Franklin Mendoza
-	* Hector Mantellini
-	* Jesus Lara
-	* Jesus Palencia
-	* William Cabrera
-
-Debian Enterprise Team: canaimacolibris@gmail.com
+Vaslibre: sinfallas@gmail.com
 
 --------------------------
 
-La clave de ROOT es: colibri
+La clave de ROOT es: wadameka
 
 --------------------------
 
-Paquetes incluidos:
-
-lxde-desktop
-thunar
-disk-manager
-clamtk
-iceweasel
-pidgin
-filezilla
-tor
-privoxy
-qjackctl
-brasero
-vlc
-libreoffice
-ttf-mscorefonts-installer
-evince
-nmap
-testdisk
-extundelete
-chkrootkit
-cmospwd
-foremost
-magicrescue
-zerofree
-parted
-drbl
-sleuthkit
-autopsy
-unrar-free
-unzip
-p7zip-full
-ntfs-3g
+Distribución para usuario final con Instalador incluido.
