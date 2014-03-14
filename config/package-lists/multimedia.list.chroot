@@ -8,4 +8,9 @@ libmp3lame0
 libxvidcore4
 libav-tools
 libdvdread4
+libdvdcss2
 libmad0
+pulseaudio
+pulseaudio-module-jack
+w32codecs
+xsane
