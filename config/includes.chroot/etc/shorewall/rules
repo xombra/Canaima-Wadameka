@@ -1,0 +1,11 @@
+#ACTION     SOURCE  DEST    PROTO   DEST   SOURCE  ORIGINAL RATE   USER/  MARK
+#                                   PORT   PORT(S) DEST     LIMIT  GROUP
+#
+# Accept Ping and Traceroute from the internet
+ACCEPT:info net     fw     icmp       8
+# Accept NTP udp
+ACCEPT    net     fw    udp     123
+# Acceso SSH
+ACCEPT      all     fw     tcp        22    -    -   2/min:3
+# Aceptar PING
+Ping(ACCEPT)     net     all

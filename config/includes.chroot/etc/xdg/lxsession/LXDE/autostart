@@ -3,3 +3,4 @@
 @lxpanel --profile LXDE
 @pcmanfm --desktop --profile LXDE
 @fdpowermon
+@inicio
