@@ -7,7 +7,6 @@ mount
 sudo
 lvm2
 dmraid
-htop
 iotop
 localepurge
 dnsmasq
