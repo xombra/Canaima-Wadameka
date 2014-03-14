@@ -1,10 +1,10 @@
 #!/bin/bash
-#elaborado por sinfallas (sinfallas@gmailcom)
+#elaborado por sinfallas
 if [[ $USER != root ]]; then
 echo "Error: Debe tener privilegios de ROOT"
 exit 1
 fi
-if [[ -f /etc/wadameka/version ]]; then
+if [[ -f /etc/xanadu/version ]]; then
 	apt-get update
 	apt-get -y dist-upgrade
 else
@@ -14,8 +14,11 @@ else
 	apt-get update
 fi
 apt-get -y install live-build live-boot live-config squid3 git
+sed -i 's_tmpfs /var/spool_#tmpfs /var/spool_g' /etc/fstab
 mkdir -p /var/spool/squid3
-chmod 666 /var/spool/squid3
+chown -hR root /var/spool/squid3
+chmod -R 0666 /var/spool/squid3
+service squid3 stop
 echo "http_port 3128" > /etc/squid3/squid.conf
 echo "icp_port 0" >> /etc/squid3/squid.conf
 echo "htcp_port 0" >> /etc/squid3/squid.conf
@@ -66,13 +69,13 @@ echo "icp_access deny all" >> /etc/squid3/squid.conf
 echo "htcp_access deny all" >> /etc/squid3/squid.conf
 echo "snmp_access deny all" >> /etc/squid3/squid.conf
 echo "http_access allow all" >> /etc/squid3/squid.conf
-service squid3 restart
+squid3 -z
+service squid3 start
 echo "export http_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export https_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export ftp_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 mkdir live-default
 cd live-default
-lb config --config git://github.com/xombra/Canaima-Wadameka.git
-echo "Instalación Finalizada"
+lb config --config git://github.com/sinfallas/xanadu-linux.git
+echo "Instalación Finalizada, debe reiniciar el equipo.."
 exit 0
-
