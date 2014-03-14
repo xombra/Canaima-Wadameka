@@ -1,10 +1,9 @@
 unrar-free
 unzip
 p7zip-full
-ntfs-3g
 fuse
 gvfs
 gvfs-fuse
-halevt
-hal
-hal-info
+udevil
+bash-completion
+
