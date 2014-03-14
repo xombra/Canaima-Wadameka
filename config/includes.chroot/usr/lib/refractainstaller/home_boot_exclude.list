@@ -1,0 +1,18 @@
+# refractainstaller 9.0.5
+# Use this file ONLY if you're creating a separate /home or /boot partition
+# AND you need to exclude any files or directories inside /home or /boot from
+# being copied by rsync.
+
+# This may not work, because the root of the transfer is /home/
+#- /home/*/.gvfs
+# Instead, you could put your user directory first, like this
+#- user/.gvfs
+# or maybe
+#- fred/.gvfs
+# For any other user name, I think the star will work. It should also
+# affect multiple users this way:
+
+- *.gvfs
+- *.Xauthority
+- *.ICEauthority
+- *.xsession-errors*
