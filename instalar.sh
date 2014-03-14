@@ -4,10 +4,15 @@ if [[ $USER != root ]]; then
 echo "Error: Debe tener privilegios de ROOT"
 exit 1
 fi
-echo "deb http://ftp.us.debian.org/debian testing main contrib non-free" >> /etc/apt/source.list
-echo "deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free" >> /etc/apt/source.list
-echo "deb http://security.debian.org/ jessie/updates main contrib non-free" >> /etc/apt/source.list
-apt-get update
+if [[ -f /etc/wadameka/version ]]; then
+	apt-get update
+	apt-get -y dist-upgrade
+else
+	echo "deb http://ftp.debian.org/debian testing main contrib non-free" > /etc/apt/sources.list
+	echo "deb http://ftp.debian.org/debian/ jessie-updates main contrib non-free" >> /etc/apt/sources.list
+	echo "deb http://security.debian.org/ jessie/updates main contrib non-free" >> /etc/apt/sources.list
+	apt-get update
+fi
 apt-get -y install live-build live-boot live-config squid3 git
 echo "http_port 3128" > /etc/squid3/squid.conf
 echo "icp_port 0" >> /etc/squid3/squid.conf
@@ -33,17 +38,17 @@ echo "acl SSL_ports port 563        # snews" >> /etc/squid3/squid.conf
 echo "acl SSL_ports port 873        # rsync" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 80        # http" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 21        # ftp" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 443        # https" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 443       # https" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 70        # gopher" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 210        # wais" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 1025-65535    # unregistered ports" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 280        # http-mgmt" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 488        # gss-http" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 591        # filemaker" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 777        # multiling http" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 631        # cups" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 873        # rsync" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 901        # SWAT" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 210       # wais" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 1025-65535 # unregistered ports" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 280       # http-mgmt" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 488       # gss-http" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 591       # filemaker" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 777       # multiling http" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 631       # cups" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 873       # rsync" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 901       # SWAT" >> /etc/squid3/squid.conf
 echo "acl downloads urlpath_regex [-i] \.dll$ \.bin$ \.cab$ \.asx$ \.vbs$ \.bat$ \.lnk$ \.scr$ \.pif$ \.msi$ \.exe$ \.mp3$ \.wmv$ \.zip$ \.mpg$ \.torrent$ \.ppt$ \.rar$ \.avi$ \.flv$ \.pps$ \.wma$" >> /etc/squid3/squid.conf
 echo "acl purge method PURGE" >> /etc/squid3/squid.conf
 echo "acl CONNECT method CONNECT" >> /etc/squid3/squid.conf
@@ -64,6 +69,6 @@ echo "export https_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export ftp_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 mkdir live-default
 cd live-default
-lb config --config git://github.com/sinfallas/colibri.git
+lb config --config git://github.com/xombra/Canaima-Wadameka.git
 echo "Instalación Finalizada"
 exit 0
