@@ -9,7 +9,7 @@ LB_BINARY_FILESYSTEM="fat32"
 LB_BINARY_IMAGES="iso-hybrid"
 
 # $LB_APT_INDICES: set apt/aptitude generic indices
-# (Default: true)
+# (Default: false)
 LB_APT_INDICES="false"
 
 # $LB_BOOTAPPEND_LIVE: set boot parameters
@@ -33,7 +33,7 @@ LB_BOOTLOADER="syslinux"
 LB_CHECKSUMS="md5"
 
 # $LB_COMPRESSION: set compression
-# (Default: none)
+# (Default: bzip2)
 LB_COMPRESSION="bzip2"
 
 # $LB_ZSYNC: set zsync
@@ -66,7 +66,7 @@ LB_DEBIAN_INSTALLER_GUI="true"
 LB_GRUB_SPLASH=""
 
 # $LB_HDD_LABEL: set hdd label
-# (Default: DEBIAN_LIVE)
+# (Default: Colibri)
 LB_HDD_LABEL="Colibri"
 
 # $LB_HDD_SIZE: set hdd filesystem size
@@ -74,27 +74,27 @@ LB_HDD_LABEL="Colibri"
 LB_HDD_SIZE="10000"
 
 # $LB_ISO_APPLICATION: set iso author
-# (Default: Debian Live)
+# (Default: Debian Enterprise Team)
 LB_ISO_APPLICATION="Debian Enterprise Team"
 
 # $LB_ISO_PREPARER: set iso preparer
-# (Default: live-build $VERSION; http://packages.qa.debian.org/live-build)
+# (Default: Canaima Colibri Live; Debian Enterprise Team)
 LB_ISO_PREPARER="Canaima Colibri Live; Debian Enterprise Team"
 
 # $LB_ISO_PUBLISHER: set iso publisher
-# (Default: Debian Live project; http://live.debian.net/; debian-live@lists.debian.org)
+# (Default: Canaima Colibri Live; Debian Enterprise Team; canaimacolibris@gmail.com)
 LB_ISO_PUBLISHER="Canaima Colibri Live; Debian Enterprise Team; canaimacolibris@gmail.com"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Debian wheezy $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="Canaima Colibri $(date +%Y%m%d-%H:%M)"
+# (Default: Canaima Colibri 20140314-11:18)
+LB_ISO_VOLUME="Canaima Colibri 20140314-11:18"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)
 LB_JFFS2_ERASEBLOCK=""
 
 # $LB_MEMTEST: set memtest
-# (Default: memtest86+)
+# (Default: none)
 LB_MEMTEST="none"
 
 # $LB_LOADLIN: set loadlin

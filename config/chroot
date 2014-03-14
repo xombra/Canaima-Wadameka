@@ -30,7 +30,7 @@ LB_LINUX_FLAVOURS="686-pae"
 
 # $LB_LINUX_PACKAGES: set kernel packages to use
 # (Default: autodetected)
-LB_LINUX_PACKAGES="linux-image-3.12-1"
+LB_LINUX_PACKAGES="linux-image-3.13-1"
 
 # $LB_SECURITY: enable security updates
 # (Default: true)
@@ -38,7 +38,7 @@ LB_SECURITY="true"
 
 # $LB_UPDATES: enable updates updates
 # (Default: true)
-LB_UPDATES="true"
+LB_UPDATES="false"
 
 # $LB_BACKPORTS: enable backports updates
 # (Default: false)

@@ -24,7 +24,7 @@ LB_APT_PIPELINE=""
 LB_APT_RECOMMENDS="true"
 
 # $LB_APT_SECURE: set apt/aptitude security
-# (Default: true)
+# (Default: false)
 LB_APT_SECURE="false"
 
 # $LB_APT_SOURCE_ARCHIVES: set apt/aptitude source entries in sources.list
@@ -40,7 +40,7 @@ LB_BOOTSTRAP="debootstrap"
 LB_CACHE="true"
 
 # $LB_CACHE_INDICES: control if downloaded package indices should be cached
-# (Default: false)
+# (Default: true)
 LB_CACHE_INDICES="true"
 
 # $LB_CACHE_PACKAGES: control if downloaded packages files should be cached
@@ -134,5 +134,5 @@ APT_OPTIONS="--yes --force-yes --allow-unauthenticated -o Acquire::Check-Valid-U
 APTITUDE_OPTIONS="--assume-yes"
 DEBOOTSTRAP_OPTIONS=""
 CDEBOOTSTRAP_OPTIONS=""
-GZIP_OPTIONS="-6 --rsyncable"
+GZIP_OPTIONS="-6  --rsyncable"
 ISOHYBRID_OPTIONS=""
