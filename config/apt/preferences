@@ -46,10 +46,6 @@ Package: geoip-database-contrib
 Pin: version *
 Pin-Priority: -1
 
-Package: geoip-database
-Pin: version *
-Pin-Priority: -1
-
 Package: gnome-user-share
 Pin: version *
 Pin-Priority: -1
@@ -138,14 +134,6 @@ Package: xul-ext-torbutton
 Pin: version *
 Pin-Priority: -1
 
-Package: socat
-Pin: version *
-Pin-Priority: -1
-
-Package: tor-arm
-Pin: version *
-Pin-Priority: -1
-
 Package: apparmor-utils
 Pin: version *
 Pin-Priority: -1
@@ -179,5 +167,9 @@ Pin: version *
 Pin-Priority: -1
 
 Package: aspell
+Pin: version *
+Pin-Priority: -1
+
+Package: phython-pyinotify
 Pin: version *
 Pin-Priority: -1
