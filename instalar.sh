@@ -76,6 +76,6 @@ echo "export https_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export ftp_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 mkdir live-default
 cd live-default
-lb config --config git://github.com/sinfallas/xanadu-linux.git
+lb config --config git://github.com/xombra/Canaima-Wadameka.git
 echo "Instalación Finalizada, debe reiniciar el equipo.."
 exit 0
