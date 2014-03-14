@@ -18,7 +18,6 @@ pref("intl.locale.matchOS", true);
 // Disable default browser checking.
 pref("browser.shell.checkDefaultBrowser", false);
 pref("extensions.autoDisableScopes", 0);
-
 pref("network.http.pipelining", true);
 pref("network.http.pipelining.aggressive", true);
 pref("network.http.pipelining.maxrequests", 12);
@@ -31,7 +30,6 @@ pref("network.http.max-persistent-connections-per-proxy", 256);
 pref("network.http.pipelining.reschedule-timeout", 15000);
 pref("network.http.pipelining.read-timeout", 60000);
 pref("network.http.pipelining.max-optimistic-requests", 3);
-
 pref("network.proxy.backup.ftp", "");
 pref("network.proxy.backup.ftp_port", 0);
 pref("network.proxy.backup.socks", "");
