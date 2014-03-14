@@ -1,25 +1,13 @@
-Canaima Colibri Live.
---------------------------
+Canaima Wadameka Live
+---------------------
 
-Live basado en GNU/Linux Debian para la distribución GNU/Linux Canaima.
+Live basado en GNU/Linux Canaima.
 
-La distribución está enfocada en el escritorio LXDE.
+La distribución está enfocada en el escritorio LXDE para usuario final.
 
 Desarrolladores:
 
-	* Ernesto Crespo
-	* Franklin Mendoza
-	* Hector Mantellini
-	* Jesus Lara
-	* Jesus Palencia
-	* William Cabrera
+	* Jesus Palencia (sinfallas)
+	* Hector Mantellini (xombra)
+	* Angel Cruz (abr4xas)
 
-
-Imagen ISO:
-
-http://www.4shared.com/file/OGQdRhk7/canaima-colibri-10-i386.html
-
-
-Firma MD5:
-
-http://www.4shared.com/file/WGpAjTVs/canaima-colibri-10-i386iso.html
