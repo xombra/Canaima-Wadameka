@@ -4,7 +4,7 @@ if [[ $USER != root ]]; then
 echo "Error: Debe tener privilegios de ROOT"
 exit 1
 fi
-if [[ -f /etc/xanadu/version ]]; then
+if [[ -f /etc/wadameka/version ]]; then
 	apt-get update
 	apt-get -y dist-upgrade
 else
