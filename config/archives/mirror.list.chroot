@@ -1,0 +1,7 @@
+# deb http://http.debian.net/debian sid main contrib non-free
+# deb http://ftp.debian.org/debian sid main contrib non-free
+# deb http://ftp.ca.debian.org/debian sid main contrib non-free
+deb http://ftp.us.debian.org/debian sid main contrib non-free
+deb http://ftp.br.debian.org/debian sid main contrib non-free
+# deb http://ftp.mx.debian.org/debian sid main contrib non-free
+# deb http://mirrors.kernel.org/debian sid main contrib non-free
