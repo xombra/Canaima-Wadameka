@@ -1,5 +1,5 @@
 #!/bin/bash
-#elaborado por sinfallas
+#elaborado por sinfallas (sinfallas@gmailcom)
 if [[ $USER != root ]]; then
 echo "Error: Debe tener privilegios de ROOT"
 exit 1
@@ -14,6 +14,8 @@ else
 	apt-get update
 fi
 apt-get -y install live-build live-boot live-config squid3 git
+mkdir -p /var/spool/squid3
+chmod 666 /var/spool/squid3
 echo "http_port 3128" > /etc/squid3/squid.conf
 echo "icp_port 0" >> /etc/squid3/squid.conf
 echo "htcp_port 0" >> /etc/squid3/squid.conf
@@ -38,17 +40,17 @@ echo "acl SSL_ports port 563        # snews" >> /etc/squid3/squid.conf
 echo "acl SSL_ports port 873        # rsync" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 80        # http" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 21        # ftp" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 443       # https" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 443        # https" >> /etc/squid3/squid.conf
 echo "acl Safe_ports port 70        # gopher" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 210       # wais" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 1025-65535 # unregistered ports" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 280       # http-mgmt" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 488       # gss-http" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 591       # filemaker" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 777       # multiling http" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 631       # cups" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 873       # rsync" >> /etc/squid3/squid.conf
-echo "acl Safe_ports port 901       # SWAT" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 210        # wais" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 1025-65535    # unregistered ports" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 280        # http-mgmt" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 488        # gss-http" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 591        # filemaker" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 777        # multiling http" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 631        # cups" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 873        # rsync" >> /etc/squid3/squid.conf
+echo "acl Safe_ports port 901        # SWAT" >> /etc/squid3/squid.conf
 echo "acl downloads urlpath_regex [-i] \.dll$ \.bin$ \.cab$ \.asx$ \.vbs$ \.bat$ \.lnk$ \.scr$ \.pif$ \.msi$ \.exe$ \.mp3$ \.wmv$ \.zip$ \.mpg$ \.torrent$ \.ppt$ \.rar$ \.avi$ \.flv$ \.pps$ \.wma$" >> /etc/squid3/squid.conf
 echo "acl purge method PURGE" >> /etc/squid3/squid.conf
 echo "acl CONNECT method CONNECT" >> /etc/squid3/squid.conf
@@ -63,6 +65,7 @@ echo "http_access deny CONNECT !SSL_ports" >> /etc/squid3/squid.conf
 echo "icp_access deny all" >> /etc/squid3/squid.conf
 echo "htcp_access deny all" >> /etc/squid3/squid.conf
 echo "snmp_access deny all" >> /etc/squid3/squid.conf
+echo "http_access allow all" >> /etc/squid3/squid.conf
 service squid3 restart
 echo "export http_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export https_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
@@ -72,3 +75,4 @@ cd live-default
 lb config --config git://github.com/xombra/Canaima-Wadameka.git
 echo "Instalación Finalizada"
 exit 0
+
