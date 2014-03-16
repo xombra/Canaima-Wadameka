@@ -10,20 +10,6 @@
 # bits.
 #
 # By default this script does nothing.
-mkdir -p /dev/cgroup/cpu
-mount -t cgroup cgroup /dev/cgroup/cpu -o cpu
-mkdir -m 0777 /dev/cgroup/cpu/user
-echo "/usr/local/sbin/cgroup_clean" > /dev/cgroup/cpu/release_agent
-echo always > /sys/kernel/mm/transparent_hugepage/enabled
-echo 20000 > /sys/kernel/mm/transparent_hugepage/khugepaged/pages_to_scan
-echo 1 > /sys/kernel/mm/ksm/run
-echo 20000 > /sys/kernel/mm/ksm/pages_to_scan
-modprobe zram
-echo $((100*1024*1024)) > /sys/block/zram0/disksize
-mkswap /dev/zram0
-swapon -p 50 /dev/zram0
-miswap=$(fdisk -l | grep swap | cut -c 1-9)
-swapon -f $miswap
 rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth rfcomm rfkill
 service anacron stop
 service avahi-daemon stop

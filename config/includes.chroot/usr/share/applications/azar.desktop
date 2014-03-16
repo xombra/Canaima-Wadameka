@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Tapiz al azar
-Comment=Cambia el tapiz de LXDE al azar.
-Exec=bash -c 'pcmanfm -w "$(find /usr/share/images/desktop-base/random -type f | shuf -n1)"'
-Terminal=false
-Type=Application
-Categories=Utility;
-Icon=wallpaper
