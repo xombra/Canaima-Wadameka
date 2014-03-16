@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Instalar Xanadu
-Comment=Instala Xanadu desde el live a su equipo.
+Name=Instalar Wadamek
+Comment=Instala Wadamek desde el live a su equipo.
 #Exec=gksu 'x-terminal-emulator -e /usr/bin/refractainstaller-gui'
 Exec=refractainstaller-wrapper.sh
 Terminal=false
