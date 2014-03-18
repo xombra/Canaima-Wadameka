@@ -5,5 +5,6 @@ fuse
 gvfs
 gvfs-fuse
 udevil
-bash-completion
+fakeroot
+fakeroot-ng
 
