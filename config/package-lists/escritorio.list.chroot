@@ -31,10 +31,6 @@ synaptic
 xterm
 gparted
 yad
-elementary-icons
+mint-elementary-icons
 scrot
 xchat
-<<<<<<< HEAD
-=======
-
->>>>>>> + ‘config/includes.chroot/etc/ca-certificates.conf’
