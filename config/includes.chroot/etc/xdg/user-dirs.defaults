@@ -4,10 +4,13 @@
 # will be translated on a per-path-element basis into the users locale
 DESKTOP=Desktop
 DOWNLOAD=Downloads
-#TEMPLATES=Templates
-#PUBLICSHARE=Public
+TEMPLATES=Templates
+PUBLICSHARE=Public
 DOCUMENTS=Documents
 MUSIC=Music
 PICTURES=Pictures
 VIDEOS=Videos
-
+# Another alternative is:
+#MUSIC=Documents/Music
+#PICTURES=Documents/Pictures
+#VIDEOS=Documents/Videos

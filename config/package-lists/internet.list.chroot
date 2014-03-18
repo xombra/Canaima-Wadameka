@@ -4,3 +4,8 @@ flashplugin-nonfree
 icedove
 pidgin
 smbclient
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> + ‘config/includes.chroot/etc/ca-certificates.conf’

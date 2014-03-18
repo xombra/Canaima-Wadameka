@@ -1,0 +1,23 @@
+Version Alfa
+
+Date -> 17-03-2014
+ADD 
+	fakeroot 
+	fakeroot-ng
+	cifs-utils 
+	ifuse
+        elementary-icons
+DELETE
+	mint-x-icons
+
+Date -> 16-03-2014
+DELETE 
+	Turpial
+	Coribou
+
+Date -> 15-03-2014
+	Change conf LXDE
+ADD
+	pitivi
+	scrot
+	xchat

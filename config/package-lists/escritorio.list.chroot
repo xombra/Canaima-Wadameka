@@ -34,3 +34,7 @@ yad
 elementary-icons
 scrot
 xchat
+<<<<<<< HEAD
+=======
+
+>>>>>>> + ‘config/includes.chroot/etc/ca-certificates.conf’

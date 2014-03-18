@@ -213,16 +213,6 @@
         <height>50%</height>
       </action>
     </keybind>
-<!-- Aero Snap for Openbox End Code-->
-
-<!-- Zoom in the desktop using xzoom Begin Code
-    <keybind key="A-z">
-      <action name="Execute">
-        <command>xzoom -source 250x150 -mag 2</command>
-      </action>
-    </keybind> -->
-<!-- Zoom in the desktop using xzoom End Code-->
-
   <!-- Keybindings for desktop switching -->
   <keybind key="C-A-Left">
     <action name="DesktopLeft"><dialog>no</dialog><wrap>no</wrap></action>

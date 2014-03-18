@@ -17,4 +17,7 @@ xsane
 pitivi
 ifuse
 ipad-charge
+<<<<<<< HEAD
 
+=======
+>>>>>>> + ‘config/includes.chroot/etc/ca-certificates.conf’
