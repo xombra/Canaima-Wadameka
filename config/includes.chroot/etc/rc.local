@@ -13,17 +13,9 @@
 rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth rfcomm rfkill
 service anacron stop
 service avahi-daemon stop
-service clamav-freshclam stop
 service cron stop
-service fail2ban stop
 service i2p stop
 service memlockd stop
 service ntp stop
-service onioncat stop
-service polipo stop
-service privoxy stop
-service psad stop
 service rsyslog stop
-service shorewall stop
-service tor stop
 exit 0
