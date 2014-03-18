@@ -1,0 +1,23 @@
+qjackctl
+brasero
+vlc
+gstreamer0.10-plugins-bad
+gstreamer0.10-plugins-base
+gstreamer0.10-plugins-good
+libmp3lame0
+libxvidcore4
+libav-tools
+libdvdread4
+libdvdcss2
+libmad0
+pulseaudio
+pulseaudio-module-jack
+w32codecs
+xsane
+pitivi
+ifuse
+ipad-charge
+<<<<<<< HEAD
+
+=======
+>>>>>>> + ‘config/includes.chroot/etc/ca-certificates.conf’
