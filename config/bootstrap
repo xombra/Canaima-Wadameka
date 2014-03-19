@@ -98,7 +98,7 @@ LB_MIRROR_DEBIAN_INSTALLER="http://ftp.br.debian.org/debian"
 
 # $LB_ARCHIVES: enable available third-party archives
 # (Default: empty)
-LB_ARCHIVES="canaima debmulti jupiter libreoffice liquorix mint varios virtual"
+LB_ARCHIVES="canaima debmulti jupiter libreoffice liquorix mint varios virtual yad"
 
 # $LB_ARCHIVE_AREAS: select archive areas to use
 # (Default: main contrib non-free)
