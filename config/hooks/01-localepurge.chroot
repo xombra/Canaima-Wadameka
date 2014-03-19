@@ -31,7 +31,6 @@ apt-get -y purge $(deborphan)
 apt-get clean
 echo "## Limpieza de directorios ##"
 rm -rf /usr/share/doc/*
-# rm -rf /usr/share/doc-base/*
 rm -rf /usr/share/gtk-doc/*
 rm -rf /usr/share/help/*
 rm -rf /usr/share/info/*
