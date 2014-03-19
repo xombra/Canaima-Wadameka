@@ -16,10 +16,9 @@ rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_
 service anacron stop
 service avahi-daemon stop
 service cron stop
-service i2p stop
 service memlockd stop
 service ntp stop
-service rsyslog stop
 service psad stop
+service rsyslog stop
 service shorewall stop
 exit 0
