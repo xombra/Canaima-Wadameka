@@ -22,9 +22,4 @@ shopt -s checkwinsize
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
-if [ "$PS1" ] ; then  
-   mkdir -p -m 0700 /dev/cgroup/cpu/user/$$ > /dev/null 2>&1
-   echo $$ > /dev/cgroup/cpu/user/$$/tasks
-   echo "1" > /dev/cgroup/cpu/user/$$/notify_on_release
-fi
 alias ls='ls --color'
