@@ -20,4 +20,6 @@ service i2p stop
 service memlockd stop
 service ntp stop
 service rsyslog stop
+service psad stop
+service shorewall stop
 exit 0
