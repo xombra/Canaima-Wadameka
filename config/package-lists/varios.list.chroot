@@ -5,6 +5,4 @@ fuse
 gvfs
 gvfs-fuse
 udevil
-fakeroot
 fakeroot-ng
-
