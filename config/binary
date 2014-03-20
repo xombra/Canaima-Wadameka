@@ -6,7 +6,7 @@ LB_BINARY_FILESYSTEM="fat32"
 
 # $LB_BINARY_IMAGES: set image type
 # (Default: iso-hybrid)
-LB_BINARY_IMAGES="iso-hybrid"
+LB_BINARY_IMAGES="iso-wadameka"
 
 # $LB_APT_INDICES: set apt/aptitude generic indices
 # (Default: false)
@@ -66,8 +66,8 @@ LB_DEBIAN_INSTALLER_GUI="true"
 LB_GRUB_SPLASH=""
 
 # $LB_HDD_LABEL: set hdd label
-# (Default: Colibri)
-LB_HDD_LABEL="Colibri"
+# (Default: Wadameka)
+LB_HDD_LABEL="Wadameka"
 
 # $LB_HDD_SIZE: set hdd filesystem size
 # (Default: 10000)
@@ -75,15 +75,15 @@ LB_HDD_SIZE="10000"
 
 # $LB_ISO_APPLICATION: set iso author
 # (Default: Debian Enterprise Team)
-LB_ISO_APPLICATION="Debian Enterprise Team"
+LB_ISO_APPLICATION="Canaima Wadameka"
 
 # $LB_ISO_PREPARER: set iso preparer
-# (Default: Canaima Colibri Live; Debian Enterprise Team)
-LB_ISO_PREPARER="Canaima Colibri Live; Debian Enterprise Team"
+# (Default: Canaima Wadameka Live; ViserProject)
+LB_ISO_PREPARER="Canaima Wadameka Live; ViserProject"
 
 # $LB_ISO_PUBLISHER: set iso publisher
-# (Default: Canaima Colibri Live; Debian Enterprise Team; canaimacolibris@gmail.com)
-LB_ISO_PUBLISHER="Canaima Colibri Live; Debian Enterprise Team; canaimacolibris@gmail.com"
+# (Default: Canaima Wadameka Live; ViserProject; canaimacolibris@gmail.com)
+LB_ISO_PUBLISHER="Canaima Wadameka Live; ViserProject; xombra.com@gmail.com"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
 # (Default: Canaima Colibri 20140314-11:18)

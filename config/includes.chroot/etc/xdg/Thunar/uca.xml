@@ -39,7 +39,17 @@
  
   </action>
 
+  <action>
 
+	<icon>utilities-terminal</icon>
+	<name>Abrir terminal como Root</name>
+	<command>gksu x-terminal-emulator</command>
+	<description>Abrir terminal como Root</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+
+  </action>
 
 
   <action>

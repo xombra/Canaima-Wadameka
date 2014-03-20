@@ -58,6 +58,8 @@ rm -rf /usr/share/themes/Syscrash/*
 rm -rf /usr/share/themes/ThinIce/*
 rm -rf /usr/share/themes/Artwiz-boxed/*
 rm -rf /usr/share/themes/Bear2/*
+rm -rf /usr/share/themes/Bear2/*
+rm -rf /etc/defaul
 echo "## Limpieza de archivos ##"
 rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
 rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml

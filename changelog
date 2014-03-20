@@ -1,5 +1,16 @@
 Version Alfa
+Date -> 18-03-2014
+DELETE 
+       fakeroot 
+       scrot
+       xmint-icon
+       ifuse
 
+ADD
+       cgroup-bin
+       mint-elementary-icons
+       htop
+		
 Date -> 17-03-2014
 ADD 
 	fakeroot 
@@ -7,6 +18,7 @@ ADD
 	cifs-utils 
 	ifuse
         elementary-icons
+
 DELETE
 	mint-x-icons
 
