@@ -21,7 +21,8 @@ echo "## proteger paquetes ##"
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
 /bin/echo microcode.ctl hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny man-db manpages libc6-dev gcc g++ make dpkg-dev build-essential
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer build-essential dpkg-dev linux-wlan-ng-doc aptitude aptitude-common vim-tiny man-db manpages libc6-dev gcc g++ g++-4.8 giblib1 intltool-debian keyutils make po-debconf
+plymouth-themes-spinner plymouth-themes-solar python-dnspython samba-vfs-modules  
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "## autoremove ##"

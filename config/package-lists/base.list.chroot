@@ -5,6 +5,7 @@ locales
 mount
 sudo
 lshw
+htop
 iotop
 powertop
 lm-sensors
@@ -24,5 +25,6 @@ grub-pc
 grub2-common
 gcp
 cgroup-bin
+prelink
+smbclient
 canaima-base
-htop
