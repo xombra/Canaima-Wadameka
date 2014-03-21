@@ -4,6 +4,7 @@ Date
 ADD
 	xchat
         pyroman
+	polipo
 
 DELETE
 	cmospwd
