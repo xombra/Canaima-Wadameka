@@ -20,7 +20,7 @@ ADD
         Images Theme - LXDE 
 
 CHANGE
-        Purge 
+        Added packages unnecessary removed after installation  
 
 --------------------------------------------------------------------------
 Version Alfa
