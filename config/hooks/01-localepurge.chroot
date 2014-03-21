@@ -88,6 +88,12 @@ rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
 rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
 rm -f /var/cache/apt/pkgcache.bin
 rm -f /var/cache/apt/srcpkgcache.bin
+rm -f /usr/share/images/desktop-base/brillante.png
+rm -f /usr/share/images/desktop-base/cascada.png
+rm -f /usr/share/images/desktop-base/descanso.png
+rm -f /usr/share/images/desktop-base/islazapara.png
+rm -f /usr/share/images/desktop-base/llanero.png
+rm -f /usr/share/images/desktop-base/selva.png
 echo "## limpieza de log ##"
 for FILE in $(find /var/log/ -type f)
 do
