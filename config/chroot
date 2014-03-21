@@ -22,7 +22,7 @@ LB_INTERACTIVE="false"
 
 # $LB_KEYRING_PACKAGES: set keyring packages
 # (Default: empty)
-LB_KEYRING_PACKAGES="debian-archive-keyring canaima-llaves"
+LB_KEYRING_PACKAGES="debian-archive-keyring deb-multimedia-keyring linuxmint-keyring liquorix-keyrings canaima-llaves"
 
 # $LB_LINUX_FLAVOURS: set kernel flavour to use
 # (Default: autodetected)
@@ -37,7 +37,7 @@ LB_LINUX_PACKAGES="linux-image-3.13-1"
 LB_SECURITY="true"
 
 # $LB_UPDATES: enable updates updates
-# (Default: true)
+# (Default: false)
 LB_UPDATES="false"
 
 # $LB_BACKPORTS: enable backports updates

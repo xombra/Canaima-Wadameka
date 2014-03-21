@@ -11,3 +11,5 @@ Desarrolladores:
 	* Hector Mantellini (xombra)
 	* Angel Cruz (abr4xas)
 
+Wadameka significa Iguana en Pemón (pertenecen a la familia de idiomas caribes.)
+Ubicados principalmente en el Parque Nacional Canaima.
