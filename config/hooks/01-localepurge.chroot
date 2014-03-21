@@ -8,10 +8,6 @@ echo "## usb ids ##"
 update-usbids
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
-aide --config /etc/aide/aide.conf --init
-# echo "Se ejecutara aideinit por favor espere"
-# aideinit -y -f
-# mv -f -v /var/lib/aide/aide.db.new /var/lib/aide/aide.db
 echo "## permisos ##"
 chmod 644 /usr/lib/libvte9/gnome-pty-helper
 chmod 644 /usr/lib/libvte-2.90-9/gnome-pty-helper
@@ -21,8 +17,7 @@ echo "## proteger paquetes ##"
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
 /bin/echo microcode.ctl hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer build-essential dpkg-dev linux-wlan-ng-doc aptitude aptitude-common vim-tiny man-db manpages libc6-dev gcc g++ g++-4.8 giblib1 intltool-debian keyutils make po-debconf
-plymouth-themes-spinner plymouth-themes-solar python-dnspython samba-vfs-modules  
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) aptitude aptitude-common attr autopoint bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer build-essential dpkg-dev fwbuilder-doc linux-wlan-ng-doc man-db manpages libc6-dev gcc g++ g++-4.8 giblib1 intltool-debian keyutils make mysql-common po-debconf plymouth-themes-spinner plymouth-themes-solar python-dnspython samba-vfs-modules vim-common vim-tiny 
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "## autoremove ##"
@@ -96,7 +91,7 @@ rm -f /var/cache/apt/srcpkgcache.bin
 echo "## limpieza de log ##"
 for FILE in $(find /var/log/ -type f)
 do
-	: > ${FILE}
+   : > ${FILE}
 done
 echo "## hardlink por favor espere ##"
 hardlink -f -x /sys -t -o /

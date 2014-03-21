@@ -1,3 +1,4 @@
+plymouth
 lightdm
 lxde
 lxappearance
@@ -31,4 +32,5 @@ synaptic
 xterm
 gparted
 yad
+xchat
 mint-elementary-icons

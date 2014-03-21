@@ -1,7 +1,0 @@
-# shorewall policies
-#SOURCE     DEST        POLICY      LOG LEVEL   LIMIT:BURST
-fw     net     ACCEPT
-# acceso desde internet
-net     fw      DROP
-# The FOLLOWING POLICY MUST BE LAST
-all     all     DROP      info

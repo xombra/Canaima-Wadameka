@@ -1,5 +1,15 @@
 Version Beta 0.1
 
+Date 
+ADD
+	xchat
+        pyroman
+
+DELETE
+	cmospwd
+	vim-common
+        shorewall
+
 Date -> 20-03-2014
 ADD 
 	prelink

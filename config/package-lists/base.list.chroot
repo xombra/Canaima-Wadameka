@@ -12,7 +12,6 @@ lm-sensors
 localepurge
 hardlink
 dnsmasq
-plymouth
 deborphan
 lvm2
 dmraid

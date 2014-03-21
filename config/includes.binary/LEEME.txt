@@ -1,17 +1,20 @@
-Canaima Wadameka Live-USB.
---------------------------
+Canaima Wadameka Live
+---------------------
 
-Descripción: Live-USB basado en GNU/Linux Debian para la distribución GNU/Linux Canaima.
+Live basado en GNU/Linux Xanadu y optimizado Canaima con instalador.
 
-La distribución está enfocada en el escritorio LXDE.
+La distribución está enfocada en el escritorio LXDE para usuario final.
 
 Desarrolladores:
 
-	* Jesus Palencia
-	* Hector Mantellini
-	* Angel Cruz
+	* Jesus Palencia (sinfallas)
+	* Hector Mantellini (xombra)
+	* Angel Cruz (abr4xas)
 
-xombra..com@gmail.com
+Wadameka significa Iguana en Pemón (pertenecen a la familia de idiomas caribes.)
+Ubicados principalmente en el Parque Nacional Canaima.
+
+xombra.com@gmail.com
 
 --------------------------
 

@@ -1,5 +1,0 @@
-# Shorewall Zones
-#ZONE   TYPE    OPTIONS         IN          OUT
-#                   OPTIONS         OPTIONS
-fw  firewall
-net ipv4
