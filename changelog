@@ -10,6 +10,7 @@ DELETE
 	cmospwd
 	vim-common
         shorewall
+	images Canaima Base 
 
 Date -> 20-03-2014
 ADD 
