@@ -25,5 +25,5 @@ grub2-common
 gcp
 cgroup-bin
 prelink
-smbclient
+
 canaima-base
