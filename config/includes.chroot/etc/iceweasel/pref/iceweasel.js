@@ -69,10 +69,16 @@ pref("network.http.spdy.enabled.v2",true);
 pref("network.http.spdy.enabled.v3",true);
 pref("network.http.spdy.ping-threshold",58);
 pref("network.http.spdy.push-allowance",65536);
+pref("network.proxy.http", "127.0.0.1");
+pref("network.proxy.ssl", "127.0.0.1");
+pref("network.proxy.http_port", 8118);
+pref("network.proxy.http_port", 8118);
 pref("nglayout.initialpaint.delay", 250);
 pref("plugin.expose_full_path", true);
 pref("privacy.donottrackheader.value";1);
 pref("privacy.donottrackheader.enabled", true);
+
+
 pref("security.default_personal_cert","Ask Every Time");
 pref("security.ssl.enable_false_start", true);
 pref("ui.submenuDelay", 0); 
