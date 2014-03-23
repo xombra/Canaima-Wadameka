@@ -24,6 +24,5 @@ devio
 memlockd
 grub-pc
 grub2-common
-gcp
 cgroup-bin
 canaima-base
