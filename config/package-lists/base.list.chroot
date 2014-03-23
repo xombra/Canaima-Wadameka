@@ -12,6 +12,7 @@ lm-sensors
 localepurge
 hardlink
 dnsmasq
+prelink
 deborphan
 lvm2
 dmraid
@@ -24,5 +25,4 @@ grub-pc
 grub2-common
 gcp
 cgroup-bin
-prelink
 canaima-base
