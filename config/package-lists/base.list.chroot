@@ -19,6 +19,7 @@ dmraid
 xfsprogs
 btrfs-tools
 ntfs-3g
+cryptsetup
 devio
 memlockd
 grub-pc
