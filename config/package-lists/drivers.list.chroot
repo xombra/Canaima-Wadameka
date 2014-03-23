@@ -17,8 +17,9 @@ linux-wlan-ng
 b43-fwcutter
 broadcom-sta-common
 i965-va-driver
+libva-intel-vaapi-driver
+vainfo
 amd64-microcode
-microcode.ctl
 intel-microcode
 system-config-printer
 system-config-printer-udev
