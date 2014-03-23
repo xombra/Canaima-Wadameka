@@ -15,7 +15,6 @@ echo "## proteger paquetes ##"
 /bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
-/bin/echo microcode.ctl hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
