@@ -2,7 +2,6 @@
 # sourced by /etc/init.d/arpon
 # installed at /etc/default/arpon by the maintainer scripts
 
-
 # You must choose between static ARP inspection (SARPI) and
 # dynamic ARP inspection (DARPI)
 #

@@ -12,7 +12,7 @@
 # By default this script does nothing.
 echo "1" > /sys/fs/cgroup/notify_on_release
 echo "/usr/local/sbin/cgroup_clean" > /sys/fs/cgroup/release_agent
-rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth rfcomm rfkill
+rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth
 service anacron stop
 service avahi-daemon stop
 service cron stop
@@ -20,5 +20,4 @@ service memlockd stop
 service ntp stop
 service psad stop
 service rsyslog stop
-service shorewall stop
 exit 0

@@ -17,7 +17,6 @@ echo "## proteger paquetes ##"
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
 /bin/echo microcode.ctl hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) aptitude aptitude-common attr autopoint bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer build-essential dpkg-dev fwbuilder-doc linux-wlan-ng-doc man-db manpages libc6-dev gcc g++ g++-4.8 giblib1 intltool-debian keyutils make mysql-common po-debconf plymouth-themes-spinner plymouth-themes-solar python-dnspython samba-vfs-modules vim-common vim-tiny 
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "## autoremove ##"
@@ -82,18 +81,23 @@ rm -f /usr/share/images/desktop-base/spacefun-grub-widescreen.png
 rm -f /usr/share/images/desktop-base/spacefun-splash.svg
 rm -f /usr/share/images/desktop-base/spacefun-wallpaper.svg
 rm -f /usr/share/images/desktop-base/spacefun-wallpaper-widescreen.svg
-rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
-rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
-rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
-rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
-rm -f /var/cache/apt/pkgcache.bin
-rm -f /var/cache/apt/srcpkgcache.bin
 rm -f /usr/share/images/desktop-base/brillante.png
 rm -f /usr/share/images/desktop-base/cascada.png
 rm -f /usr/share/images/desktop-base/descanso.png
 rm -f /usr/share/images/desktop-base/islazapara.png
 rm -f /usr/share/images/desktop-base/llanero.png
 rm -f /usr/share/images/desktop-base/selva.png
+rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
+rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
+rm -f /usr/share/plymouth/themes/Gnamon/*
+rm -f /usr/share/plymouth/themes/solar/*
+rm -f /usr/share/plymouth/themes/fade-in/*
+rm -f /usr/share/plymouth/themes/glow/*
+rm -f /usr/share/plymouth/themes/spinfinity/*
+rm -f /var/cache/apt/pkgcache.bin
+rm -f /var/cache/apt/srcpkgcache.bin
 echo "## limpieza de log ##"
 for FILE in $(find /var/log/ -type f)
 do
