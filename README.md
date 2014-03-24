@@ -14,6 +14,6 @@ Desarrolladores:
 Wadameka significa Iguana en Pemón (pertenecen a la familia de idiomas caribes.)
 Ubicados principalmente en el Parque Nacional Canaima.
 
-Objetivo: Distribución que trabaje en equipo de pocos recursos, empleando un dispositivo USB.
+Objetivo: Distribución que trabaje en equipo de pocos recursos, empleando un dispositivo USB o Unidad DVD.
 
 
