@@ -22,7 +22,7 @@ LB_BOOTAPPEND_INSTALL=""
 
 # $LB_BOOTAPPEND_LIVE_FAILSAFE: set boot parameters
 # (Default: empty)
-LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live config noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal sysv-rc=cron,anacron,rsyslog,avahi-daemon,psad,ntp,memlockd"
+LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live config noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal sysv-rc=cron,anacron,rsyslog,avahi-daemon,psad,ntp,memlockd,polipo"
 
 # $LB_BOOTLOADER: set bootloader
 # (Default: syslinux)
