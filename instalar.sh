@@ -17,7 +17,7 @@ apt-get -y install live-build live-boot live-config squid3 git
 sed -i 's_tmpfs /var/spool_#tmpfs /var/spool_g' /etc/fstab
 mkdir -p /var/spool/squid3
 chown -hR root /var/spool/squid3
-chmod -R 0666 /var/spool/squid3
+chmod -R 0766 /var/spool/squid3
 service squid3 stop
 echo "http_port 3128" > /etc/squid3/squid.conf
 echo "icp_port 0" >> /etc/squid3/squid.conf
@@ -65,17 +65,14 @@ echo "http_access allow localhost" >> /etc/squid3/squid.conf
 echo "http_access allow downloads" >> /etc/squid3/squid.conf
 echo "http_access deny !Safe_ports" >> /etc/squid3/squid.conf
 echo "http_access deny CONNECT !SSL_ports" >> /etc/squid3/squid.conf
-echo "icp_access deny all" >> /etc/squid3/squid.conf
-echo "htcp_access deny all" >> /etc/squid3/squid.conf
-echo "snmp_access deny all" >> /etc/squid3/squid.conf
 echo "http_access allow all" >> /etc/squid3/squid.conf
 squid3 -z
 service squid3 start
 echo "export http_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export https_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
 echo "export ftp_proxy=http://127.0.0.1:3128/" >> /root/.bashrc
-mkdir live-default
-cd live-default
+mkdir wadameka
+cd wadameka
 lb config --config git://github.com/xombra/Canaima-Wadameka.git
 echo "Instalación Finalizada, debe reiniciar el equipo.."
 exit 0
