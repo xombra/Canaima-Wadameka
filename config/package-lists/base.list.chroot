@@ -26,3 +26,5 @@ grub-pc
 grub2-common
 cgroup-bin
 canaima-base
+systemd-shim
+systemd-sysv
