@@ -6,6 +6,7 @@ echo "## pci ids ##"
 update-pciids
 echo "## usb ids ##"
 update-usbids
+echo "## dnsmasq ##"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
 echo "## permisos ##"
