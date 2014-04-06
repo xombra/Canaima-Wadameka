@@ -1,11 +1,11 @@
 Canaima Wadameka Live
 ---------------------
 
-Live basado en GNU/Linux Xanadu y optimizado Canaima con instalador. Rápida y Ligera.
+Live basado en Xanadu GNU/Linux (https://github.com/sinfallas/xanadu-linux) y optimizado Canaima con instalador. Rápida y Ligera.
 
 La distribución está enfocada en el escritorio LXDE para usuario final.
 
-Desarrolladores:
+## Desarrolladores:
 
 	* Jesus Palencia (sinfallas)
 	* Hector Mantellini (xombra)
@@ -14,6 +14,20 @@ Desarrolladores:
 Wadameka significa Iguana en Pemón (pertenecen a la familia de idiomas caribes.)
 Ubicados principalmente en el Parque Nacional Canaima.
 
-Objetivo: Distribución que trabaje en equipo de pocos recursos, empleando un dispositivo USB o Unidad DVD.
+## Objetivo: 
+
+Distribución que trabaje en equipo de pocos recursos, empleando un dispositivo USB o Unidad DVD.
 
 
+## Clave de acceso
+
+ * usuario: user
+ * clave:  wadameka
+
+## Fondo de pantalla
+
+El fondo de pantalla inicial es gracias a @Genesis_3G
+
+## Screenshot
+
+![Canaima-Wadameka](https://pbs.twimg.com/media/Bkg3GmsCcAE3Qzz.png)

@@ -27,3 +27,4 @@ grub2-common
 cgroup-bin
 canaima-base
 ulatency
+systemd-shim
