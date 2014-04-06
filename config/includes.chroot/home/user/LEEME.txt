@@ -1,7 +1,7 @@
 Canaima Wadameka Live
 ---------------------
 
-Live basado en GNU/Linux Xanadu y optimizado para su uso como parte del proyecto Canaima con instalador.
+Live basado en Xanadu GNU/Linux (https://github.com/sinfallas/xanadu-linux) y optimizado Canaima con instalador. Rápida y Ligera.
 
 La distribución está enfocada en el escritorio LXDE para usuario final.
 
@@ -14,9 +14,6 @@ Desarrolladores:
 Wadameka significa Iguana en Pemón (pertenecen a la familia de idiomas caribes.)
 Ubicados principalmente en el Parque Nacional Canaima.
 
-xombra.com@gmail.com
+Objetivo: Distribución que trabaje en equipo de pocos recursos, empleando un dispositivo USB o Unidad DVD.
 
---------------------------
-
-La clave de ROOT es: xanadu
 

@@ -14,7 +14,7 @@ LB_APT_INDICES="false"
 
 # $LB_BOOTAPPEND_LIVE: set boot parameters
 # (Default: empty)
-LB_BOOTAPPEND_LIVE="boot=live config components hostname=wadameka nottyautologin sysv-rc=cron,anacron,rsyslog,avahi-daemon cgroup_enable=memory swapaccount=1 disable=1 disable_ipv6=1 persistence panic=10 quiet splash locales=es_ES.UTF-8,es_ES,es_VE keyboard-layouts=latam timezone=America/Caracas"
+LB_BOOTAPPEND_LIVE="boot=live config components hostname=wadameka nottyautologin sysv-rc=cron,anacron,rsyslog,avahi-daemon,psad,ntp,memlockd cgroup_enable=memory swapaccount=1 disable=1 disable_ipv6=1 persistence panic=10 quiet splash locales=es_ES.UTF-8,es_ES,es_VE keyboard-layouts=latam timezone=America/Caracas"
 
 # $LB_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
@@ -22,7 +22,7 @@ LB_BOOTAPPEND_INSTALL=""
 
 # $LB_BOOTAPPEND_LIVE_FAILSAFE: set boot parameters
 # (Default: empty)
-LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live config noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal sysv-rc=cron,anacron,rsyslog,avahi-daemon,psad,ntp,memlockd"
+LB_BOOTAPPEND_LIVE_FAILSAFE="boot=live config noapic noapm nodma nomce nolapic nomodeset nosmp nosplash vga=normal sysv-rc=cron,anacron,rsyslog,avahi-daemon,psad,ntp,memlockd,polipo"
 
 # $LB_BOOTLOADER: set bootloader
 # (Default: syslinux)
@@ -33,8 +33,8 @@ LB_BOOTLOADER="syslinux"
 LB_CHECKSUMS="md5"
 
 # $LB_COMPRESSION: set compression
-# (Default: bzip2)
-LB_COMPRESSION="bzip2"
+# (Default: none)
+LB_COMPRESSION="none"
 
 # $LB_ZSYNC: set zsync
 # (Default: true)
@@ -51,7 +51,7 @@ LB_DEBIAN_INSTALLER="false"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
-LB_DEBIAN_INSTALLER_DISTRIBUTION="sid"
+LB_DEBIAN_INSTALLER_DISTRIBUTION="stable"
 
 # $LB_DEBIAN_INSTALLER_PRESEEDFILE: set debian-installer preseed filename/url
 # (Default: )
@@ -66,27 +66,27 @@ LB_DEBIAN_INSTALLER_GUI="true"
 LB_GRUB_SPLASH=""
 
 # $LB_HDD_LABEL: set hdd label
-# (Default: Wadameka)
-LB_HDD_LABEL="Wadameka"
+# (Default: xanadu)
+LB_HDD_LABEL="wadameka"
 
 # $LB_HDD_SIZE: set hdd filesystem size
 # (Default: 10000)
 LB_HDD_SIZE="10000"
 
 # $LB_ISO_APPLICATION: set iso author
-# (Default: Canaima Wadameka)
-LB_ISO_APPLICATION="Canaima Wadameka"
+# (Default: Vaslibre)
+LB_ISO_APPLICATION="Vaslibre"
 
 # $LB_ISO_PREPARER: set iso preparer
-# (Default: Canaima Wadameka Live; Canaima Team)
-LB_ISO_PREPARER="Canaima Wadameka Live; Xombra Team"
+# (Default: Wadameka GNU/Linux; VaSlibre)
+LB_ISO_PREPARER="Wadameka GNU/Linux; VaSlibre"
 
 # $LB_ISO_PUBLISHER: set iso publisher
-# (Default: Canaima Wadameka Live; Canaima Team; xombra.com@gmail.com)
-LB_ISO_PUBLISHER="Canaima Wadameka Live; xombra.com@gmail.com"
+# (Default: xombra; xombra.com@gmail.com)
+LB_ISO_PUBLISHER="xombra; xombra.com@gmail.com"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Canaima Wadameka Live)
+# (Default: Wadameka)
 LB_ISO_VOLUME="Wadameka"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size

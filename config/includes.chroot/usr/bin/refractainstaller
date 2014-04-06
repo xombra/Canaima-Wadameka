@@ -103,7 +103,7 @@ fi
 
 
 # Check to be sure we're running a live session; give warning if not.
-if ! [[ -d /lib/live/mount/medium ]] ; then
+if ! [[ -d /lib/live/mount/rootfs ]] ; then
 	echo " ###	WARNING: Not running from live-CD or live-USB	### 
  ###	or unsupported configuration. Be sure you know	### 
  ###	what you are doing. This may not work.		### 

@@ -173,7 +173,7 @@ EOF
 }
 
 
-if ! [[ -d /lib/live/mount/medium ]] ; then
+if ! [[ -d /lib/live/mount/rootfs ]] ; then
 	live_session_warning=" ###	WARNING: Not running from live-CD or live-USB	### 
  ###	or unsupported configuration. Be sure you know	### 
  ###	what you are doing. This may not work.			### "

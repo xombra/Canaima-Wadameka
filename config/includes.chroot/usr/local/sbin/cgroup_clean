@@ -1,2 +1,2 @@
 #!/bin/sh
-rmdir /sys/fs/cgroup/$*
+rmdir /dev/cgroup/cpu/$*
