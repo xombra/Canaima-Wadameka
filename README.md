@@ -31,3 +31,8 @@ El fondo de pantalla inicial es gracias a @Genesis_3G
 ## Screenshot
 
 ![Canaima-Wadameka](https://pbs.twimg.com/media/Bkg3GmsCcAE3Qzz.png)
+
+Descargar iso - > 
+http://www.mediafire.com/download/ef0haud8qai8wcs/wadameka-0.3-i386.iso 
+Firma MD5
+http://www.mediafire.com/view/xb42rghl4fvur3k/md5_wadameka-0.3.i386.md5 
