@@ -1,7 +1,12 @@
 modemmanager
 network-manager
-fwbuilder
 ntp
+network-manager-gnome
 tcptraceroute
 wireless-tools
 smbclient
+ssh
+sshguard
+ufw
+gufw
+mintwifi

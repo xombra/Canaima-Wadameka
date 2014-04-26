@@ -5,9 +5,6 @@ locales
 mount
 sudo
 lshw
-htop
-iotop
-powertop
 lm-sensors
 localepurge
 hardlink
@@ -23,8 +20,7 @@ cryptsetup
 devio
 memlockd
 grub-pc
-grub2-common
 cgroup-bin
-canaima-base
 ulatency
-systemd-shim
+hdparm
+canaima-base
