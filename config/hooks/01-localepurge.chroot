@@ -16,7 +16,7 @@ echo "## proteger paquetes ##"
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc aptitude aptitude-common man-db manpages libc6-dev gcc giblib1 intltool-debian keyutils make po-debconf python-dnspython gvfs-fuse samba-vfs-modules geoip-database fwbuilder-doc
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc aptitude aptitude-common man-db manpages libc6-dev gcc giblib1 intltool-debian keyutils make po-debconf python-dnspython gvfs-fuse samba-vfs-modules geoip-database
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "## autoremove ##"
