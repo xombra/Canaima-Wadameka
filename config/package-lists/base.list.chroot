@@ -17,10 +17,8 @@ xfsprogs
 btrfs-tools
 ntfs-3g
 cryptsetup
-devio
 memlockd
 grub-pc
-cgroup-bin
 ulatency
 hdparm
 canaima-base

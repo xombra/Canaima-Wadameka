@@ -13,7 +13,6 @@ firmware-ralink
 firmware-realtek
 firmware-b43legacy-installer
 firmware-b43-installer
-firmware-tools-common
 linux-wlan-ng
 b43-fwcutter
 broadcom-sta-common
@@ -28,4 +27,3 @@ printer-driver-all
 printer-driver-all-enforce
 hplip
 usb-modeswitch
-mintdrivers
