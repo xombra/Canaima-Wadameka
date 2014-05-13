@@ -22,3 +22,6 @@ grub-pc
 ulatency
 hdparm
 canaima-base
+systemd-shim
+systemd-sysv
+systemd-services

@@ -2,6 +2,7 @@ libreoffice
 libreoffice-l10n-es
 dictionaries-common
 myspell-es
+evince
 ttf-mscorefonts-installer
 fonts-droid
 fonts-freefont-ttf
@@ -11,4 +12,4 @@ fonts-opensymbol
 fonts-sil-gentium
 fonts-sil-gentium-basic
 fonts-stix
-evince
+fonts-dejavu
