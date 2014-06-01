@@ -1,5 +1,3 @@
-task-lxde-desktop
-plymouth
 lightdm
 lxde
 lxappearance
@@ -18,8 +16,8 @@ lxshortcut
 lxtask
 lxterminal
 x11-session-utils
-menu-l10n
 obconf
+menu-l10n
 thunar
 thunar-data
 thunar-archive-plugin
@@ -27,5 +25,4 @@ thunar-volman
 gksu
 fdpowermon
 fdpowermon-icons
-network-manager-gnome
-xterm
+mint-elementary-icons

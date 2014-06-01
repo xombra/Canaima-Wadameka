@@ -1,11 +1,11 @@
+ssh
+cifs-utils
 modemmanager
 network-manager
 ntp
-network-manager-gnome
 tcptraceroute
 wireless-tools
-smbclient
-ssh
-ufw
-gufw
+network-manager-gnome
 mintwifi
+smbclient
+ufw
