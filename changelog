@@ -1,0 +1,1845 @@
+commit 1e95546bf83f6e90b40c1b0351e6cc99408c4d2b (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Mon Jun 23 11:59:37 2014 -0430
+
+    * correciones de isolinux
+
+commit 5e3ff75980529551d876b0a82375238fc3dbff61
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Jun 1 12:52:01 2014 -0430
+
+    Cambios en paquetes, eliminando innecesarios y/o dupĺicados
+
+commit 2aceab39116b36c984d1b7c090be21aab86e4e36
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon May 12 20:25:55 2014 -0430
+
+    Añadido soporte a systemd, inclusion de varias herramientas y eliminacion de otras no necesarias u obsoletas
+
+commit 5c7f6a0a24dce2c586d942ebfe326e3150141caa
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu May 1 20:56:19 2014 -0430
+
+    * se eliminan imagenes innecesarias
+
+commit a2332f70a1c25a07e52d79b29696fc86879834ed
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu May 1 20:51:41 2014 -0430
+
+    * cambios a licencia
+
+commit b68ffb5f7178b27e92e88646730c4247ad0788cb
+Author: ángel <bullgram@gmail.com>
+Date:   Thu May 1 20:50:20 2014 -0430
+
+    Delete
+
+commit 4e800c975c35527047e8b6249a483d12bdea8ef5
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu May 1 20:17:15 2014 -0430
+
+    * se eliminan paquetes innecesarios
+
+commit d315ef22c9da9156984785739ac87ccc51571dbc
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu May 1 18:07:16 2014 -0430
+
+    * se eliminan paquetes
+
+commit 794f1be0b3da933bdf4adab4cbeb2e1a0f795a3d
+Author: Xombra <xombra.com@gmail.com>
+Date:   Fri Apr 25 19:44:45 2014 -0430
+
+    archives pref cambiados, priority
+
+commit 89055b89f26008ba706f0e12a523be04fb07026b
+Author: Xombra <xombra.com@gmail.com>
+Date:   Fri Apr 25 19:43:36 2014 -0430
+
+    hooks cambiados
+
+commit a45d3547b8148c0db113e2144472a0458b3a6ae9
+Author: Xombra <xombra.com@gmail.com>
+Date:   Fri Apr 25 19:43:08 2014 -0430
+
+    Archivos package-list cambiados
+
+commit 4a14e7aad7f9a3ff388689596891dc905d86009a
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Apr 9 11:16:49 2014 -0430
+
+    / ‘README.md’
+
+commit 1f0eb8122a49396fe72236c15330e4512125fc9b
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Apr 9 11:15:08 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit 86947a359ebce5aebaaefb3c3fb2eb7293e27530
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Apr 6 11:27:16 2014 -0430
+
+    + ‘instalar.shX’
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    - ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.old’
+    - ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+    - ‘instalar.sh’
+
+commit 28dcbd9fded1985ee96bcae399df4c0518052116
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Apr 6 00:42:40 2014 -0430
+
+    + ‘config/includes.chroot/home/user/Escritorio/’
+    / ‘README.md’
+    / ‘config/includes.binary/LEEME.txt’
+    / ‘config/includes.chroot/etc/fstab’
+    / ‘config/includes.chroot/usr/share/lxde/images/lxde-icon.png’
+    / ‘config/package-lists/base.list.chroot’
+    - ‘config.tar.gz’
+    - ‘config/includes.chroot/home/user/Escritorio/Instalar Wadameka.desktop’
+    - ‘config/includes.chroot/usr/bin/change-username’
+    - ‘config/includes.chroot/usr/bin/refractainstaller’
+    - ‘config/includes.chroot/usr/bin/refractainstaller-gui’
+    - ‘config/includes.chroot/usr/bin/refractainstaller-wrapper.sh’
+    - ‘config/includes.chroot/usr/bin/refractainstaller-yad’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/home_boot_exclude.list’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/inittab.debian’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/installer_exclude.list’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/post-install/cleanup-install.sh’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/pre-install/limpiar.sh’
+    - ‘config/includes.chroot/usr/lib/refractainstaller/pre-install/loc-timezn.sh’
+    - ‘config/includes.chroot/usr/share/applications/Instalar Wadameka.desktop’
+    ...
+
+commit 2f17b18489bd2e8cd258d5e1df20a4bf1c44957a
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Apr 5 22:34:22 2014 -0430
+
+    + ‘config.tar.gz’
+    + ‘config/includes.binary/LEEME.txt’
+    + ‘config/includes.binary/isolinux/modules.alias’
+    + ‘config/includes.binary/isolinux/modules.pci’
+    + ‘config/includes.binary/isolinux/pci.ids’
+    + ‘config/includes.chroot/etc/dpkg/origins/Wadameka’
+    + ‘config/includes.chroot/etc/hdparm.conf’
+    + ‘config/includes.chroot/etc/kernel-img.conf’
+    + ‘config/includes.chroot/etc/kerneloops.conf’
+    + ‘config/includes.chroot/root/.synaptic/synaptic.conf’
+    + ‘config/includes.chroot/usr/local/bin/post’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/wadameka_minimal.png’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/wadameka_wallpaper.svg’
+    / ‘config/archives/mirror.list.chroot’
+    / ‘config/binary’
+    / ‘config/bootstrap’
+    / ‘config/chroot’
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/includes.chroot/etc/dpkg/origins/default’
+    / ‘config/includes.chroot/etc/os-release’
+    ...
+
+commit d29c8380bb00648fbbc5da6c2cc75d25f8cbae25
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Apr 5 15:02:18 2014 -0430
+
+    / ‘config/package-lists/varios.list.chroot’
+
+commit a6b0b1d73a98c174c9d8a20be9fca2c5dce367d2
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Apr 3 19:19:11 2014 -0430
+
+    / ‘config/binary’
+    / ‘config/bootstrap’
+    / ‘config/chroot’
+    / ‘config/hooks/01-localepurge.chroot’
+
+commit f5cdd33a3496452856340c5c1c8d2453adfc317f
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Apr 2 17:06:03 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/package-lists/red.list.chroot’
+    / ‘config/package-lists/utilidades.list.chroot’
+    / ‘config/package-lists/varios.list.chroot’
+
+commit 73570b72272e5349ae83a7b2c4e9aacde5ddb1c4
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Apr 1 19:19:34 2014 -0430
+
+    - ‘changelog’
+
+commit 996bbdafe80b9d1461edd44ce417175ebc6fb50e
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Mon Mar 31 22:24:28 2014 -0430
+
+    * nuevos repos
+
+commit 735c2192c8f81715fd1ff47a11e34225fe0040b3
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Mon Mar 31 21:56:50 2014 -0430
+
+    * correcion de error de proxy
+
+commit 7c346d53b9539f2f9c9365812ffd7a35639a8800
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Mon Mar 31 20:47:31 2014 -0430
+
+    * correcion de errores
+
+commit 8550c4125c2600b9762cc31f58200a7f498053ff
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Sun Mar 30 22:45:33 2014 -0430
+
+    * se corrige el error al cerrar sesion y el error del instalador
+
+commit 8e64eb2cbce491ed54f59514551601ba47097e95
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Fri Mar 28 16:44:35 2014 -0430
+
+    * timezone se establece en arranque
+    * hdparm no se debe usar en modo live porque no todos los disco aceptan las opciones que alli se aplicaban, por eso se debe generar en post-instalacion
+    * kerneloops.conf y kernel-img.conf no tienen utilidad en una distro de este tipo
+
+commit c92f98cd83e47bebde7a29ba00876126120eee88
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Fri Mar 28 16:37:54 2014 -0430
+
+    * se elimino fxload porque no tiene utilidad: http://ccrma.stanford.edu/planetccrma/man/man8/fxload.8.html
+
+commit bb862838b7fbfa8b9a4e56cad1edf03646ffa265
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Mar 26 18:00:39 2014 -0430
+
+    / ‘instalar.sh’
+
+commit 38d09478d57b6b8d0fca4fb4d5b9f6a8e83956dc
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 25 18:59:28 2014 -0430
+
+    / ‘config/apt/preferences’
+    / ‘config/hooks/01-localepurge.chroot’
+
+commit 7b2812504cf9abdcf13c673d060afbc4d1b3b8ce
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 21:52:55 2014 -0430
+
+    + ‘config/apt/apt.conf’
+
+commit e0d089beb02a7bce6765f8aa5df43393e82dd2ee
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 17:19:21 2014 -0430
+
+    + ‘config/includes.chroot/etc/polipo/options’
+    / ‘config/binary’
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    / ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+    / ‘config/includes.chroot/etc/polipo/config’
+
+commit aa7b35fef3f7476ea907028a7b84985682190627
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 11:24:56 2014 -0430
+
+    / ‘config/includes.chroot/etc/memlockd.cfg’
+
+commit 76816e082b2a58dbd14cb061b62379c265b06c14
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 11:04:29 2014 -0430
+
+    + ‘config/includes.chroot/etc/memlockd.cfg’
+
+commit acef49739501321a3de08664bd01232184fed654
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 10:48:21 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/canaima_lxde_1600x1200.jpg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/wadameka_wall_1.jpg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/wadameka_wall_2.jpg’
+    + ‘config/includes.chroot/usr/share/lxde/wallpapers/wadameka_wall_1.jpg’
+    + ‘config/includes.chroot/usr/share/lxde/wallpapers/wadameka_wall_2.jpg’
+
+commit e81676bb28a331b63c9ee2cb2d31c549b9fff019
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 09:58:47 2014 -0430
+
+    + ‘art/logo.png’
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    / ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/login-background.png’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/minimal.png’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/random/joy-wallpaper_1280x1024.svg’
+    - ‘art/logo_fuente.png’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/login-background.svg’
+
+commit 0bb05d5f12ef343365cf3b9f7734c7462a15f6d3
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Mar 24 09:24:21 2014 -0430
+
+    + ‘art/colores.png’
+    + ‘art/copyright’
+    + ‘art/logo_fuente.png’
+    / ‘config/chroot’
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/drivers.list.chroot’
+    / ‘config/package-lists/escritorio.list.chroot’
+    / ‘config/package-lists/internet.list.chroot’
+    / ‘config/package-lists/red.list.chroot’
+    - ‘colores.png’
+    - ‘config/includes.chroot/etc/privoxy/config’
+
+commit ed9e33ca6247c1e2dc6411a36bb241fcf55dca1d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:28:23 2014 -0430
+
+    / ‘README.md’
+
+commit b725593b4f9cd82e53b91b7ecbfb4deeb6f9009d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:27:50 2014 -0430
+
+    / ‘README.md’
+
+commit b347b8b8db9fc56a027726b0908c7fc4e945aa0b
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:26:57 2014 -0430
+
+    - ‘configaaaa.tar.gz’
+
+commit a61e2b60f0334eb3c7a9d361e3b09d19235f6657
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:25:24 2014 -0430
+
+    + ‘configaaaa.tar.gz’
+
+commit 6dbc030555cc41600a8a718c7e2f46f68b6d947a
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:18:56 2014 -0430
+
+    - ‘configaaaa.tar.gz’
+
+commit e82996fd67ac259e6df2f29ccd12769f89432e45
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 23:17:55 2014 -0430
+
+    + ‘config/includes.binary/LEEME.txt’
+    + ‘config/includes.chroot/etc/privoxy/config’
+    + ‘configaaaa.tar.gz’
+    / ‘config/archives/mirror.list.chroot’
+    / ‘config/archives/yad.list.chroot’
+    / ‘config/chroot’
+    / ‘config/package-lists/base.list.chroot’
+    - ‘config.tar.gz’
+
+commit f7e4a41be12de4e2d501bd39d3fbe35847b3bc44
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 20:30:14 2014 -0430
+
+    + ‘config.tar.gz’
+
+commit 252eac4676608f7133427da01f750c9565da68d9
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:46:20 2014 -0430
+
+    - ‘config.tar.gz’
+
+commit fc0ff869cdf78f6ec402fa6cef4630da640a8c15
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:46:19 2014 -0430
+
+    + ‘config.tar.gz’
+    + ‘config/includes.chroot/var/cache/polipo/.vacio’
+    + ‘config/includes.chroot/var/lib/tor/.vacio’
+    + ‘config/includes.chroot/var/log/polipo/.vacio’
+    / ‘changelog’
+    - ‘config/includes.chroot/var.tar.gz’
+
+commit 0dd35d1123cc399d42899ad1aa766f7a32e93b92
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:45:18 2014 -0430
+
+    + ‘config/includes.chroot/var.tar.gz’
+
+commit 8bc37087c2cc6b9080402718b9a531dfe80a3d92
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:41:26 2014 -0430
+
+    - ‘config.tar.gz’
+
+commit db742abaf5450ab7317f12ee501fad996c349b75
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:40:53 2014 -0430
+
+    + ‘config.tar.gz’
+
+commit 37dccfbee750da70f5105312545abf09beb2f59d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:40:32 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+
+commit 009e204593b6586c2ab2d7a44564299fae53feab
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:39:06 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+
+commit b3f3c14f9ee1640c388eede0d83e88978d61a275
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:30:03 2014 -0430
+
+    / ‘config/bootstrap’
+
+commit 640c320a4854793d64042d02bc0aec246672b7fc
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:28:19 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+
+commit 7c12e0de410191fb6519631f7ee72375a1a105e3
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:27:24 2014 -0430
+
+    / ‘config/package-lists/varios.list.chroot’
+    - ‘config/includes.chroot/etc/privoxy/config’
+
+commit f141e5a7cca18d9b8177fc88a37b60bcabde1246
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:26:22 2014 -0430
+
+    / ‘config/package-lists/varios.list.chroot’
+
+commit f797b771035511922e811cccc9a9ee6481317d06
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:24:51 2014 -0430
+
+    / ‘config/package-lists/oficina.list.chroot’
+
+commit 000560cdf82a6e02828efd4c4c93ea8897939dfd
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:21:40 2014 -0430
+
+    / ‘config/package-lists/internet.list.chroot’
+
+commit 49e88cbe68e6265e2ab7cb1bfb1c9999cd169992
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:21:14 2014 -0430
+
+    / ‘config/package-lists/multimedia.list.chroot’
+
+commit 76384eac1230ed5e2f465ba05053e765c0f8f55e
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:20:32 2014 -0430
+
+    / ‘config/package-lists/multimedia.list.chroot’
+
+commit f28fba2ed2b20f80548bfc6ece0f31fe6c698e72
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:18:33 2014 -0430
+
+    / ‘config/package-lists/escritorio.list.chroot’
+
+commit 6622adabce3fbfb04f2861051f5b7d8c31a6f58f
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:17:59 2014 -0430
+
+    / ‘config/package-lists/drivers.list.chroot’
+
+commit 87a240d52da155baf963ca93d845cff10032bdde
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:17:16 2014 -0430
+
+    / ‘config/package-lists/varios.list.chroot’
+
+commit 2fba334fe3f5f1a6a66e94e87022c67c2b5a830d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:17:09 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit f4744fd3211ff5daaa98e601a18f9a0c1215b6c5
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:16:39 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit 41a5196a02b287c5d7a3c29e01c1936f9a34b28b
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:16:21 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit d4d5b6a1f477e1839e97c0c1528d5c736304b693
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:15:50 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit 69ef11b95a0449628e6eb6a11cdfea88bdd70d79
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:15:47 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/red.list.chroot’
+
+commit 7b3ec879e8e706ee918e13bfd90c982ae28fe108
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:14:38 2014 -0430
+
+    + ‘config/includes.binary/leeme.txt’
+    - ‘config/includes.binary/LEEME.txt’
+
+commit fec63172a324628701957b2c6b7cdf1dd361ee09
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:14:13 2014 -0430
+
+    / ‘config/includes.chroot/home/user/LEEME.txt’
+
+commit 5565ffaa30d87fb55f9ec3edbed3efc439efb584
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:13:48 2014 -0430
+
+    / ‘config/includes.binary/LEEME.txt’
+
+commit e4212e58f4e90a71ab2bceaaefd90d5df0b33915
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:12:37 2014 -0430
+
+    + ‘config/includes.binary/copyright’
+
+commit d676b7f0eb7c4e1283139595eed3ae145dbccca2
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:12:20 2014 -0430
+
+    + ‘config/includes.binary/LICENSE’
+
+commit 1e39d13094808d98fc30f5d5561290ad90b1f576
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:11:07 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+
+commit d94a963827f1d0a744d8dfcbec18507b3b264096
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:09:11 2014 -0430
+
+    / ‘config/archives/varios.list.chroot’
+
+commit 3f85d69659ae1949bc3366a6f9685ed54c1895b4
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:07:02 2014 -0430
+
+    + ‘config/archives/kxstudio.key.binary’
+    + ‘config/archives/kxstudio.key.chroot’
+    + ‘config/archives/kxstudio.list.binary’
+    + ‘config/archives/kxstudio.list.chroot’
+    + ‘config/archives/tryphon.key.binary’
+    + ‘config/archives/tryphon.key.chroot’
+    + ‘config/archives/tryphon.list.binary’
+    + ‘config/archives/tryphon.list.chroot’
+
+commit 86bcaee0d2deb52a46593f63b9aefa6c101377db
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:04:28 2014 -0430
+
+    / ‘config/includes.chroot/etc/issue’
+
+commit 926d625439f475b48858937808cdd2ec52a5c797
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:02:59 2014 -0430
+
+    / ‘config/includes.chroot/etc/modprobe.d/no-pc-speaker.conf’
+
+commit 4d214f9868e799aa453ca2cf293751b2d251634c
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:01:59 2014 -0430
+
+    / ‘config/includes.chroot/etc/sysctl.conf’
+
+commit 3eacd41a9dcb22e9d155aaf1a38775ed459007fe
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:00:58 2014 -0430
+
+    / ‘config/includes.chroot/etc/environment’
+
+commit 1aafa55ffd4f95ed8fbb7533a743ddecac38571d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 19:00:41 2014 -0430
+
+    / ‘config/includes.chroot/etc/modules’
+
+commit aeceaa5668d2cc2970630aa5f0b981a10f4d83b2
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 18:55:29 2014 -0430
+
+    + ‘config/includes.chroot/etc/polipo/config’
+    + ‘config/includes.chroot/etc/privoxy/config’
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    / ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+
+commit 2bf83c47ce281859215e5d2cd5d5c3c8c1aa381d
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Mar 23 13:45:24 2014 -0430
+
+    / ‘changelog’
+    / ‘config/package-lists/internet.list.chroot’
+
+commit c6b98639ce6ef6a841fd024a2f296b5350816587
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Mar 22 20:33:30 2014 -0430
+
+    + ‘colores.png’
+    + ‘config/includes.chroot/etc/sysctl.conf’
+    + ‘config/includes.chroot/etc/timezone’
+    / ‘README.md’
+    / ‘changelog’
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/includes.chroot/etc/default/arpon’
+    / ‘config/includes.chroot/etc/iceweasel/profile/bookmarks.html’
+    / ‘config/includes.chroot/etc/psad/psad.conf’
+    / ‘config/includes.chroot/etc/rc.local’
+
+commit 2becbfd618c90489250a84dc017318dd01cacfc3
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 14:07:09 2014 -0430
+
+    / ‘changelog’
+
+commit dfcce95c32b523f9be5e4bcc6f44031e3e73d770
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 14:06:29 2014 -0430
+
+    / ‘changelog’
+
+commit afd5c42e886a09ca605a4354a309e600bb2ab119
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 14:06:14 2014 -0430
+
+    / ‘config/package-lists/internet.list.chroot’
+
+commit 53e2219daf07a06dee0565679cc7ccbb47c83769
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 14:05:57 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit 3e4bd8d0952b9b1686d53dfd9ea0127a68759eea
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 14:01:15 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit 310d166a0b0abb45bf9f9e14e3185eb5fe74f0d7
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:52:19 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+
+commit 7d82b69e0336a7ca4c2507afdca2e07eb3d13e16
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:42:39 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/login-background.png’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/minimal.png’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.png’
+
+commit e8d552989160a10f70595def390362379cbc92b8
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:35:57 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.png’
+
+commit edc61a0aa63519da5cc33ce2dbb10aedc9136dc9
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:35:28 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+
+commit 460434e83abf4bde23ccaecdff61b0442f0299f1
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:35:10 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+
+commit 60da7241e3e3a91a5e831798f85a67c71dd1b728
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:34:54 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+
+commit 6d77144c18e47b31fa4a5a342b041b6cb56e2a3e
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:34:48 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+
+commit d0581ac51b35d9717f66b8c0ab70750d90d91fdd
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:25:50 2014 -0430
+
+    / ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+
+commit 84b79a836b8e4cfe2864ece5dc89ca0765faa3f6
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:25:31 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/joy-wallpaper_1280x1024.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/login-background.svg’
+
+commit 0daffaaddbd32b6b59d65ac211d6f6bfc4d50d46
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:25:15 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/’
+
+commit 2cb977f52645ddfe356852cfca796d851220d6ab
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:25:07 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/login-background.svg’
+
+commit 78c0739d930925bbc33c390fcf0b48762af7cf4d
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:24:41 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/Carpeta sin título/’
+
+commit 92eec0855dc13d0f22944748b80f682dfc3175de
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:24:34 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/Carpeta sin título/’
+
+commit 5a110cb80d18fbbbc8fc539c957ac45f87e4244b
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 13:16:28 2014 -0430
+
+    / ‘config/includes.chroot/usr/share/images/desktop-base/login-background.svg’
+
+commit 11d5d0e653a79143009a53bd48cc4e43d93399fd
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 12:34:45 2014 -0430
+
+    / ‘changelog’
+
+commit 30a5922df8455d9e73efbed535b208a58566a853
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 12:25:51 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit c2aee2f4435175e0e310803f38c80fd6bb30de7c
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 12:16:42 2014 -0430
+
+    / ‘changelog’
+    / ‘config/binary’
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/includes.binary/LEEME.txt’
+    / ‘config/includes.chroot/home/user/LEEME.txt’
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/escritorio.list.chroot’
+    / ‘config/package-lists/red.list.chroot’
+    / ‘config/package-lists/utilidades.list.chroot’
+    - ‘config/includes.chroot/etc/default/shorewall’
+    - ‘config/includes.chroot/etc/shorewall/interfaces’
+    - ‘config/includes.chroot/etc/shorewall/policy’
+    - ‘config/includes.chroot/etc/shorewall/rules’
+    - ‘config/includes.chroot/etc/shorewall/shorewall.conf’
+    - ‘config/includes.chroot/etc/shorewall/zones’
+
+commit 8dc87661f4eb11bcdffffa899f449d68218fe871
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 02:18:07 2014 -0430
+
+    / ‘changelog’
+
+commit 9538c0f4b21b46d69588dc2fbb2132188fb38984
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 02:10:46 2014 -0430
+
+    / ‘changelog’
+    - ‘config.tar.gz’
+
+commit 09488aaa2a5911091ef33f0a04c8bb3c82237379
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 02:05:11 2014 -0430
+
+    + ‘config.tar.gz’
+
+commit 10047245e33021875e00ac15030f5274314a75de
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 21 01:55:57 2014 -0430
+
+    / ‘README.md’
+    / ‘changelog’
+    / ‘config/binary’
+    / ‘config/bootstrap’
+    / ‘config/chroot’
+    / ‘config/common’
+    / ‘config/includes.binary/isolinux/live.cfg’
+    / ‘config/includes.binary/isolinux/splash.png’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/joy-grub.png’
+    / ‘config/includes.chroot/usr/share/images/desktop-base/login-background.svg’
+    / ‘config/includes.chroot/usr/share/lxde/images/logout-banner.png’
+    / ‘config/package-lists/internet.list.chroot’
+    - ‘config/includes.chroot/usr/share/images/’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/joy-wallpaper_1280x1024.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu3.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu4.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu5.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu6.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu7.svg’
+
+commit bb3a8eeae93da639070fe7ec9d4affdfd2b0a8a3
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 20 16:13:52 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/package-lists/base.list.chroot’
+
+commit 6270637d275a819624ba7f5fb9b744a2d6da180b
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 20 11:52:59 2014 -0430
+
+    + ‘config/includes.chroot/etc/iceweasel/profile/iceweasel.js’
+    / ‘changelog’
+    / ‘config/binary’
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/includes.binary/LEEME.txt’
+    / ‘config/includes.binary/isolinux/live.cfg’
+    / ‘config/includes.binary/isolinux/menu.cfg’
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    / ‘config/includes.chroot/etc/xdg/Thunar/uca.xml’
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/drivers.list.chroot’
+    / ‘config/package-lists/escritorio.list.chroot’
+    / ‘config/package-lists/utilidades.list.chroot’
+
+commit e670324ae503311fded2f97af5618e7e3a6ac79e
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:41:37 2014 -0430
+
+    / ‘config/package-lists/utilidades.list.chroot’
+    / ‘config/package-lists/varios.list.chroot’
+
+commit 1a706e9012d1332bea8ee430ba902ce4d7b7717b
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:41:04 2014 -0430
+
+    / ‘config/package-lists/oficina.list.chroot’
+
+commit 223b51a36e883d67cf9678745d8d9193267ceab9
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:40:55 2014 -0430
+
+    / ‘config/package-lists/multimedia.list.chroot’
+
+commit a6fa95a090fbf355d7ac656c7e78c5bfea0933ee (tag: v1.1, tag: v1.0)
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:31:52 2014 -0430
+
+    / ‘config/includes.chroot/home/user/.bashrc’
+
+commit 1970d109a772132359d4155819816f9e9294636b
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:27:33 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/applications/azar.desktop’
+
+commit cb80624357ca52e3a5e3bbaf09c8fb8773c8811b
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 23:25:39 2014 -0430
+
+    / ‘config/includes.chroot/etc/rc.local’
+
+commit ea42a44e6217fdc02027c3b980d27c9ebc542f16
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:44:26 2014 -0430
+
+    - ‘config.tar.gz’
+
+commit 958e7fe083f15a4700d149190b491a4bd74be99f
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:43:33 2014 -0430
+
+    + ‘config.tar.gz’
+
+commit 2cb7c0abca56947e5e99ac260cef1d443166f194
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:41:38 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+
+commit 2888f1a4469d08b044f55c39b11f01053161ba65
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:38:39 2014 -0430
+
+    / ‘config/bootstrap’
+
+commit 05528098a0a50a8cc3f7567b9e1ced79fb3e31b2
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:38:25 2014 -0430
+
+    + ‘config/archives/virtual.list.binary’
+    - ‘config/archives/virtual.list (copia).chroot’
+
+commit 51f74fc506aa85923cec84a5e42baf6be74326a6
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:38:18 2014 -0430
+
+    + ‘config/archives/virtual.list (copia).chroot’
+
+commit 5bfbca4d1ef667b3ee3346ab4e9162a554b23e25
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:38:11 2014 -0430
+
+    / ‘config/bootstrap’
+
+commit 47ec62989ce24f80fbdba777640764976e151773
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:56 2014 -0430
+
+    + ‘config/archives/liquorix.list.binary’
+    - ‘config/archives/liquorix.list (copia).chroot’
+
+commit 30bad4dce9b38794953e9d268cff24a06dea40e8
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:49 2014 -0430
+
+    + ‘config/archives/liquorix.list (copia).chroot’
+
+commit 0f097eab4ffb797723638f2df6c17083f910cd7a
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:41 2014 -0430
+
+    + ‘config/archives/jupiter.list.binary’
+    - ‘config/archives/jupiter.list (copia).chroot’
+
+commit 49d7c390f699f31f5f8a8dbf054897e4764d0bb1
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:35 2014 -0430
+
+    + ‘config/archives/jupiter.list (copia).chroot’
+
+commit b73cd873ce9e0926a94fdd515e6fa678a7925f1d
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:09 2014 -0430
+
+    + ‘config/archives/varios.list.binary’
+    - ‘config/archives/varios.list (copia).chroot’
+
+commit 60758650ec4cb816f0cea04c4cdfc642bb94b440
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:37:03 2014 -0430
+
+    + ‘config/archives/varios.list (copia).chroot’
+
+commit 19601d81082c4fdb5ee5cc27ede51752557bec09
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:34:43 2014 -0430
+
+    / ‘config/binary’
+
+commit d1d31b5b89eabef0170e72ba880eb878b8a0866c
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:33:30 2014 -0430
+
+    - ‘escritorio.list (xombra, mar 18 16h34).chroot’
+    - ‘internet.list (xombra, mar 18 16h34).chroot’
+    - ‘multimedia.list (xombra, mar 18 16h34).chroot’
+
+commit 2825a14538e51bec2c566d2eaccbc1f52db14599
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:29:41 2014 -0430
+
+    / ‘config/includes.chroot/etc/rc.local’
+
+commit fab853b362393abf0aef8df1006e9f5a000108ee
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:26:22 2014 -0430
+
+    / ‘config/includes.chroot/usr/local/sbin/cgroup_clean’
+
+commit 41a6f8fb2229b7f1d416ae02d82cce38f6e47450
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:25:23 2014 -0430
+
+    / ‘config/includes.chroot/etc/rc.local’
+
+commit d9defc34b3fe535b5fb8c5db2b21cb640624744e
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:24:58 2014 -0430
+
+    / ‘config/includes.chroot/etc/fstab’
+
+commit 61e6095b485caaf1d9d7ab4e725673ee445c441c
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:24:11 2014 -0430
+
+    / ‘config/includes.chroot/etc/dpkg/origins/Xanadu’
+
+commit f8469e596eddb93c70fbee659726bf68d8b3d49b
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:23:28 2014 -0430
+
+    - ‘config/includes.chroot/etc/dpkg/origins/debian’
+
+commit 6f1a5d9508edf90a80fc8f3fe2056afd62e3bf80
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:23:22 2014 -0430
+
+    + ‘config/includes.chroot/etc/dpkg/origins/default’
+
+commit ede9ad5af5155f168abbd73438eb6e82da008a48
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:23:11 2014 -0430
+
+    - ‘config/includes.chroot/etc/dpkg/dpkg.cfg’
+
+commit a2f7d83bf2e819c5e7876970a75776f51c2f98cc
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:22:42 2014 -0430
+
+    / ‘config/includes.chroot/etc/os-release’
+
+commit d14ef138ed6ef9e8ee9245283862de2a742eafa4
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 21:22:18 2014 -0430
+
+    + ‘config/includes.chroot/etc/os-release’
+
+commit 0a803ab7882750d5dd1208a76351f0beca782c24
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 20:18:24 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit bf3b31abbe9d65a04c2a129e18851c6c8409574d
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 19:05:57 2014 -0430
+
+    + ‘config/archives/jupiter.key.binary’
+    + ‘config/archives/jupiter.key.chroot’
+    + ‘config/archives/jupiter.list.chroot’
+    + ‘config/archives/liquorix.key.binary’
+    + ‘config/archives/liquorix.key.chroot’
+    + ‘config/archives/liquorix.list.chroot’
+    + ‘config/archives/varios.key.binary’
+    + ‘config/archives/varios.key.chroot’
+    + ‘config/archives/varios.list.chroot’
+    + ‘config/archives/virtual.key.binary’
+    + ‘config/archives/virtual.key.chroot’
+    + ‘config/archives/virtual.list.chroot’
+    + ‘config/includes.chroot/etc/dhcp/dhclient.conf’
+    + ‘config/includes.chroot/etc/dpkg/origins/Xanadu’
+    + ‘config/includes.chroot/etc/fstab’
+    + ‘config/includes.chroot/home/user/xarchiverrc’
+    + ‘config/includes.chroot/usr/local/sbin/cgroup_clean’
+    + ‘config/includes.chroot/usr/share/applications/azar.desktop’
+    / ‘config/archives/mirror.list.chroot’
+    / ‘config/package-lists/base.list.chroot’
+    ...
+
+commit 281768cac3b60f61a9d9e63a58b88aa7a4962e3a
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 16:53:42 2014 -0430
+
+    - ‘config/includes.chroot/etc/ca-certificates.conf’
+
+commit 639d27406c1b7f1425c063ee11f237ee7aa621ef
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 16:45:52 2014 -0430
+
+    + ‘auto/build’
+    + ‘auto/clean’
+    + ‘changelog’
+    + ‘copyright’
+    + ‘escritorio.list (xombra, mar 18 16h34).chroot’
+    + ‘internet.list (xombra, mar 18 16h34).chroot’
+    + ‘multimedia.list (xombra, mar 18 16h34).chroot’
+    / ‘README.md’
+    - ‘hecho’
+
+commit 9c21c582bffab6b35783a860e2b598bbbb3a8dd9
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Mar 18 16:34:21 2014 -0430
+
+    + ‘config/includes.chroot/etc/ca-certificates.conf’
+    + ‘config/includes.chroot/etc/default/irqbalance’
+    + ‘config/includes.chroot/etc/default/kerneloops’
+    + ‘config/includes.chroot/etc/default/locale’
+    + ‘config/includes.chroot/etc/default/ntpdate’
+    + ‘config/includes.chroot/etc/default/psad’
+    + ‘config/includes.chroot/etc/dpkg/dpkg.cfg’
+    + ‘config/includes.chroot/etc/dpkg/origins/debian’
+    + ‘config/includes.chroot/etc/hdparm.conf’
+    + ‘config/includes.chroot/etc/host’
+    + ‘config/includes.chroot/etc/issue.net’
+    + ‘config/includes.chroot/etc/kernel-img.conf’
+    + ‘config/includes.chroot/etc/kerneloops.conf’
+    + ‘config/includes.chroot/etc/motd’
+    + ‘config/includes.chroot/etc/psad/pf.os’
+    + ‘config/includes.chroot/etc/psad/posf’
+    + ‘config/includes.chroot/etc/psad/signatures’
+    + ‘config/includes.chroot/etc/wgetrc’
+    + ‘config/includes.chroot/etc/xdg/pcmanfm/default/pcmanfm.conf’
+    + ‘config/includes.chroot/etc/xdg/user-dirs.conf’
+    ...
+
+commit 7739cd066006150095ed3449bdfaa49a8f4ab4cf
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:50:11 2014 -0430
+
+    Update rc.local
+
+commit 1f864445f5409ce80ef18458a4056086d3fc196a
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:42:16 2014 -0430
+
+    Update varios.list.chroot
+    
+    Agregado fakeroot | fakeroot-ng
+
+commit 836511b75ec1e87e0ed0084f4d1114b17259ee87
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:39:53 2014 -0430
+
+    Update red.list.chroot
+    
+    Agregado cifs-utils
+
+commit 863041c0e540bc0be499e20460452eb16465f0a1
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:38:15 2014 -0430
+
+    Update internet.list.chroot
+    
+    Excluido Turpial
+
+commit 39673d6dbc90c6dcd35a27493de2fb6ad4110b51
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:37:06 2014 -0430
+
+    Update escritorio.list.chroot
+    
+    Cambio mint-x-icons a elementary-icons
+
+commit b12b93797e06bcc6bd5362c18d3848c55c71b3c6
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:34:53 2014 -0430
+
+    Update multimedia.list.chroot
+    
+    Agregado: ifuse | ipad-charge
+
+commit 99162e531146c05079cc1529ebfd6600bbdcbdb5
+Author: xombra <xombra@users.noreply.github.com>
+Date:   Mon Mar 17 22:32:03 2014 -0430
+
+    Update base.list.chroot
+    
+    Elimnando caribou
+
+commit 41289ce901cc88c22a4ba34c0953af7ef20280cc
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Sun Mar 16 12:37:05 2014 -0430
+
+    * se agrega canaima-llaves al keyring
+
+commit 3cf564938b7416fae120f85dc9665ca7a39e8412
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Sat Mar 15 23:25:19 2014 -0430
+
+    * se eliminaron componentes de xanadu
+
+commit 81a59349cd1c4d4c8438f0f496f959165ab1cd81
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Mar 15 20:47:37 2014 -0430
+
+    / ‘config/includes.chroot/home/user/Escritorio/Instalar Wadameka.desktop’
+    / ‘config/includes.chroot/usr/share/applications/Instalar Wadameka.desktop’
+    / ‘config/includes.chroot/usr/share/lxde/images/logout-banner.png’
+    / ‘config/includes.chroot/usr/share/lxpanel/images/background.png’
+    / ‘config/includes.chroot/usr/share/lxterminal/lxterminal.conf’
+
+commit 475288401e05778808e33d55ebb810783f28d5b0
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 15:23:57 2014 -0430
+
+    / ‘instalar.sh’
+
+commit 06ea8001f4349f625480229a78686bd0dca47efd
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 15:23:22 2014 -0430
+
+    / ‘instalar.sh’
+
+commit d1f647687e1c98b6b6b4c6130beab9aa56465c6f
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 15:18:56 2014 -0430
+
+    + ‘config/debian-installer/’
+    + ‘config/includes.debian-installer/’
+    + ‘config/includes/’
+    + ‘config/packages.binary/’
+    + ‘config/packages.chroot/’
+    + ‘config/packages/’
+    + ‘config/preseed/’
+    + ‘config/rootfs/’
+    / ‘config/archives/canaima.key.binary’
+    / ‘config/archives/canaima.key.chroot’
+    / ‘config/archives/canaima.list.binary’
+    / ‘config/archives/canaima.list.chroot’
+    / ‘config/archives/mirror.list.chroot’
+    / ‘config/binary’
+    / ‘config/bootstrap’
+    / ‘config/chroot’
+    / ‘config/common’
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/drivers.list.chroot’
+
+commit df6fa11cb44c0df8156f3638e8a89f304f886c91
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Fri Mar 14 15:17:27 2014 -0430
+
+    * modificaciones menores al instalador
+
+commit 5eb0862ba416ac318e15c4a6a0f27f8a337f1926
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:15:13 2014 -0430
+
+    / ‘instalar.sh’
+
+commit 58137ac4e0f5c9c22944bfbf9b33197b27df2479
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:12:50 2014 -0430
+
+    / ‘config/archives/canaima.list.chroot’
+
+commit 86ae095b0c4880f6f4f7a89b7161a1d1dec53e60
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:12:42 2014 -0430
+
+    / ‘config/archives/canaima.list.binary’
+
+commit 2e633119531bbbb19f9ad235f29a046c715a511f
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:12:23 2014 -0430
+
+    + ‘config/archives/canaima.key.chroot’
+    - ‘config/archives/canaima.list (copia).chroot’
+
+commit 1c58384a9644b25912a76b1d6b6d2dffa635f093
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:12:10 2014 -0430
+
+    + ‘config/archives/canaima.key.binary’
+    - ‘config/archives/canaima.list (copia).binary’
+
+commit 73dc8a4f42fa0941d663a31ba332a2af4b01037a
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:11:54 2014 -0430
+
+    + ‘config/archives/canaima.list (copia).binary’
+    + ‘config/archives/canaima.list (copia).chroot’
+
+commit 7f91df18a89d58b5a33554dfc456f353b120436a
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:08:41 2014 -0430
+
+    + ‘config/archives/canaima.list.chroot’
+    - ‘config/archives/canaima.list (copia).binary’
+
+commit 5fbaea568358d95c47aa187160b635b0271dffea
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:08:03 2014 -0430
+
+    + ‘config/archives/canaima.list (copia).binary’
+
+commit c3bf596b9ad9cf54fd8789f90569aa00335f49ea
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:08:00 2014 -0430
+
+    + ‘config/archives/canaima.list.binary’
+    - ‘config/archives/CANAIMA-ACTIVE-98E6DA28.gpg’
+
+commit fef35738e641e85f4d058a6f15711f5fde745917
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 11:07:18 2014 -0430
+
+    + ‘config/archives/CANAIMA-ACTIVE-98E6DA28.gpg’
+
+commit 3695da438d3e6e98d66c47a0f8e7c017240c1568
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 10:22:39 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit f5326a2649d3ef4b3efd318a0c5fafe070afd429
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 10:21:02 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+    / ‘config/package-lists/escritorio.list.chroot’
+    / ‘config/package-lists/multimedia.list.chroot’
+    / ‘config/package-lists/red.list.chroot’
+
+commit 12079f8d211a237a9d47a5d07a33e9b86b1dad53
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:45:09 2014 -0430
+
+    / ‘config/includes.chroot/etc/xdg/openbox/LXDE/rc.xml’
+
+commit 6ed1f5270c81584176cb4bf1dcbec64b890fa99a
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:42:40 2014 -0430
+
+    / ‘config/includes.chroot/etc/xdg/openbox/LXDE/rc.xml’
+
+commit f9029d4b0f6ee6a95e053be9cb858b155c32bb24
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:41:02 2014 -0430
+
+    / ‘config/includes.chroot/etc/xdg/lxsession/LXDE/desktop.conf’
+
+commit 9f3147afb71d49e3633e0ac438ad144ef3114b3d
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:40:13 2014 -0430
+
+    / ‘config/includes.chroot/etc/xdg/openbox/LXDE/rc.xml’
+
+commit 8c3f912fabdc2b9996d383b92e4946595fe63cc7
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:29:15 2014 -0430
+
+    / ‘instalar.sh’
+
+commit cef4567a89b85656f20d96edda66e44fb6927646
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:23:49 2014 -0430
+
+    / ‘config/hooks/01-localepurge.chroot’
+    / ‘config/hooks/01-timeout.binary’
+
+commit 28930b8717387705425aa7643d2c38fc56585cde
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:23:28 2014 -0430
+
+    + ‘config/archives/jupiter.key.binary’
+    + ‘config/archives/jupiter.key.chroot’
+    + ‘config/archives/jupiter.list.binary’
+    + ‘config/archives/jupiter.list.chroot’
+    + ‘config/archives/libreoffice.key.binary’
+    + ‘config/archives/libreoffice.key.chroot’
+    + ‘config/archives/libreoffice.list.binary’
+    + ‘config/archives/libreoffice.list.chroot’
+    + ‘config/archives/liquorix.key.binary’
+    + ‘config/archives/liquorix.key.chroot’
+    + ‘config/archives/liquorix.list.binary’
+    + ‘config/archives/liquorix.list.chroot’
+    + ‘config/archives/mint.key.binary’
+    + ‘config/archives/mint.key.chroot’
+    + ‘config/archives/mint.list.binary’
+    + ‘config/archives/mint.list.chroot’
+    + ‘config/archives/mirror.list.binary’
+    + ‘config/archives/mirror.list.chroot’
+    + ‘config/archives/varios.key.binary’
+    + ‘config/archives/varios.key.chroot’
+    ...
+
+commit ce001979bb4985976ef500d9ee4de5224b04a70f
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:23:25 2014 -0430
+
+    + ‘config/archives/debmulti.key.binary’
+    + ‘config/archives/debmulti.key.chroot’
+    + ‘config/archives/debmulti.list.binary’
+    + ‘config/archives/debmulti.list.chroot’
+
+commit 30f18d9655b6b7d900ff15d325222c13f4efafc5
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:21:30 2014 -0430
+
+    / ‘config/apt/preferences’
+
+commit d32cdeb873389d823ee654f907c05c1e12fa30f2
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:20:23 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/themes/xanadu/gtk-2.0/gtkrc’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/bullet-small.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/bullet.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/close.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/close_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/close_pressed.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/desk.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/desk_toggle.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/desk_toggled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/iconify.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/iconify_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/iconify_pressed.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/max.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/max_disabled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/max_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/max_toggled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/shade.xbm’
+    + ‘config/includes.chroot/usr/share/themes/xanadu/openbox-3/themerc’
+    / ‘config/includes.chroot/usr/share/lxde/images/logout-banner.png’
+    / ‘config/includes.chroot/usr/share/lxde/images/lxde-icon.png’
+    ...
+
+commit a95720d5f173f1bb87a8b74bf2fbd620dae5703f
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:19:46 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-grub.png’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1600x1200.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1080.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1200.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/login-background.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/joy-wallpaper_1280x1024.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu3.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu4.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu5.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu6.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/random/xanadu7.svg’
+
+commit 51e78ad0a5d421a610a3321c359915657188972f
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:19:37 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1280x1024.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1600x1200.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1080.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1200.svg’
+
+commit a0dfd54df5c9f36b0121a46ab2d55901b3cb031a
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:19:11 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-base/LICENSE.gz’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-base/README’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-base/changelog.gz’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-base/copyright’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-gui/LICENSE.gz’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-gui/README’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-gui/changelog.gz’
+    + ‘config/includes.chroot/usr/share/doc/refractainstaller-gui/copyright’
+
+commit 4701edca672c96a70f3aa23cddec6ac8921cc766
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:18:59 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/applications/Instalar Wadameka.desktop’
+    - ‘config/includes.chroot/usr/share/applications/instalar-xanadu.desktop’
+
+commit 700701265ed1d3c797addebf9b180e7488d5d382
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:18:51 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/applications/Adicionales.desktop’
+    - ‘config/includes.chroot/usr/share/applications/post-instalador.desktop’
+
+commit 5cf58690031dc52d51db25d497ce2938de87e3f8
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:18:41 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/applications/Adicionales.desktop’
+    + ‘config/includes.chroot/usr/share/applications/azar.desktop’
+    + ‘config/includes.chroot/usr/share/applications/instalar-xanadu.desktop’
+    + ‘config/includes.chroot/usr/share/applications/post-instalador.desktop’
+
+commit f45e787a11ab9df0ff5b94e913e4724c0873ec53
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:17:33 2014 -0430
+
+    + ‘config/includes.chroot/usr/lib/refractainstaller/home_boot_exclude.list’
+    + ‘config/includes.chroot/usr/lib/refractainstaller/inittab.debian’
+    + ‘config/includes.chroot/usr/lib/refractainstaller/installer_exclude.list’
+    + ‘config/includes.chroot/usr/lib/refractainstaller/post-install/cleanup-install.sh’
+    + ‘config/includes.chroot/usr/lib/refractainstaller/pre-install/limpiar.sh’
+    + ‘config/includes.chroot/usr/lib/refractainstaller/pre-install/loc-timezn.sh’
+
+commit 2fb5c85b3a7fa91d94173615500da4838c5fc31d
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:17:25 2014 -0430
+
+    + ‘config/includes.chroot/usr/bin/change-username’
+    + ‘config/includes.chroot/usr/bin/refractainstaller’
+    + ‘config/includes.chroot/usr/bin/refractainstaller-gui’
+    + ‘config/includes.chroot/usr/bin/refractainstaller-wrapper.sh’
+    + ‘config/includes.chroot/usr/bin/refractainstaller-yad’
+
+commit b37dc5b33dd77f6e5e3e80869299626024ae2ab7
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:15:07 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/profile/bookmarks.html’
+
+commit d7bc5a3b39c91e304c90d55bd5a8f4411f56d4d5
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:14:58 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/profile/bookmarks.html’
+
+commit c1620394375fa857f3228372142c24f790486c8b
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:12:37 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.old’
+
+commit a184bfce34754a6a8ad128ed917ea32a10cb7113
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:11:33 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+
+commit 97f8deac8049ea902d8588f385dbacd5596e0d8d
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:10:49 2014 -0430
+
+    / ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+
+commit ad999dd9749400093d16e77c43d559120dc4f0d2
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:08:43 2014 -0430
+
+    + ‘config/includes.chroot/etc/refractainstaller.conf’
+
+commit 6b68a1297ed41927052b72d3c565d858e21de296
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:08:37 2014 -0430
+
+    + ‘config/includes.chroot/etc/modules’
+
+commit c46fe701f605a28a040f63b900a90c212f348cf7
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:08:10 2014 -0430
+
+    - ‘config/includes.chroot/etc/colibri-release’
+
+commit ff93244ddee8795547b1d7190e686723fb661c55
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:07:36 2014 -0430
+
+    / ‘config/includes.chroot/etc/hostname’
+
+commit e2b2fdd8582da88d6e34a01729a1dade38ac20fc
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:07:21 2014 -0430
+
+    / ‘config/includes.chroot/etc/rc.local’
+
+commit 6ee3440dbbe11c83c7f37492ee0a3bb7abf08f96
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:07:18 2014 -0430
+
+    + ‘config/includes.chroot/etc/issue’
+
+commit 569846da5e3514910b08b40a4e31f0d878ae99ca
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:07:15 2014 -0430
+
+    + ‘config/includes.chroot/etc/dnsmasq.conf’
+    + ‘config/includes.chroot/etc/fstab’
+    + ‘config/includes.chroot/etc/host.conf’
+    / ‘config/includes.chroot/etc/hostname’
+
+commit cf32076eaa346bbff76425821ea3cf656095affd
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:06:28 2014 -0430
+
+    + ‘config/includes.chroot/etc/default/shorewall’
+    + ‘config/includes.chroot/etc/dpkg/origins/Xanadu’
+    + ‘config/includes.chroot/etc/dpkg/origins/default’
+    + ‘config/includes.chroot/etc/fonts/conf.avail/11-lcdfilter-default.conf’
+    + ‘config/includes.chroot/etc/fonts/conf.avail/12-hintstyle-hintslight.conf’
+    + ‘config/includes.chroot/etc/fonts/conf.avail/13-antialias.conf’
+    + ‘config/includes.chroot/etc/fonts/conf.d/11-lcdfilter-default.conf’
+    + ‘config/includes.chroot/etc/fonts/conf.d/12-hintstyle-hintslight.conf’
+    + ‘config/includes.chroot/etc/fonts/conf.d/13-antialias.conf’
+    + ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.js’
+    + ‘config/includes.chroot/etc/iceweasel/pref/iceweasel.old’
+    + ‘config/includes.chroot/etc/iceweasel/profile/bookmarks.html’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/Changelog’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome.manifest’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/about.xul’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/code/ApplicableList.js’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/code/ChannelReplacement.js’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/code/Cookie.js’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/code/HTTPS.js’
+    + ‘config/includes.chroot/etc/iceweasel/profile/extensions/https-everywhere@eff.org/chrome/content/code/HTTPSRules.js’
+    ...
+
+commit 2506557fe64a4fb3dd3f6ac4c999ab920de8f268
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:06:25 2014 -0430
+
+    + ‘config/includes.chroot/etc/default/arpon’
+
+commit 6993240de84a82d779740ab31877dc73a4f84ce2
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:05:26 2014 -0430
+
+    - ‘config/includes.chroot/etc/privoxy/config’
+
+commit 3c72f7a71326f2ee907bce2569e167bbe3f7f9d2
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:02:16 2014 -0430
+
+    / ‘config/package-lists/internet.list.chroot’
+
+commit bae5bb0417cabbb538a96ce5021add8ec37f59f0
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:02:05 2014 -0430
+
+    / ‘config/package-lists/internet.list.chroot’
+
+commit d53a3bf1ab6569d1f3d6b5ce01404883411204f9
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Mar 14 00:00:13 2014 -0430
+
+    / ‘config/package-lists/utilidades.list.chroot’
+
+commit b4b632487aaf650b75e2a3dea02c1e226df5abf7
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:59:47 2014 -0430
+
+    + ‘config/package-lists/utilidades.list.chroot’
+
+commit c0b3f582e207c7337148379baf50d6f9f3cbc71f
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:59:38 2014 -0430
+
+    - ‘config/package-lists/utils.list.chroot’
+
+commit 21263d66c2d60c859f4b3f928fa8d8bd99238974
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:59:05 2014 -0430
+
+    / ‘config/package-lists/varios.list.chroot’
+
+commit 8d35b0dd671a453eef18a6a6086879014df6fa6d
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:58:36 2014 -0430
+
+    / ‘config/package-lists/red.list.chroot’
+
+commit d594681c7fb8c6db191c184009c39faad2a2c808
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:58:23 2014 -0430
+
+    + ‘config/package-lists/red.list.chroot’
+
+commit 55a5cf530f204000a3c328c9f557727ac4eb5a67
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:57:54 2014 -0430
+
+    - ‘config/package-lists/desktop.list.chroot’
+
+commit b07bde0a90cd828dee34183a2692f859b88deb6f
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:57:23 2014 -0430
+
+    / ‘config/package-lists/internet.list.chroot’
+
+commit ac69d942641248bb913794b7036a03c4ef65c656
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:56:39 2014 -0430
+
+    / ‘config/package-lists/oficina.list.chroot’
+
+commit e5ea50b5b466aaf2e50abbb3cd8fad63b787eaca
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:56:03 2014 -0430
+
+    / ‘config/package-lists/multimedia.list.chroot’
+
+commit d04306fea7cd05705f6dd8d6c25b7dc70a24b40d
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:55:27 2014 -0430
+
+    / ‘config/package-lists/escritorio.list.chroot’
+
+commit 5a0796869fe78f018c26caae4efff3ebd9905c01
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:55:17 2014 -0430
+
+    / ‘config/package-lists/desktop.list.chroot’
+
+commit d82d21d3f9e56fd623380036e148c0fbd447177c
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:54:35 2014 -0430
+
+    + ‘config/package-lists/escritorio.list.chroot’
+
+commit 1c094139bbc206ec74912987476c702e43de1126
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:54:12 2014 -0430
+
+    / ‘config/package-lists/drivers.list.chroot’
+
+commit f4bfbfa7e4541639859c8c06afacef58336f11f7
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:53:14 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit 23cfbf0199341621e21aa581abaa37ef4f256e64
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:51:40 2014 -0430
+
+    / ‘config/includes.chroot/home/user/copyright’
+
+commit b749f93ad280f1358a33a00d58db1e9d599e575c
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:51:17 2014 -0430
+
+    + ‘config/includes.chroot/home/user/copyright’
+
+commit cbcdf1427d59636ff06108ba3886427f6c6942c3
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:51:03 2014 -0430
+
+    + ‘config/includes.chroot/home/user/Escritorio/Instalar Wadameka.desktop’
+    - ‘config/includes.chroot/home/user/Escritorio/instalar-xanadu.desktop’
+
+commit 8315ece0dda67602fb8772bd74996de12b836530
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:50:53 2014 -0430
+
+    - ‘config/includes.chroot/home/user/Escritorio/Adicionales.desktop’
+    - ‘config/includes.chroot/home/user/Escritorio/post-instalador.desktop’
+
+commit 0fe52f89ff8b77274e9609786ebb834f16f55a92
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:50:45 2014 -0430
+
+    + ‘config/includes.chroot/home/user/Escritorio/Adicionales.desktop’
+    + ‘config/includes.chroot/home/user/Escritorio/instalar-xanadu.desktop’
+    + ‘config/includes.chroot/home/user/Escritorio/post-instalador.desktop’
+    + ‘config/includes.chroot/home/user/xarchiverrc’
+
+commit 7a9643712da3d1aa721af32ae9539f6e2f990041
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:49:11 2014 -0430
+
+    / ‘config/package-lists/base.list.chroot’
+
+commit 2ea465aad790bf3d281b3f5a1fc912f03e37cb14
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:48:30 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1600x1200.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1080.svg’
+    + ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1200.svg’
+
+commit 6287fa39187192efa2b98154f038b139d36041ae
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:48:12 2014 -0430
+
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1600x1200.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1080.svg’
+    - ‘config/includes.chroot/usr/share/images/desktop-base/joy-wallpaper_1920x1200.svg’
+
+commit 960a9375434b50e7dbf804c8673f19e042bef41d
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:47:27 2014 -0430
+
+    / ‘config/includes.chroot/usr/share/lxterminal/lxterminal.conf’
+
+commit b999a3adde3347c39950ab3c54a88b45828d77b6
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:46:36 2014 -0430
+
+    / ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/themerc’
+
+commit 67d5d066d0401acf9030d7e5f03ec4d948a4f729
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:43:34 2014 -0430
+
+    / ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/themerc’
+
+commit 17c3de6bb46b0c309021344ca822c2f042564a05
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:43:16 2014 -0430
+
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/bullet-small.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/bullet.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/close.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/close_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/close_pressed.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/desk.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/desk_toggle.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/desk_toggled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/iconify.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/iconify_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/iconify_pressed.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/max.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/max_disabled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/max_hover.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/max_toggled.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/shade.xbm’
+    + ‘config/includes.chroot/usr/share/themes/wadameka/openbox-3/themerc’
+    - ‘config/includes.chroot/usr/share/themes/Canaima/openbox-3/bullet-small.xbm’
+    - ‘config/includes.chroot/usr/share/themes/Canaima/openbox-3/bullet.xbm’
+    - ‘config/includes.chroot/usr/share/themes/Canaima/openbox-3/close.xbm’
+    ...
+
+commit 4ea6b8126bb91aa2dcce2147b7694d673e6ba0d6
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:42:52 2014 -0430
+
+    / ‘config/includes.chroot/home/user/LEEME.txt’
+
+commit 47218fe3254b09bd44c7be133810fa14ab7d278e
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:38:37 2014 -0430
+
+    - ‘config/includes.chroot/home/user/antivirus’
+    - ‘config/includes.chroot/home/user/iniciar_tor’
+
+commit 1a7525817adc211b9cbe089978723cb14adb5f8d
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:37:52 2014 -0430
+
+    / ‘README.md’
+
+commit 6acc5adf116c471fd43417985cfe7a3a269672ef
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Mar 13 23:36:08 2014 -0430
+
+    + ‘.sparkleshare’
+
+commit d8a6d517682a4a4020cfb66d6550b0d2f3fd6d04
+Author: Sinfallas <sinfallas@users.noreply.github.com>
+Date:   Fri Feb 7 01:05:03 2014 -0430
+
+    Update README.md
+
+commit ef843847758a18db8f4771d585ec9335857d6146
+Author: sinfallas <sinfallas@yahoo.com>
+Date:   Wed Feb 5 12:49:39 2014 -0430
+
+    * se agrego script para instalar live-build y configuraciones de colibri
+
+commit 123f33cca61d7e29176cc06275dc37992ef81551
+Author: sinfallas <sinfallas@bug.(none)>
+Date:   Fri Jan 3 02:46:27 2014 -0430
+
+    modificado el readme
+
+commit cfc3e4247470414c5c09a506e6c3cc291395f5e4
+Author: sinfallas <sinfallas@bug.(none)>
+Date:   Fri Jan 3 02:18:22 2014 -0430
+
+    archivos para la version final de colibri
+
+commit e73e5d61c11b5ed5621410c277ed3de2b0f86bb4
+Author: Sinfallas <sinfallas@users.noreply.github.com>
+Date:   Thu Jan 2 22:41:53 2014 -0800
+
+    Initial commit
