@@ -1,0 +1,23 @@
+0fQUE ES XANADU GNU/LINUX07                             09F907
+
+
+Es un derivado de Debian que utiliza SID como base y LXDE como entorno
+de escritorio, pensada para ser ligera y a la vez util, contiene
+herramientas para rescate de sistemas, analisis forense y navegacion
+anonima, ademas de todo lo necesario para su uso en el escritorio.
+
+Es 100% compatible con Debian asi como tambien con su contrato social
+
+El nombre xanadu se ha convertido en una metafora de la opulencia, sobre todo
+gracias al poema Kubla Khan de Samuel Taylor Coleridge, tambien era la capital
+de verano del imperio Mongol de Kublai Jan y ademas fue el nombre seleccionado
+por Theodore Holm Nelson (Ted Nelson) para su idea de: concebir un documento
+global y unico "docuverse", que cubra todo lo escrito en el mundo, mediante
+una gran cantidad de ordenadores interconectados, que contenga todo el 
+conocimiento existente o, mejor dicho, informacion en forma de hipertexto.
+
+Dudas, consultas y/o sugerencias por favor enviarlas a: 
+
+sinfallas@gmail.com
+
+Presione F1control y F luego 1 para ir al indice, o ENTER para

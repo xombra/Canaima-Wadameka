@@ -1,0 +1,3 @@
+Canaima Wadameka 
+100% compatible con paquetes .deb 
+Pensada para equipos de pocos recursos

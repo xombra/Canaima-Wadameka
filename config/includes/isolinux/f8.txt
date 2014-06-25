@@ -1,0 +1,23 @@
+0fPERSISTENCIA07                                        09F807
+
+Luego de copiar el contenido de la ISO a una memoria USB con el comando dd
+debe crear una particion que ocupe la totalidad del espacio restante.
+
+Para formatear una particion en ext4 con la etiqueta persistence
+
+# mkfs.ext4 -L persistence /dev/sdb1
+
+Si ya existe la particion, coloca la etiqueta correspondiente
+
+# tune2fs -L persistence /dev/sdb1
+
+NOTA: Cualquiera de los medios anteriormente creados necesita de un
+fichero de configuracion (persistence.conf) ubicado en su respectiva 
+raiz, para crearlo puede seguir estos ejemplos:
+
+# mount -t ext4 /dev/sdb1 /mnt
+# echo "/home union" >> /mnt/persistence.conf
+# umount /mnt
+
+
+Presione F1control y F luego 1 para ir al indice, o ENTER para

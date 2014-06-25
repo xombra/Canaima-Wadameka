@@ -1,4 +1,11 @@
 deb http://packages.siduction.org/base unstable main contrib non-free
+deb-src http://packages.siduction.org/base unstable main contrib non-free
 deb http://packages.siduction.org/extra unstable main contrib non-free
+deb-src http://packages.siduction.org/extra unstable main contrib non-free
 deb http://packages.siduction.org/user unstable main contrib non-free
+deb-src http://packages.siduction.org/user unstable main contrib non-free
 deb http://packages.siduction.org/fixes unstable main contrib non-free
+deb-src http://packages.siduction.org/fixes unstable main contrib non-free
+deb http://mirror.lug.udel.edu/pub/siduction/base unstable main
+deb http://mirror.lug.udel.edu/pub/siduction/extra unstable main
+deb http://mirror.lug.udel.edu/pub/siduction/fixes unstable main

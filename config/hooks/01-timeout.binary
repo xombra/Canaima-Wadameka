@@ -1,3 +1,2 @@
 #!/bin/bash
-# establece el timeout del menu de arranque a 5 segundos
 sed -i -e 's|timeout 0|timeout 50|' binary/isolinux/isolinux.cfg

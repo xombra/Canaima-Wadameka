@@ -1,0 +1,23 @@
+0fMETODOS DE ARRANQUE II07                              09F407
+
+nofastboot
+Este parametro deshabilita la desactivacion por defecto de la
+comprobacion del sistema de ficheros en /etc/fstab. Si hay
+sistemas de ficheros estaticos en el disco duro y se desea 
+comprobarlos en el momento del arranque, utilizar este parametro, 
+de lo contrario, se omite.
+
+nopersistence
+desactiva la "persistencia", es util si el gestor de arranque 
+(como syslinux) se ha instalado con persistencia habilitada.
+
+ramdisk-size
+Este parametro permite establecer la capacidad de disco RAM 
+personalizado (que es la opcion '-o size' del montaje tmpfs). 
+No hay una capacidad de ramdisk predeterminada, por lo que se 
+aplica el valor por defecto (actualmente el 50% de la RAM disponible)
+Tener  en  cuenta que esta opcion no tiene actualmente ningun 
+efecto cuando se arranca con toram
+
+
+Presione F1control y F luego 1 para ir al indice, o ENTER para

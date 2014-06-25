@@ -1,29 +1,28 @@
 # This file only needs to list configuration variables that deviate
 # from the default values.  See /usr/share/doc/polipo/examples/config.sample
 # and "polipo -v" for variables you can tweak and further information.
+
 logSyslog = true
 logFile = /var/log/polipo/polipo.log
+socksParentProxy = localhost:9151
+socksProxyType = socks5
 proxyAddress = "127.0.0.1"
 proxyPort = 8123
 allowedClients = 127.0.0.1
 allowedPorts = 1-65535
-cacheIsShared = false
-censoredHeaders = from,accept-language,x-pad,link
-censorReferer = maybe
-disableVia = true
-disableLocalInterface = true
-disableConfiguration  = true
-displayName = "Polipo"
 diskCacheRoot = "/var/cache/polipo/"
-dnsUseGethostbyname = yes
-dnsNameServer = 127.0.0.1
-dnsQueryIPv6 = no
+cacheIsShared = false
 localDocumentRoot = ""
-maxAge = 0
-maxExpiresAge = 0
+proxyName = "localhost"
+disableLocalInterface = true
+disableConfiguration = true
+dnsUseGethostbyname = yes
+dnsQueryIPv6 = no
+disableVia = true
+#censoredHeaders = from,accept-language,x-pad,link
+#censorReferer = maybe
 maxConnectionAge = 5m
 maxConnectionRequests = 120
-proxyName = "localhost"
 serverMaxSlots = 8
 serverSlots = 2
 tunnelAllowedPorts = 1-65535

@@ -5,7 +5,6 @@ laptop-detect
 locales
 mount
 sudo
-lshw
 lm-sensors
 localepurge
 hardlink
@@ -14,13 +13,14 @@ plymouth
 deborphan
 lvm2
 dmraid
+pm-utils
 xfsprogs
 btrfs-tools
 ntfs-3g
 devio
 memlockd
 grub-pc
-grub2-common
 gcp
 ulatency
 isolinux
+prelink
