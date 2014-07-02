@@ -1,3 +1,7 @@
+Package: canaima-escritorio-base
+Pin: version *
+Pin-Priority: -1
+
 Package: gnome-control-center
 Pin: version *
 Pin-Priority: -1

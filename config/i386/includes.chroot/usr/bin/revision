@@ -1,0 +1,137 @@
+#!/bin/bash
+#elaborado por sinfallas
+if [[ $USER != root ]]; then
+echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+exit 1
+fi
+echo $BASHPID > /run/revision.pid
+nombre=revision
+kernel=$(uname -r)
+name=$(hostname)
+var1=$(cat /sys/block/zram0/disksize)
+var2=$(cat /sys/kernel/mm/transparent_hugepage/enabled)
+var3=$(cat /sys/kernel/mm/transparent_hugepage/khugepaged/pages_to_scan)
+var4=$(cat /sys/kernel/mm/ksm/run)
+var5=$(cat /sys/kernel/mm/ksm/pages_to_scan)
+var6=$(cat /sys/kernel/mm/ksm/sleep_millisecs)
+var7=$(cat /sys/fs/cgroup/cpu/release_agent)
+var8=$(cat /sys/fs/cgroup/cpu/notify_on_release)
+clear
+
+echo -e "## kernel ##""\n" > /tmp/$nombre
+if [[ $kernel = 3.14-1-686-pae ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## hostname ##""\n" >> /tmp/$nombre
+if [[ $name = wadameka ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## disksize ##""\n" >> /tmp/$nombre
+if [[ $var1 = 104857600 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## thp ##""\n" >> /tmp/$nombre
+echo $var2 >> /tmp/$nombre
+
+echo -e "\n""## thp pages_to_scan ##""\n" >> /tmp/$nombre
+if [[ $var3 = 20000 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## ksm run ##""\n" >> /tmp/$nombre
+if [[ $var4 = 1 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## ksm pages_to_scan ##""\n" >> /tmp/$nombre
+if [[ $var5 = 20000 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## sleep_millisecs ##""\n" >> /tmp/$nombre
+if [[ $var6 = 200 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## release_agent ##""\n" >> /tmp/$nombre
+if [[ $var7 = /usr/local/sbin/cgroup_clean ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## notify_on_release ##""\n" >> /tmp/$nombre
+if [[ $var8 = 1 ]]; then
+	echo "OK" >> /tmp/$nombre
+else
+	echo "FAIL" >> /tmp/$nombre
+fi
+
+echo -e "\n""## tmpfs ##""\n" >> /tmp/$nombre
+mount -l -t tmpfs >> /tmp/$nombre
+
+echo -e "\n""## os-release ##""\n" >> /tmp/$nombre
+cat /etc/os-release >> /tmp/$nombre
+
+echo -e "\n""## archivo version ##""\n" >> /tmp/$nombre
+cat /etc/xanadu/version >> /tmp/$nombre
+
+echo -e "\n""## lista de directorios ##""\n" >> /tmp/$nombre
+if ! [[ -d /var/cache/polipo ]] ; then
+	echo -e "El directorio /var/cache/polipo NO existe""\n" >> /tmp/$nombre
+else
+	echo -e "El directorio /var/cache/polipo existe""\n" >> /tmp/$nombre
+fi
+
+if ! [[ -d /var/log/polipo ]] ; then
+	echo -e "El directorio /var/log/polipo NO existe""\n" >> /tmp/$nombre
+else
+	echo -e "El directorio /var/log/polipo existe""\n" >> /tmp/$nombre
+fi
+
+echo -e "\n""## cpuid ##""\n" >> /tmp/$nombre
+lsmod | grep cpuid >> /tmp/$nombre
+
+echo -e "\n""## loop ##""\n" >> /tmp/$nombre
+lsmod | grep loop >> /tmp/$nombre
+
+echo -e "\n""## rfkill ##""\n" >> /tmp/$nombre
+lsmod | grep rfkill >> /tmp/$nombre
+
+echo -e "\n""## microcode ##""\n" >> /tmp/$nombre
+dmesg | grep microcode >> /tmp/$nombre
+
+echo -e "\n""## ulatency ##""\n" >> /tmp/$nombre
+ulatency tree >> /tmp/$nombre
+
+echo -e "\n""## conexion ##""\n" >> /tmp/$nombre
+ping -c 3 yahoo.com >> /tmp/$nombre
+
+apt -q update
+apt -q -y install mesa-utils lynis
+apt-get clean
+
+echo -e "\n""## 3D ##""\n" >> /tmp/$nombre
+glxinfo | grep direct >> /tmp/$nombre
+
+clear
+echo -e "\n""El reporte se ha generado en /tmp/$nombre"
+rm -f /run/revision.pid
+exit 0

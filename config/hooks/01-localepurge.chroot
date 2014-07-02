@@ -1,15 +1,14 @@
 #!/bin/bash
 #elaborado por sinfallas
+echo "## localepurge ##"
 localepurge
 echo "## version ##"
-echo "live-boot: `dpkg-query -W -f='${Version}\n' live-boot`" > /etc/xanadu/version
-echo "live-config: `dpkg-query -W -f='${Version}\n' live-config`" >> /etc/xanadu/version
-echo "lxde: `dpkg-query -W -f='${Version}\n' lxde`" >> /etc/xanadu/version
-echo "openbox: `dpkg-query -W -f='${Version}\n' openbox`" >> /etc/xanadu/version
-echo "tor: `dpkg-query -W -f='${Version}\n' tor`" >> /etc/xanadu/version
-echo "i2p: `dpkg-query -W -f='${Version}\n' i2p`" >> /etc/xanadu/version
-echo "yad: `dpkg-query -W -f='${Version}\n' yad`" >> /etc/xanadu/version
-echo "zenity: `dpkg-query -W -f='${Version}\n' zenity`" >> /etc/xanadu/version
+echo "live-boot: `dpkg-query -W -f='${Version}\n' live-boot`" > /etc/wadameka/version
+echo "live-config: `dpkg-query -W -f='${Version}\n' live-config`" >> /etc/wadameka/version
+echo "lxde: `dpkg-query -W -f='${Version}\n' lxde`" >> /etc/wadameka/version
+echo "openbox: `dpkg-query -W -f='${Version}\n' openbox`" >> /etc/wadameka/version
+echo "yad: `dpkg-query -W -f='${Version}\n' yad`" >> /etc/wadameka/version
+echo "zenity: `dpkg-query -W -f='${Version}\n' zenity`" >> /etc/wadameka/version
 echo "## pci ids ##"
 update-pciids
 echo "## usb ids ##"
@@ -18,8 +17,6 @@ echo "## usuarios - grupos ##"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
 groupadd -r sambashare
-echo "## aide ##"
-aide --config /etc/aide/aide.conf --init
 echo "## permisos ##"
 chmod 644 /usr/lib/libvte9/gnome-pty-helper
 chmod 644 /usr/lib/libvte-2.90-9/gnome-pty-helper
@@ -32,7 +29,7 @@ echo "## proteger paquetes ##"
 /bin/echo vainfo hold | /usr/bin/dpkg --set-selections
 /bin/echo systemd-shim hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) bluetooth bluez bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny vim-common libc6-dev gcc g++ make dpkg-dev build-essential
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluetooth bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny vim-common libc6-dev gcc g++ make dpkg-dev build-essential
 # man-db manpages
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.14-1-686-pae linux-headers-3.14-1-common linux-headers-686-pae
@@ -42,6 +39,8 @@ echo "## deborphan ##"
 apt-get -y purge $(deborphan)
 apt-get clean
 echo "## Limpieza de directorios ##"
+find . -type f -name "*.old" -exec rm -fv {} \;
+find . -type f -name ".vacio" -exec rm -fv {} \;
 rm -rf /usr/share/doc/*
 # rm -rf /usr/share/doc-base/*
 rm -rf /usr/share/gtk-doc/*
@@ -103,37 +102,64 @@ rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
 rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
 rm -fv /var/cache/apt/pkgcache.bin
 rm -fv /var/cache/apt/srcpkgcache.bin
-rm -fv /etc/xanadu/.vacio
-rm -fv /var/cache/polipo/.vacio
-rm -fv /var/lib/samba/usershares/.vacio
-rm -fv /var/lib/tor/.vacio
-rm -fv /var/log/polipo/.vacio
-rm -fv /var/log/tor/.vacio
+echo "## Limpieza de otros archivos ##"
+rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/bing*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/drae*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/eBay*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/twitter*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/wikipedia*.xml
+rm -f /etc/iceweasel/searchplugins/locale/*/yahoo*.xml
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-640x480.png
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper.svg
+rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-widescreen.svg
+rm -f /usr/share/images/desktop-base/gnome-splash-curves.png
+rm -f /usr/share/images/desktop-base/joy-inksplat-wallpaper_1920x1080.svg
+rm -f /usr/share/images/desktop-base/moreblue-orbit-grub.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-splash.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.svg
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.png
+rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.svg
+rm -f /usr/share/images/desktop-base/nightly-wallpaper.png
+rm -f /usr/share/images/desktop-base/spacefun-grub.png
+rm -f /usr/share/images/desktop-base/spacefun-grub-widescreen.png
+rm -f /usr/share/images/desktop-base/spacefun-splash.svg
+rm -f /usr/share/images/desktop-base/spacefun-wallpaper.svg
+rm -f /usr/share/images/desktop-base/spacefun-wallpaper-widescreen.svg
+rm -f /usr/share/images/desktop-base/brillante.png
+rm -f /usr/share/images/desktop-base/cascada.png
+rm -f /usr/share/images/desktop-base/descanso.png
+rm -f /usr/share/images/desktop-base/islazapara.png
+rm -f /usr/share/images/desktop-base/llanero.png
+rm -f /usr/share/images/desktop-base/selva.png
+rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
+rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
+rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
+rm -f /usr/share/plymouth/themes/Gnamon/*
+rm -f /usr/share/plymouth/themes/solar/*
+rm -f /usr/share/plymouth/themes/fade-in/*
+rm -f /usr/share/plymouth/themes/glow/*
+rm -f /usr/share/plymouth/themes/spinfinity/*
+rm -f /var/cache/apt/pkgcache.bin
+rm -f /var/cache/apt/srcpkgcache.bin
+rm -f /usr/share/doc/canaima-base/changelog.gz
 echo "## limpieza de log ##"
 for FILE in $(find /var/log/ -type f)
 do
 	: > ${FILE}
 done
-echo "## tor ##"
-chown debian-tor:debian-tor /var/log/tor /var/lib/tor
-chmod 600 /var/lib/tor /var/log/tor
-chmod u+x /var/lib/tor /var/log/tor
-chgrp debian-tor /etc/tor/ /etc/tor/*
-chmod g+rw /etc/tor/ /etc/tor/*
 echo "## hardlink ##"
 hardlink -f -x /sys -t -o /
 echo "## prelink ##"
 prelink -amR
 echo "## servicios ##"
-systemctl disable clamav-freshclam
-systemctl disable fail2ban
-systemctl disable i2p
 systemctl disable memlockd
 systemctl disable ntp
-systemctl disable onioncat
 systemctl disable polipo
 systemctl disable privoxy
 systemctl disable psad
 systemctl disable shorewall
 systemctl disable ssh
-systemctl disable tor

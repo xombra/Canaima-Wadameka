@@ -1,8 +1,11 @@
 #!/bin/sh
+#elaborado por sinfallas
 lb clean noauto "${@}"
 rm -f binary.log
 rm -f *.tar.gz
+rm -rf cache/binary_debian-installer/*
 rm -rf cache/bootstrap
-rm -rf cache/contents.chroot/*
 rm -rf cache/contents.binary/*
+rm -rf cache/contents.chroot/*
+rm -rf cache/indices.bootstrap/*
 clear

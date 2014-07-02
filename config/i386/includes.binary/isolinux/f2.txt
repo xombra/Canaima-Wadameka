@@ -1,0 +1,23 @@
+0fREQUERIMIENTOS MINIMOS07                              09F207
+
+
+
+512 Mb RAM (1 Gb RAM recomendado)
+CPU de 64 bits a 800 Mhz o superior (1.0 Ghz recomendado)
+Resolucion 800x600, 16 Mb video RAM
+BIOS con capacidad de arranque por USB o CDROM
+5 Gb de capacidad de disco para instalar
+
+
+
+Algunas configuraciones pueden requerir de una NIC adicional
+
+
+
+El usuario es: user
+La clave de user es: wadameka
+La clave de ROOT es: wada123456
+
+
+
+Presione F1control y F luego 1 para ir al indice, o ENTER para 

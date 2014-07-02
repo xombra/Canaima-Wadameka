@@ -1,0 +1,215 @@
+#!/bin/bash
+#elaborado por sinfallas
+if [[ $USER != root ]]; then
+echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+exit 1
+fi
+lock="/run/tor.lock"
+lock2="/run/i2p.lock"
+persistencia="/usr/local/bin/persistencia"
+memoria=$(grep MemTotal /proc/meminfo | awk '{print $2}')
+
+function espera ()
+{
+	sleep 30 | zenity --progress --pulsate --no-cancel --text "Iniciando tor, por favor espere" --auto-close
+}
+
+function seguridad_1 ()
+{
+	modprobe -f ip_tables
+	modprobe -f ip_conntrack
+	modprobe -f iptable_filter
+	modprobe -f iptable_nat
+	modprobe -f ipt_physdev
+	modprobe -f act_police
+	systemctl enable ntp
+	systemctl enable shorewall
+	systemctl enable fail2ban
+	systemctl enable psad
+}
+
+function antivirus_1 ()
+{
+	freshclam | zenity --progress --pulsate --no-cancel --text "Actualizando base de firmas de virus, por favor espere" --auto-close
+	clamtk
+}
+
+function tor_1 ()
+{
+	echo "$(date +%d/%m/%Y-%r)" > $lock
+	mv -f /etc/iceweasel/pref/iceweasel.js /etc/iceweasel/pref/iceweasel.bk
+	mv -f /etc/iceweasel/pref/iceweasel.old /etc/iceweasel/pref/iceweasel.js
+	systemctl start tor
+	systemctl start polipo
+	systemctl start privoxy
+	systemctl restart dnsmasq
+	tsocks -on
+	systemctl start memlockd
+}
+
+function tor_0 ()
+{
+	rm -f $lock
+	mv -f /etc/iceweasel/pref/iceweasel.js /etc/iceweasel/pref/iceweasel.old
+	mv -f /etc/iceweasel/pref/iceweasel.bk /etc/iceweasel/pref/iceweasel.js
+	systemctl stop privoxy
+	systemctl stop polipo
+	systemctl stop tor
+	systemctl restart dnsmasq
+	tsocks -off
+	systemctl stop memlockd
+	mv -f /etc/tor/torrc /etc/tor/torrc.obfs
+	mv -f /etc/tor/torrc.old /etc/tor/torrc
+	rm -rf /var/cache/polipo/*
+}
+
+function i2p_1 ()
+{
+	echo "$(date +%d/%m/%Y-%r)" > $lock2
+	i2prouter start
+}
+
+function i2p_0 ()
+{
+	rm -f $lock2
+	i2prouter stop
+}
+
+function hora_1 ()
+{
+	hwclock --systohc
+	systemctl restart ntp
+}
+
+function compton_1 ()
+{
+	/usr/bin/compton --config /etc/compton.conf -b
+}
+
+function progress_1 ()
+{
+	zenity --progress --pulsate --no-cancel --text "Instalando Software, esto proceso puede tomar varios minutos, por favor espere" --auto-close
+}
+
+function progress_2 ()
+{
+	yad --fixed --progress-text="Instalando Software, esto proceso puede tomar varios minutos, por favor espere" --progress --pulsate --auto-close --auto-kill --skip-taskbar --center --title="INSTALANDO"
+}
+
+function optimizacion_1 ()
+{
+	dispositivo2=$(df / --output=source | tail -n1 | cut -c 19-54)
+	dispositivo=$(blkid -U $dispositivo2 | cut -c 1-8)
+	miswap=$(fdisk -l | grep swap | cut -c 1-9)
+	miswap2=$(blkid -o export $miswap | grep UUID)
+	quien=$(who | cut -d' ' -f1 | sort | uniq)
+	if [[ -f /root/.optimizado ]]; then
+		echo 1 > /dev/null
+	else
+		zenity --info --timeout 3 --text="El sistema se reiniciara al finalizar la optimizacion, por favor espere..."		
+		if [[ $(hostname) = xanadu ]]; then
+			echo xanadu-$(printf '%02X%02X%02X\n' $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256))) > /etc/hostname
+			sed -i 's_xanadu_'$(cat /etc/hostname)'_g' /etc/hosts
+		fi
+		update-grub2
+		echo $dispositivo { >> /etc/hdparm.conf
+		echo "lookahead = on" >> /etc/hdparm.conf
+		echo "write_cache = on" >> /etc/hdparm.conf
+		echo "spindown_time = 18" >> /etc/hdparm.conf
+		echo "}" >> /etc/hdparm.conf
+		echo $miswap2 "none swap sw,pri=25 0 0" >> /etc/fstab
+		systemctl enable systemd-readahead-collect systemd-readahead-replay
+		iucode_tool --scan-system
+		update-initramfs -u
+		chage -M 183 $quien
+		chage -M 365 root
+		adduser $quien sambashare
+		yes "" | sensors-detect
+		echo "$(date +%d/%m/%Y-%r)" > /root/.optimizado
+		if (( $memoria > 4096000 )); then
+			echo "vm.swappiness = 10" >> /etc/sysctl.conf
+			echo "tmpfs /var/cache/apt/archives tmpfs noatime,nodev 0 0" >> /etc/fstab
+			for i in $quien; do
+				echo "tmpfs /home/$i/.cache  tmpfs noatime,nodev,rw 0 0" >> /etc/fstab
+			done
+		fi
+		reboot
+	fi
+}
+
+function kde_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install task-kde-desktop kde-full
+}
+
+function gnome_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install task-gnome-desktop gnome-session-fallback gnome-shell gnome-tweak-tool gnome
+}
+
+function xfce_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install task-xfce-desktop xfce4 xfce4-goodies xfce4-notifyd
+}
+
+function e17_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install e17
+}
+
+function cinnamon_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install cinnamon
+}
+
+function wine_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install playonlinux
+}
+
+function xbmc_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install xbmc python-software-properties pkg-config software-properties-common
+}
+
+function ati_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install fglrx-atieventsd fglrx-control fglrx-driver fglrx-modules-dkms radeontool
+}
+
+function nvidia_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install nvclock nvidia-alternative nvidia-glx nvidia-installer-cleanup nvidia-kernel-common nvidia-kernel-dkms nvidia-settings nvidia-support nvidia-vdpau-driver nvidia-xconfig
+}
+
+function liquorix_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install linux-image-liquorix-amd64 linux-headers-liquorix-amd64
+}
+
+function icedove_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install icedove
+}
+
+function apparmor_1 ()
+{
+	apt-get -q update && apt-get -q -y --force-yes install apparmor-profiles menulibre ecryptfs-utils auditd passwdqc dnsutils
+}
+
+function limpiar_1 ()
+{
+	apt-get clean
+	apt-get -y --force-yes autoremove
+	apt-get -y purge $(deborphan)
+}
+
+function progress_limpiar_1 ()
+{
+	zenity --progress --pulsate --no-cancel --text "Realizando limpieza" --auto-close
+}
+
+function progress_limpiar_2 ()
+{
+	yad --fixed --progress-text="Realizando limpieza" --progress --pulsate --auto-close --auto-kill --skip-taskbar --center --title="LIMPIEZA"
+}
