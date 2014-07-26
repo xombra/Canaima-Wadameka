@@ -2,13 +2,6 @@
 #elaborado por sinfallas
 echo "## localepurge ##"
 localepurge
-echo "## version ##"
-echo "live-boot: `dpkg-query -W -f='${Version}\n' live-boot`" > /etc/wadameka/version
-echo "live-config: `dpkg-query -W -f='${Version}\n' live-config`" >> /etc/wadameka/version
-echo "lxde: `dpkg-query -W -f='${Version}\n' lxde`" >> /etc/wadameka/version
-echo "openbox: `dpkg-query -W -f='${Version}\n' openbox`" >> /etc/wadameka/version
-echo "yad: `dpkg-query -W -f='${Version}\n' yad`" >> /etc/wadameka/version
-echo "zenity: `dpkg-query -W -f='${Version}\n' zenity`" >> /etc/wadameka/version
 echo "## pci ids ##"
 update-pciids
 echo "## usb ids ##"
@@ -30,7 +23,6 @@ echo "## proteger paquetes ##"
 /bin/echo systemd-shim hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
 apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluetooth bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny vim-common libc6-dev gcc g++ make dpkg-dev build-essential
-# man-db manpages
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.14-1-686-pae linux-headers-3.14-1-common linux-headers-686-pae
 echo "## autoremove ##"
@@ -42,13 +34,11 @@ echo "## Limpieza de directorios ##"
 find . -type f -name "*.old" -exec rm -fv {} \;
 find . -type f -name ".vacio" -exec rm -fv {} \;
 rm -rf /usr/share/doc/*
-# rm -rf /usr/share/doc-base/*
 rm -rf /usr/share/gtk-doc/*
 rm -rf /usr/share/help/*
 rm -rf /usr/share/info/*
 rm -rf /usr/share/kde4/*
 rm -rf /usr/share/lintian/*
-# rm -rf /usr/share/man/*
 rm -rf /var/cache/man/*
 rm -rf /tmp/*
 rm -rf /var/tmp/*
