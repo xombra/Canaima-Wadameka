@@ -1,4 +1,50 @@
-commit 1e95546bf83f6e90b40c1b0351e6cc99408c4d2b (HEAD, origin/master, origin/HEAD, master)
+commit 4de07291fea239229d66a8affbd45ee1f091c337 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jul 26 13:49:49 2014 -0430
+
+    * se eliminan directorios innecesarios
+
+commit 678f9454aa7e03db04de075748468e6216a6fc8d
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jul 26 13:44:43 2014 -0430
+
+    * se sustituye lxde por xfce4
+    * se eliminan paquetes innecesarios
+    * se hace limpieza
+
+commit 44435141699912dfb3e38d1215dbd9fa256fd72c
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Jul 10 18:21:02 2014 -0430
+
+    Cambios menores en paquetes
+
+commit 4452cc8a69bafa739afd43ceaec91203fa9043a5
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Jul 2 21:20:47 2014 -0430
+
+    actualizacion de paquetes
+
+commit 5e734e1cd48709d2b3f2b086bd5b332d4b54c2ec
+Author: abr4xas <me@abr4xas.org>
+Date:   Wed Jul 2 15:26:44 2014 -0430
+
+    ** update
+
+commit 34597146429cf1b9594d968511d529b8fd5891e6
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Jun 25 11:29:19 2014 -0430
+
+    agregado repo siduction, cambios en configuraciones,
+    arreglo para usar ultimo kernel disponible
+    eliminacion de archivos no necesarios
+
+commit 322239dc67ad09aaed5dea4aff709740d9485240
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Mon Jun 23 12:00:02 2014 -0430
+
+    * changelog
+
+commit 1e95546bf83f6e90b40c1b0351e6cc99408c4d2b
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Mon Jun 23 11:59:37 2014 -0430
 
