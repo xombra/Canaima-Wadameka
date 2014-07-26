@@ -12,8 +12,5 @@ libdvdcss2
 libmad0
 pulseaudio
 pulseaudio-module-jack
-w32codecs
 xsane
 pitivi
-ifuse
-ipad-charge

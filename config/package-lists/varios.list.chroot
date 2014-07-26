@@ -5,8 +5,6 @@ fuse
 gvfs
 gvfs-fuse
 udevil
-fakeroot
-fakeroot-ng
 usbutils
 usbmuxd
 usbview
