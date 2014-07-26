@@ -1,4 +1,17 @@
-commit 4de07291fea239229d66a8affbd45ee1f091c337 (HEAD, origin/master, origin/HEAD, master)
+commit 3f7f44500eee7b2ff20cc72608fb33555407386f (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jul 26 13:57:35 2014 -0430
+
+    * se eliminan repositorios innecesarios
+    * se realiza limpieza sobre el sistema de archivos
+
+commit 28f7fad08b18bac4efb2d13b0b330a2a15d46f39
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jul 26 13:50:16 2014 -0430
+
+    * changelog
+
+commit 4de07291fea239229d66a8affbd45ee1f091c337
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Jul 26 13:49:49 2014 -0430
 
