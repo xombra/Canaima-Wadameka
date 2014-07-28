@@ -3,7 +3,6 @@ task-xfce-desktop
 xfce4-goodies
 xfce4-notifyd
 x11-session-utils
-obconf
 menu-l10n
 thunar
 thunar-data
@@ -13,3 +12,4 @@ gksu
 fdpowermon
 fdpowermon-icons
 mint-elementary-icons
+htop

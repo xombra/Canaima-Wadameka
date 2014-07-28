@@ -6,4 +6,5 @@ ntp
 wireless-tools
 network-manager-gnome
 smbclient
-ufw
+gufw
+htop
