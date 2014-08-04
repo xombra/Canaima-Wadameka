@@ -1,3 +1,4 @@
+libpam-systemd
 systemd-shim
 systemd-sysv
 systemd-ui

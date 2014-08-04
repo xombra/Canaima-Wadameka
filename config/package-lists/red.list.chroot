@@ -1,10 +1,12 @@
-ssh
 cifs-utils
+gufw
 modemmanager
 network-manager
-ntp
-wireless-tools
 network-manager-gnome
+mobile-broadband-provider-info
+ntp
+ntpdate
 smbclient
-gufw
+ssh
+wireless-tools
 htop

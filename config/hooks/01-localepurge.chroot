@@ -1,15 +1,13 @@
 #!/bin/bash
 #elaborado por sinfallas
-echo "## localepurge ##"
+# realiza limpieza de varios elementos de la distro
 localepurge
 echo "## pci ids ##"
 update-pciids
 echo "## usb ids ##"
 update-usbids
-echo "## usuarios - grupos ##"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
-groupadd -r sambashare
 echo "## permisos ##"
 chmod 644 /usr/lib/libvte9/gnome-pty-helper
 chmod 644 /usr/lib/libvte-2.90-9/gnome-pty-helper
@@ -17,28 +15,23 @@ echo "## proteger paquetes ##"
 /bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
-/bin/echo i965-va-driver hold | /usr/bin/dpkg --set-selections
-/bin/echo libva-intel-vaapi-driver hold | /usr/bin/dpkg --set-selections
-/bin/echo vainfo hold | /usr/bin/dpkg --set-selections
-/bin/echo systemd-shim hold | /usr/bin/dpkg --set-selections
 echo "## purge ##"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluetooth bluez-alsa bluez-firmware bluez-gstreamer linux-wlan-ng-doc aptitude aptitude-common vim-tiny vim-common libc6-dev gcc g++ make dpkg-dev build-essential
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages libc6-dev gcc giblib1 intltool-debian keyutils make po-debconf python-dnspython samba-vfs-modules geoip-database
 echo "## purge headers ##"
-apt-get -y purge linux-headers-3.14-1-686-pae linux-headers-3.14-1-common linux-headers-686-pae
+apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "## autoremove ##"
 apt-get -y --force-yes autoremove
 echo "## deborphan ##"
 apt-get -y purge $(deborphan)
 apt-get clean
 echo "## Limpieza de directorios ##"
-find . -type f -name "*.old" -exec rm -fv {} \;
-find . -type f -name ".vacio" -exec rm -fv {} \;
 rm -rf /usr/share/doc/*
 rm -rf /usr/share/gtk-doc/*
 rm -rf /usr/share/help/*
 rm -rf /usr/share/info/*
 rm -rf /usr/share/kde4/*
 rm -rf /usr/share/lintian/*
+rm -rf /usr/share/man/*
 rm -rf /var/cache/man/*
 rm -rf /tmp/*
 rm -rf /var/tmp/*
@@ -60,39 +53,9 @@ rm -rf /usr/share/themes/Syscrash/*
 rm -rf /usr/share/themes/ThinIce/*
 rm -rf /usr/share/themes/Artwiz-boxed/*
 rm -rf /usr/share/themes/Bear2/*
+rm -rf /usr/share/themes/Bear2/*
+rm -rf /etc/defaul
 echo "## Limpieza de archivos ##"
-rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/bing*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/drae*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/eBay*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/twitter*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/wikipedia*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/yahoo*.xml
-rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-640x480.png
-rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper.svg
-rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-widescreen.svg
-rm -f /usr/share/images/desktop-base/gnome-splash-curves.png
-rm -f /usr/share/images/desktop-base/joy-inksplat-wallpaper_1920x1080.svg
-rm -f /usr/share/images/desktop-base/moreblue-orbit-grub.png
-rm -f /usr/share/images/desktop-base/moreblue-orbit-splash.png
-rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.png
-rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper.svg
-rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.png
-rm -f /usr/share/images/desktop-base/moreblue-orbit-wallpaper-widescreen.svg
-rm -f /usr/share/images/desktop-base/nightly-wallpaper.png
-rm -f /usr/share/images/desktop-base/spacefun-grub.png
-rm -f /usr/share/images/desktop-base/spacefun-grub-widescreen.png
-rm -f /usr/share/images/desktop-base/spacefun-splash.svg
-rm -f /usr/share/images/desktop-base/spacefun-wallpaper.svg
-rm -f /usr/share/images/desktop-base/spacefun-wallpaper-widescreen.svg
-rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
-rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
-rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
-rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
-rm -fv /var/cache/apt/pkgcache.bin
-rm -fv /var/cache/apt/srcpkgcache.bin
-echo "## Limpieza de otros archivos ##"
 rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
 rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml
 rm -f /etc/iceweasel/searchplugins/locale/*/bing*.xml
@@ -136,20 +99,11 @@ rm -f /usr/share/plymouth/themes/spinfinity/*
 rm -f /var/cache/apt/pkgcache.bin
 rm -f /var/cache/apt/srcpkgcache.bin
 rm -f /usr/share/doc/canaima-base/changelog.gz
+rm -f /usr/share/doc/desktop-base/README.Debian
 echo "## limpieza de log ##"
 for FILE in $(find /var/log/ -type f)
 do
-	: > ${FILE}
+   : > ${FILE}
 done
-echo "## hardlink ##"
+echo "## hardlink por favor espere ##"
 hardlink -f -x /sys -t -o /
-echo "## prelink ##"
-prelink -amR
-echo "## servicios ##"
-systemctl disable memlockd
-systemctl disable ntp
-systemctl disable polipo
-systemctl disable privoxy
-systemctl disable psad
-systemctl disable shorewall
-systemctl disable ssh

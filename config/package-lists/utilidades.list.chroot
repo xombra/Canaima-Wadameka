@@ -1,9 +1,13 @@
+aptitude
 bash-completion
 chntpw
+cups
+cups-browsed
 disk-manager
+fish
 gparted
-htop
 iotop
+mtools
 powertop
 psad
 scrot

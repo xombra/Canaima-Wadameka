@@ -1,6 +1,6 @@
-qjackctl
+alsa-base
+alsa-utils
 brasero
-vlc
 gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
@@ -10,8 +10,10 @@ libav-tools
 libdvdread4
 libdvdcss2
 libmad0
+pitivi
 pulseaudio
 pulseaudio-module-jack
+qjackctl
+vlc
 xsane
-pitivi
 htop
