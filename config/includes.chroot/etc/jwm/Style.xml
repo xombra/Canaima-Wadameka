@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+	<WindowStyle>
+		<Font antialias="false">smoothansi</Font>
+		<Width>4</Width>
+		<Height>20</Height>
+		<Active>
+		<Text>green</Text>
+		<Title>darkgreen:grey13</Title>
+		<Corner>green</Corner>
+		<Outline>green</Outline>
+		</Active>
+		<Inactive>
+		<Text>grey44</Text>
+		<Title>grey20:grey0</Title>
+		<Corner>grey0</Corner>
+		<Outline>darkgreen</Outline>
+		</Inactive>
+	</WindowStyle>
+
+	<TaskListStyle>
+		<Font antialias="false">smoothansi</Font>
+		<ActiveForeground>green</ActiveForeground>
+		<ActiveBackground>darkgreen:grey13</ActiveBackground>
+		<Foreground>grey44</Foreground>
+		<Background>grey20:grey0</Background>
+	</TaskListStyle>
+
+	<!-- Additional TrayStyle attribute: insert -->
+
+	<TrayStyle>
+		<Font antialias="false">smoothansi</Font>
+		<Background>grey13</Background>
+		<Foreground>green</Foreground>
+	</TrayStyle>
+
+	<PagerStyle>
+		<Outline>grey66</Outline>
+		<Foreground>grey44</Foreground>
+		<Background>grey22</Background>
+		<ActiveForeground>darkgreen</ActiveForeground>
+		<ActiveBackground>grey44</ActiveBackground>
+	</PagerStyle>
+
+	<MenuStyle>
+		<Font antialias="false">smoothansi</Font>
+		<Foreground>grey33</Foreground>
+		<Background>grey0</Background>
+		<ActiveForeground>green</ActiveForeground>
+		<ActiveBackground>darkgreen:grey13</ActiveBackground>
+	</MenuStyle>
+
+	<PopupStyle>
+		<Font antialias="false">smoothansi</Font>
+		<Outline>grey22</Outline>
+		<Foreground>grey0</Foreground>
+		<Background>green</Background>
+	</PopupStyle>
+
+</JWM>
+
