@@ -1,6 +1,6 @@
 Canaima Wadameka Live
 
-Live basado en Xanadu GNU/Linux (https://github.com/sinfallas/xanadu-linux) y optimizado Canaima con instalador. Rápida y Ligera.
+Live basado en Xanadu GNU/Linux (https://github.com/sinfallas/xanadu-linux) y optimizado para Canaima con instalador. Rápida y Ligera.
 
 La distribución está enfocada en el escritorio LXDE para usuario final.
 
