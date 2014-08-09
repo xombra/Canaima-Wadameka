@@ -12,6 +12,7 @@ libdvdcss2
 libmad0
 pitivi
 pulseaudio
+pulseaudio-equalizer
 pulseaudio-module-jack
 qjackctl
 vlc

@@ -4,7 +4,7 @@
 
 	<WindowStyle>
 		<Font antialias="false">smoothansi</Font>
-		<Width>4</Width>
+		<Width>1</Width>
 		<Height>20</Height>
 		<Active>
 		<Text>green</Text>

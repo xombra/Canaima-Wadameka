@@ -146,14 +146,6 @@ Package: manpages
 Pin: version *
 Pin-Priority: -1
 
-Package: libreoffice-help-es
-Pin: version *
-Pin-Priority: -1
-
-Package: xfce4-panel
-Pin: version *
-Pin-Priority: -1
-
 Package: vim-tiny
 Pin: version *
 Pin-Priority: -1
@@ -174,4 +166,22 @@ Package: phython-pyinotify
 Pin: version *
 Pin-Priority: -1
 
+Package: libreoffice-help-en-us
+Pin: version *
+Pin-Priority: -1
 
+Package: avahi-daemon
+Pin: version *
+Pin-Priority: -1
+
+Package: iceweasel
+Pin: release n=experimental
+Pin-Priority: 600
+
+Package: iceweasel-l10n-es-es
+Pin: release n=experimental
+Pin-Priority: 600
+
+Package: *
+Pin: release n=experimental
+Pin-Priority: 1

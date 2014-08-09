@@ -1,9 +1,0 @@
-#!/bin/bash
-#elaborado por sinfallas
-if [[ $USER != root ]]; then
-echo "Ejecutar como root"
-exit 1
-fi
-echo wadameka-$(printf '%02X%02X%02X\n' $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256))) > /etc/hostname
-sed -i 's_wadameka_'$(cat /etc/hostname)'_g' /etc/hosts
-exit 0

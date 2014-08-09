@@ -1,3 +1,4 @@
+@jwm -p
 @smproxy
 @xscreensaver -no-splash
 @lxpanel --profile LXDE
