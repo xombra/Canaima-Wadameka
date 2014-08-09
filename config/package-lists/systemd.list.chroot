@@ -1,10 +1,10 @@
 libpam-systemd
+libsystemd-daemon0
+libsystemd-login0
+init-system-helpers
+sysv-rc-conf
+sysvinit-utils
 systemd-shim
 systemd-sysv
 systemd-ui
-init-system-helpers
-sysvinit-utils
-sysv-rc-conf
-libsystemd-daemon0
-libsystemd-login0
 htop

@@ -28,6 +28,5 @@ service avahi-daemon stop
 service cron stop
 service memlockd stop
 service ntp stop
-service psad stop
 service rsyslog stop
 exit 0
