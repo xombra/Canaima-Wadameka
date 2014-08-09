@@ -20,10 +20,7 @@ lxtask
 lxterminal
 x11-session-utils
 menu-l10n
-<<<<<<< HEAD
 mint-x-icons
-=======
->>>>>>> 8ded83751a603c780dd277a7dfa24454ffc40bb6
 obconf
 jwm
 thunar

@@ -14,10 +14,7 @@ localepurge
 locales
 lvm2
 memlockd
-<<<<<<< HEAD
 mesa-utils
-=======
->>>>>>> 8ded83751a603c780dd277a7dfa24454ffc40bb6
 mount
 ntfs-3g
 plymouth
@@ -27,6 +24,4 @@ ulatency
 xfsprogs
 <<<<<<< HEAD
 zsync
-=======
->>>>>>> 8ded83751a603c780dd277a7dfa24454ffc40bb6
 htop
