@@ -22,7 +22,10 @@ i965-va-driver
 intel-microcode
 linux-wlan-ng
 microcode.ctl
+<<<<<<< HEAD
 mintdrivers
+=======
+>>>>>>> 8ded83751a603c780dd277a7dfa24454ffc40bb6
 mintwifi
 printer-driver-all
 printer-driver-all-enforce

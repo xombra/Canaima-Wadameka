@@ -1,7 +1,7 @@
 #!/bin/sh
 #elaborado por sinfallas
 lb clean noauto "${@}"
-rm -f binary.log
+rm -f *.log
 rm -f *.tar.gz
 rm -rf cache/binary_debian-installer/*
 rm -rf cache/bootstrap
