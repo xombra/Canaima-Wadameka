@@ -7,4 +7,5 @@ sysvinit-utils
 systemd-services
 systemd-shim
 sysvinit-utils
+libcgmanager0
 htop
