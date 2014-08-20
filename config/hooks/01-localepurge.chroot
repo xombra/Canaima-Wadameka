@@ -4,15 +4,19 @@
 echo "#######################################################"
 echo "## Comienzo de Script realizado por @sinfallas       ##"
 echo "## realiza limpieza de varios elementos de la distro ##"
-wcho "## Hook ->                                           ##"
+echo "## Hook ->                                           ##"
 echo "#######################################################"
 localepurge
-echo "## pci ids ##"
+echo "#######################################################"
+echo "## Actualizando pci ids                              ##"
+echo "#######################################################"
 update-pciids
-echo "## usb ids ##"
+echo "#######################################################"
+echo "## Actualizando usb ids                              ##"
+echo "#######################################################"
 update-usbids
 echo "#######################################################"
-echo "## usuarios - grupos . claves                        ##"
+echo "## Agregando usuarios - grupos . claves              ##"
 echo "#######################################################"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
@@ -22,12 +26,12 @@ usermod -G admin user
 usermod -p 'potGjwk54Dr56' root
 usermod -p 'MHZ.CluVhi1fM' user
 echo "#######################################################"
-echo "## permisos                                          ##"
+echo "## Permisos                                          ##"
 echo "#######################################################"
 chmod 644 /usr/lib/libvte9/gnome-pty-helper
 chmod 644 /usr/lib/libvte-2.90-9/gnome-pty-helper
 echo "#######################################################"
-echo "## proteger paquetes                                 ##"
+echo "## Proteger Paquetes                                 ##"
 echo "#######################################################"
 /bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
@@ -35,10 +39,12 @@ echo "#######################################################"
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev  intltool-debian keyutils po-debconf python-dnspython samba-vfs-modules geoip-database
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev intltool-debian keyutils po-debconf python-dnspython samba-vfs-modules geoip-database
 echo "## purge headers ##"
 apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
-echo "## autoremove ##"
+echo "#######################################################"
+echo "##           autoremove                              ##"
+echo "#######################################################"
 apt-get -y --force-yes autoremove
 echo "#######################################################"
 echo "## deborphan Eliminando Huerfanos                    ##"
@@ -77,16 +83,8 @@ rm -rf /usr/share/themes/Bear2/*
 rm -rf /usr/share/themes/Bear2/*
 rm -rf /etc/defaul
 echo "#######################################################"
-echo "## Limpieza de archivos ###############################"
+echo "## Limpieza de archivos                              ##"
 echo "#######################################################"
-rm -f /etc/iceweasel/searchplugins/common/debsearch.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/amazon*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/bing*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/drae*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/eBay*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/twitter*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/wikipedia*.xml
-rm -f /etc/iceweasel/searchplugins/locale/*/yahoo*.xml
 rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-640x480.png
 rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper.svg
 rm -f /usr/share/images/desktop-base/debian-blueish-wallpaper-widescreen.svg
@@ -108,7 +106,6 @@ rm -f /usr/share/lxde/wallpapers/lxde_blue.jpg
 rm -f /usr/share/lxde/wallpapers/lxde_green.jpg
 rm -f /usr/share/lxde/wallpapers/lxde_red.jpg
 rm -f /usr/share/xmms2/silence-cellule_snippet.ogg 
-rm -f /usr/share/plymouth/themes/Gnamon/*
 rm -f /usr/share/plymouth/themes/solar/*
 rm -f /usr/share/plymouth/themes/fade-in/*
 rm -f /usr/share/plymouth/themes/glow/*

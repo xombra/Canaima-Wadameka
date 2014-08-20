@@ -1,3 +1,23 @@
+Package: *
+Pin: release o=debian
+Pin-Priority: 700
+
+Package: *
+Pin: release o=linuxmint
+Pin-Priority: 600
+
+Package: *
+Pin: origin packages.linuxmint.com
+Pin-Priority: 600
+
+Package: *
+Pin: release o=Ubuntu
+Pin-Priority: 400
+
+Package: *
+Pin: origin paquetes.canaima.softwarelibre.gob.ve
+Pin-Priority: 10
+
 Package: gnome-control-center
 Pin: version *
 Pin-Priority: -1
@@ -102,14 +122,6 @@ Package: mousetweaks
 Pin: version *
 Pin-Priority: -1
 
-Package: aptitude
-Pin: version *
-Pin-Priority: -1
-
-Package: aptitude-common
-Pin: version *
-Pin-Priority: -1
-
 Package: gnuplot
 Pin: version *
 Pin-Priority: -1
@@ -135,10 +147,6 @@ Pin: version *
 Pin-Priority: -1
 
 Package: apparmor-utils
-Pin: version *
-Pin-Priority: -1
-
-Package: vidalia
 Pin: version *
 Pin-Priority: -1
 
@@ -169,18 +177,6 @@ Pin-Priority: -1
 Package: libreoffice-help-en-us
 Pin: version *
 Pin-Priority: -1
-
-Package: avahi-daemon
-Pin: version *
-Pin-Priority: -1
-
-Package: iceweasel
-Pin: release n=experimental
-Pin-Priority: 600
-
-Package: iceweasel-l10n-es-es
-Pin: release n=experimental
-Pin-Priority: 600
 
 Package: *
 Pin: release n=experimental

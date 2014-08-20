@@ -1,0 +1,5 @@
+# This is a configuration file for /usr/sbin/add-apt-key
+
+# Select the default keyserver to retrieve GPG keys
+# KEYSERVER=pgp.mit.edu
+KEYSERVER=subkeys.pgp.net

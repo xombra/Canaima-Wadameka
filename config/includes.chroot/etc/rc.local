@@ -21,12 +21,8 @@ mkdir -m 0777 /dev/cgroup/cpu/user
 echo "/usr/local/sbin/cgroup_clean" > /dev/cgroup/cpu/release_agent
 echo "1" > /dev/cgroup/cpu/notify_on_release
 miswap=$(fdisk -l | grep swap | cut -c 1-9)
-swapon -f $miswap
-rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw
+swapon -p 25 -f $miswap
+rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth rfcomm
 service anacron stop
-service avahi-daemon stop
 service cron stop
-service memlockd stop
-service ntp stop
-service rsyslog stop
 exit 0

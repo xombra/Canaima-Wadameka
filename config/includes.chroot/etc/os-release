@@ -1,4 +1,11 @@
+PRETTY_NAME="Canaima Wadameka GNU/Linux 0.3"
+NAME="Canaima Wadameka"
 DISTRIB_ID=Wadameka
 DISTRIB_RELEASE=0.3
+ID_LIKE=debian
+ANSI_COLOR="1;34"
+VERSION="0.3"
+VERSION_ID="0.3"
 DISTRIB_CODENAME=Hetu
 DISTRIB_DESCRIPTION="Canaima Wadameka GNU/Linux"
+BUG_REPORT_URL="https://github.com/xombra/Canaima-Wadameka/issues"

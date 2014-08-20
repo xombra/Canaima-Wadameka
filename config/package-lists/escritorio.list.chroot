@@ -1,6 +1,7 @@
 fdpowermon
 fdpowermon-icons
 gksu
+jwm
 lightdm
 lxappearance
 lxappearance-obconf
@@ -22,7 +23,6 @@ x11-session-utils
 menu-l10n
 mint-x-icons
 obconf
-jwm
 thunar
 thunar-data
 thunar-archive-plugin

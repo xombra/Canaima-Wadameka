@@ -9,9 +9,7 @@
            contained within a Desktop tag to give a specific background
            for that desktop.
        -->
-       <Desktop>1<Background type="image">usr/share/images/desktop-base/minimal.png</Background></Desktop>
-       <Desktop>2<Background type="gradient">#e9eaa0:#d7a0ea</Background></Desktop> 
-          
+       <Desktop>1<Background type="image">usr/share/lxde/images/background.png</Background></Desktop>
+       <Desktop>2<Background type="image">usr/share/lxde/images/background.png</Background></Desktop>
     </Desktops>
-   
 </JWM>  

@@ -1,4 +1,5 @@
 bash-completion
+hdparm
 chntpw
 cups
 cups-browsed
@@ -9,10 +10,12 @@ locate
 mtools
 powertop
 prelink
+preload
 psad
 scrot
 synaptic
-xchat
+simple-scan
 xterm
+udisks
 yad
 htop
