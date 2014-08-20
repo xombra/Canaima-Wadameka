@@ -1,4 +1,133 @@
-commit 3f7f44500eee7b2ff20cc72608fb33555407386f (HEAD, origin/master, origin/HEAD, master)
+commit ce7e2921db41df54c70d9c46d099c2de9b4d7a35 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Aug 20 15:13:56 2014 -0430
+
+    * Agregado nuevos soportes para printers
+
+commit 428cba5855696b3b502b1da0f9cd440f1195e584
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Aug 20 14:38:54 2014 -0430
+
+    * Cambios en paquetes, eliminacion xchat por Hexchat, cambios en utilidades y otras herramientas
+
+commit 1015723f46d2eef292d93ba5a3ac312ae944c041 (tag: v.1.3)
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Aug 19 20:18:17 2014 -0430
+
+    Libreria necesaia para integracion systemd / systemv
+
+commit ec46be7d39d6eaf4ea0e1495bc770d0ac996d79a
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Aug 18 20:33:19 2014 -0430
+
+    Cambio de Icewasel a Chromium - Eliminacion de Imagenes innecesarias en LXDE
+
+commit 58a7577c0d131cb61cf24ba12b4fb7e2661c4b6a
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Aug 18 20:23:06 2014 -0430
+
+    Cambios en el Hooks eliminando algunos archivos que no existian de la lista
+
+commit f52853673b643cc9ca19c99d36465e687140683e
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Aug 18 20:13:50 2014 -0430
+
+    Mejorando Integracion entre SystemV & SystemD
+
+commit 15e2e4dbcfeccde90bba748bc268b07983007cb6
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Aug 12 23:19:05 2014 -0430
+
+    Cambios en Paquetes
+    Sigue sin trabajar con Canaima-Base
+
+commit dd2cce562c0c37a929559931ca2471dbfdc68b98
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Aug 9 12:48:53 2014 -0430
+
+    Cambios menores
+
+commit 6958b934e2e4123e8cbdb7b960e8c1b28b839720
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Aug 8 22:12:47 2014 -0430
+
+    Cambios varios. se agrego varios paquetes
+
+commit b9dc61e39b5ba56b27dd387cc552e39794da050b
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Aug 8 21:49:32 2014 -0430
+
+    ajuste de icon con los de mint-x
+
+commit 9e946d73bfaf469caa565af48cdd14eaec08a1b9
+Merge: 6c21a42 8ded837
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Aug 8 21:42:40 2014 -0430
+
+    Actualizacion de varios archivos y eliminacion de otros
+    
+    Merge branch 'master' of https://github.com/xombra/Canaima-Wadameka
+    
+    Conflicts:
+    	config/package-lists/base.list.chroot
+    	config/package-lists/drivers.list.chroot
+    	config/package-lists/escritorio.list.chroot
+
+commit 6c21a423d8e3b1e858ce63c0278919b050ecbeb9
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Aug 8 21:36:26 2014 -0430
+
+    Cambios en enlaces de imagenes, reestructuracion de opexbox con icon de mint
+
+commit 7e803c802c88602f7a7acbfe4f993c36ce045467
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Aug 8 21:28:18 2014 -0430
+
+    Cambios en paquetes
+
+commit 8ded83751a603c780dd277a7dfa24454ffc40bb6
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Aug 7 18:26:06 2014 -0430
+
+    * modificaciones varias
+
+commit 83da43721a760c4f46893664743723fcb6f7c32a
+Author: abr4xas <me@abr4xas.org>
+Date:   Tue Aug 5 12:44:37 2014 -0430
+
+    Cambios generales.
+    
+    Se realizan cambios generales en el proyecto.
+
+commit e650c438845763c0b03a4a70759549e37f66da49
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Aug 4 14:58:28 2014 -0430
+
+    Agragada configuracion temporal del JWM separando los archivos de conf.
+    Eliminacion de otros archivos no necesarios
+
+commit 906b7ef2b68bad6aad281ec1fa866f89a3cc88ce (tag: v1.2)
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Aug 4 10:30:35 2014 -0430
+
+    - Se regreso nuevamente a LXDE y se agrego JWM, integrando ambos.
+    - Se incluyeron las opciones para integrar SystemV con SystemD
+    - Se creo un archivo aparte para Canaima-Base (aun presenta problemas)
+    - Se eliminaron algunos paquetes innecesarios
+
+commit 770a5eec4b2fca8aed0ac3bc91f5d776cbe1e3ca
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Jul 28 17:00:27 2014 -0430
+
+    Se agrego en todos la lista de paquetes htop al final debido a problemas del contrusctor que no tomaba la ultima linea
+
+commit 1954b3050eaaed42e1cd2552b903c68f88f08fb6
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jul 26 13:58:50 2014 -0430
+
+    * changelog
+
+commit 3f7f44500eee7b2ff20cc72608fb33555407386f
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Jul 26 13:57:35 2014 -0430
 
