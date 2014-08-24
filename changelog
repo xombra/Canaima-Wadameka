@@ -1,4 +1,16 @@
-commit ce7e2921db41df54c70d9c46d099c2de9b4d7a35 (HEAD, origin/master, origin/HEAD, master)
+commit 57410d8684c617fbd7854d8c4aef2377a309910d (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Aug 23 19:51:20 2014 -0430
+
+    * Cambios Importantes: Eliminacion de repositorios, eliminacion de imagenes innecesarioss, eliminacion de carpetas irrelevantes
+
+commit 267f2bb6f80d3db4196fe584a8da649708aea207
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Aug 20 15:14:41 2014 -0430
+
+    * changelog
+
+commit ce7e2921db41df54c70d9c46d099c2de9b4d7a35
 Author: xombra <xombra.com@gmail.com>
 Date:   Wed Aug 20 15:13:56 2014 -0430
 
