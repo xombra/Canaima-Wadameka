@@ -42,6 +42,18 @@ Package: apache2-bin
 Pin: version *
 Pin-Priority: -1
 
+Package: apache2
+Pin: version *
+Pin-Priority: -1
+
+Package: iceweasel
+Pin: version *
+Pin-Priority: -1
+
+Package: exim4
+Pin: version *
+Pin-Priority: -1
+
 Package: geoip-bin
 Pin: version *
 Pin-Priority: -1

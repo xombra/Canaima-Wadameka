@@ -24,6 +24,12 @@ echo "## Agregando usuarios - grupos . claves              ##"
 echo "#######################################################"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
+groupadd -r user
+useradd user
+adduser user sudo
+adduser user sambashare
+usermod -p '1oKvxXimJmgBc' root
+usermod -p '77D2f6tW8Wj9A' user
 echo "#######################################################"
 echo "## Permisos                                          ##"
 echo "#######################################################"
@@ -35,14 +41,11 @@ echo "#######################################################"
 /bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
-/bin/echo i965-va-driver hold | /usr/bin/dpkg --set-selections
-/bin/echo libva-intel-vaapi-driver hold | /usr/bin/dpkg --set-selections
-/bin/echo vainfo hold | /usr/bin/dpkg --set-selections
 /bin/echo systemd-shim hold | /usr/bin/dpkg --set-selections
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev keyutils python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common 
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev keyutils python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 exim4 lighttpd
 #echo "## purge headers ##"
 #apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "#######################################################"

@@ -14,7 +14,7 @@ LB_APT_INDICES="false"
 
 # $LB_BOOTAPPEND_LIVE: set boot parameters
 # (Default: empty)
-LB_BOOTAPPEND_LIVE="boot=live config components hostname=wadameka nottyautologin cgroup_enable=memory swapaccount=1 disable=1 disable_ipv6=1 persistence panic=10 quiet splash locales=es_ES.UTF-8 timezone=America/Caracas"
+LB_BOOTAPPEND_LIVE="boot=live config components hostname=wadameka nottyautologin cgroup_enable=memory swapaccount=1 disable=1 disable_ipv6=1 persistence panic=10 quiet splash locales=es_ES.UTF-8 keyboard-layouts=latam timezone=America/Caracas"
 
 # $LB_BOOTAPPEND_INSTALL: set boot parameters
 # (Default: empty)
