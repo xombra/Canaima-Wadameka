@@ -4,7 +4,6 @@ mobile-broadband-provider-info
 modemmanager
 network-manager
 network-manager-gnome
-ntp
 ntpdate
 smbclient
 ssh

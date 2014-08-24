@@ -1,9 +1,11 @@
 alsa-base
 alsa-utils
 brasero
+gstreamer0.10-alsa
 gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
+gstreamer0.10-pulseaudio
 libmp3lame0
 libxvidcore4
 libav-tools
@@ -12,9 +14,9 @@ libdvdcss2
 libmad0
 pitivi
 pulseaudio
-pulseaudio-equalizer
 pulseaudio-module-jack
 qjackctl
 vlc
+vlc-plugin-pulse
 xsane
 htop

@@ -1,3 +1,8 @@
+Package: canaima-base
+Pin: version *
+Pin-Priority: -1
+
+
 Package: gnome-control-center
 Pin: version *
 Pin-Priority: -1
@@ -173,5 +178,37 @@ Pin: version *
 Pin-Priority: -1
 
 Package: phython-pyinotify
+Pin: version *
+Pin-Priority: -1
+
+Package: gvfs-fuse
+Pin: version *
+Pin-Priority: -1
+
+Package: dialog
+Pin: version *
+Pin-Priority: -1
+
+Package: tix
+Pin: version *
+Pin-Priority: -1
+
+Package: tk
+Pin: version *
+Pin-Priority: -1
+
+Package: thunar-volman
+Pin: version *
+Pin-Priority: -1
+
+Package: whiptail
+Pin: version *
+Pin-Priority: -1
+
+Package: tk8.6
+Pin: version *
+Pin-Priority: -1
+
+Package: avahi-daemon
 Pin: version *
 Pin-Priority: -1

@@ -7,6 +7,10 @@ echo "## realiza limpieza de varios elementos de la distro ##"
 echo "## Hook ->                                           ##"
 echo "#######################################################"
 localepurge
+echo "## version ##"
+echo "live-boot: `dpkg-query -W -f='${Version}\n' live-boot`" > /etc/wadameka/version
+echo "live-config: `dpkg-query -W -f='${Version}\n' live-config`" >> /etc/wadameka/version
+echo "lxde: `dpkg-query -W -f='${Version}\n' lxde`" >> /etc/wadameka/version
 echo "#######################################################"
 echo "## Actualizando pci ids                              ##"
 echo "#######################################################"
@@ -15,16 +19,11 @@ echo "#######################################################"
 echo "## Actualizando usb ids                              ##"
 echo "#######################################################"
 update-usbids
-echo "#######################################################"
+echo "###############us########################################"
 echo "## Agregando usuarios - grupos . claves              ##"
 echo "#######################################################"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
-groupadd -r sambashare
-adduser user sudo
-usermod -G admin user
-usermod -p 'potGjwk54Dr56' root
-usermod -p 'MHZ.CluVhi1fM' user
 echo "#######################################################"
 echo "## Permisos                                          ##"
 echo "#######################################################"
@@ -36,12 +35,16 @@ echo "#######################################################"
 /bin/echo amd64-microcode hold | /usr/bin/dpkg --set-selections
 /bin/echo dash hold | /usr/bin/dpkg --set-selections
 /bin/echo locales hold | /usr/bin/dpkg --set-selections
+/bin/echo i965-va-driver hold | /usr/bin/dpkg --set-selections
+/bin/echo libva-intel-vaapi-driver hold | /usr/bin/dpkg --set-selections
+/bin/echo vainfo hold | /usr/bin/dpkg --set-selections
+/bin/echo systemd-shim hold | /usr/bin/dpkg --set-selections
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr autopoint bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev intltool-debian keyutils po-debconf python-dnspython samba-vfs-modules geoip-database
-echo "## purge headers ##"
-apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev keyutils python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common 
+#echo "## purge headers ##"
+#apt-get -y purge linux-headers-3.13-1-686-pae linux-headers-3.13-1-common linux-headers-686-pae
 echo "#######################################################"
 echo "##           autoremove                              ##"
 echo "#######################################################"
@@ -127,7 +130,8 @@ echo "## hardlink por favor espere                         ##"
 echo "#######################################################"
 hardlink -f -x /sys -t -o /
 echo "## prelink ##"
-prelink -amR
+# prelink -amR
+systemctl disable ssh
 echo "#######################################################"
 echo "#######################################################"
 echo "## Fin de Script realizado por @sinfallas            ##"

@@ -2,8 +2,8 @@ arandr
 fakeroot
 gcp
 gvfs
-gvfs-fuse
 hardinfo
+libpam-ck-connector
 p7zip-full
 udevil
 unrar-free

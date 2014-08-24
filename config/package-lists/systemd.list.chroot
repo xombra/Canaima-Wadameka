@@ -4,7 +4,6 @@ libsystemd-journal0
 libsystemd-login0
 init-system-helpers
 sysvinit-utils
-systemd-services
 systemd-shim
 sysvinit-utils
 libcgmanager0

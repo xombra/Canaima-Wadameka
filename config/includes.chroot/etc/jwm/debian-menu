@@ -30,11 +30,11 @@
         <Menu label="Redes">
           <Menu label="Comunicaciones">
             <Program label="Pidgin" confirm="false">/usr/bin/pidgin</Program>
-            <Program label="X Chat" confirm="false">/usr/bin/xchat</Program>
+            <Program label="X Chat" confirm="false">/usr/bin/hexchat</Program>
             <Program label="Xbiff" confirm="false">xbiff</Program>
           </Menu>
           <Menu label="Navegador Web">
-            <Program label="Iceweasel" confirm="false">iceweasel</Program>
+            <Program label="Chromium" confirm="false">/usr/bin/chromiun-browser</Program>
           </Menu>
         </Menu>
         <Menu label="Oficina">
