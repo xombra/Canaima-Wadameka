@@ -1,4 +1,19 @@
-commit 57410d8684c617fbd7854d8c4aef2377a309910d (HEAD, origin/master, origin/HEAD, master)
+commit e35ccceab31462c6c505c2bd927cf94cd37dbbd2 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Aug 24 16:03:27 2014 -0430
+
+    * Cambios en imagen Desktop, eliminación de jwm y regreso a openbox/lxde
+    * Eliminacion de algunos paquetes innecesarios
+    * Regreso a clave de SO Original
+    * OJO: Presenta problemas con el Login <Hay que solventar>
+
+commit 6347c019529c3322fbf996b49f13c5f3634bcee2
+Author: xombra <xombra.com@gmail.com>
+Date:   Sat Aug 23 19:53:18 2014 -0430
+
+    * changelog
+
+commit 57410d8684c617fbd7854d8c4aef2377a309910d
 Author: xombra <xombra.com@gmail.com>
 Date:   Sat Aug 23 19:51:20 2014 -0430
 
