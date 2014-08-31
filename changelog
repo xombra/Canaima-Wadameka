@@ -1,4 +1,17 @@
-commit e35ccceab31462c6c505c2bd927cf94cd37dbbd2 (HEAD, origin/master, origin/HEAD, master)
+commit b59181028f8e52df842b74fd639133ae18cee3e8 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Aug 31 17:56:50 2014 -0430
+
+    * Eliminacion de repo siduction - probando sin libsystemd-login0
+    * Prueba de Login
+
+commit 1f87da98fdf524fa74a990fe369a23763cb168e2
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Aug 24 16:06:33 2014 -0430
+
+    * changelog
+
+commit e35ccceab31462c6c505c2bd927cf94cd37dbbd2
 Author: xombra <xombra.com@gmail.com>
 Date:   Sun Aug 24 16:03:27 2014 -0430
 
