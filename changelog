@@ -1,4 +1,16 @@
-commit b59181028f8e52df842b74fd639133ae18cee3e8 (HEAD, origin/master, origin/HEAD, master)
+commit f36074200a6921e8e3fdb1a59c9e576803fbc325 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Sep 1 09:04:43 2014 -0430
+
+    * Eliminacion del repo Kali del source list
+
+commit ad54e75f7b8b28cfcf5c00d4a1463ec7d7e07076
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Aug 31 17:58:20 2014 -0430
+
+    * changelog
+
+commit b59181028f8e52df842b74fd639133ae18cee3e8
 Author: xombra <xombra.com@gmail.com>
 Date:   Sun Aug 31 17:56:50 2014 -0430
 
