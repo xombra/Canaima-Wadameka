@@ -1,4 +1,16 @@
-commit c9168fc7bbecc8648cee1b581984fd52e1610af0 (HEAD, origin/master, origin/HEAD, master)
+commit 244313ca00743e95620515c492843a9861269e39 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Sep 19 19:26:44 2014 -0430
+
+    * Cambios en algunos paquetes
+
+commit b43477d68e9ba17245bd5d8055dba8a6c6a415f3
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sun Sep 7 19:39:06 2014 -0430
+
+    * changelog
+
+commit c9168fc7bbecc8648cee1b581984fd52e1610af0
 Author: xombra <xombra.com@gmail.com>
 Date:   Mon Sep 1 09:06:12 2014 -0430
 
