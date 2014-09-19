@@ -1,8 +1,10 @@
+ca-certificates
 chromium
 chromium-l10n
 mozplugger
 hexchat
 flashplugin-nonfree
+flashplugin-nonfree-extrasound
 thunderbird
 thunderbird-l10n-es
 smbclient

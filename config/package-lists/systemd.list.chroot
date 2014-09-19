@@ -1,6 +1,7 @@
 libpam-systemd
 libsystemd-daemon0
 libsystemd-journal0
+libsystemd-login0
 init-system-helpers
 sysvinit-utils
 systemd-shim

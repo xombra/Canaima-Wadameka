@@ -26,8 +26,10 @@ mintwifi
 openprinting-ppds
 printer-driver-all
 printer-driver-all-enforce
+printer-driver-pnm2ppa
 system-config-printer
 system-config-printer-udev
 va-driver-all
 wpasupplicant
+xkb-data
 htop

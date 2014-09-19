@@ -3,12 +3,8 @@ libreoffice
 libreoffice-gtk
 libreoffice-l10n-es
 dictionaries-common
-fonts-droid
-fonts-freefont-ttf
-fonts-lyx
-fonts-opensymbol
 myspell-dictionary-es
 myspell-es
 openjdk-7-jre
-ttf-mscorefonts-installer
+openprinting-ppds
 htop

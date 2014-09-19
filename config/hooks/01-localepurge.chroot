@@ -25,8 +25,6 @@ echo "#######################################################"
 groupadd -r dnsmasq
 adduser dnsmasq dnsmasq
 adduser user sambashare
-usermod -p '1oKvxXimJmgBc' root
-usermod -p '77D2f6tW8Wj9A' user
 echo "#######################################################"
 echo "## Permisos                                          ##"
 echo "#######################################################"
@@ -42,7 +40,7 @@ echo "#######################################################"
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev keyutils python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 exim4 lighttpd
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 exim4 lighttpd
 echo "#######################################################"
 echo "##           autoremove                              ##"
 echo "#######################################################"
@@ -126,7 +124,7 @@ locale-gen  es_ES.UTF-8 UTF-8
 echo "#######################################################"
 echo "## hardlink por favor espere                         ##"
 echo "#######################################################"
-hardlink -f -x /sys -t -o /
+# hardlink -f -x /sys -t -o /
 echo "## prelink ##"
 # prelink -amR
 systemctl disable ssh
