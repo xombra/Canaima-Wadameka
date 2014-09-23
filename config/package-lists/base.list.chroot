@@ -1,6 +1,6 @@
 acpid
+cgroup-bin
 htop
-btrfs-tools
 deborphan
 devio
 dmraid
@@ -19,7 +19,6 @@ memlockd
 mesa-utils
 mount
 ntfs-3g
-plymouth
 pm-utils
 sudo
 ulatency
