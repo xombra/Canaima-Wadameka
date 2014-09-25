@@ -1,4 +1,22 @@
-commit 15df8e678fc3e771240ede7833e3f40d148352ac (HEAD, origin/master, origin/HEAD, master)
+commit 19fcf4ed82ee8ce363b69daa51f462f5006d9e05 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Sep 24 19:54:50 2014 -0430
+
+    * Correciones
+
+commit 7d57fccbe178610bcc6aed94b1c23951d89d93c3
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Sep 24 19:53:31 2014 -0430
+
+    * Correcciones - Eliminacion/Agragados Paquetes
+
+commit 6b21ac14a59667d1c4cbdcc95f4a803e30f36a84
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Sep 23 14:20:00 2014 -0430
+
+    * changelog
+
+commit 15df8e678fc3e771240ede7833e3f40d148352ac
 Author: xombra <xombra.com@gmail.com>
 Date:   Tue Sep 23 14:18:08 2014 -0430
 
