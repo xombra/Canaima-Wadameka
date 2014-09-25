@@ -7,7 +7,7 @@ gstreamer0.10-plugins-base
 gstreamer0.10-plugins-good
 gstreamer0.10-pulseaudio
 libmp3lame0
-libpam-ck-connecto
+libpam-ck-connector
 libxvidcore4
 libav-tools
 libdvdread4

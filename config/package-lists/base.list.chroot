@@ -1,6 +1,6 @@
 acpid
+btrfs-tools
 cgroup-bin
-htop
 deborphan
 devio
 dmraid
@@ -15,6 +15,7 @@ lm-sensors
 localepurge
 locales
 lvm2
+lshw
 memlockd
 mesa-utils
 mount

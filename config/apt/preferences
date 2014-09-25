@@ -1,7 +1,3 @@
-Package: canaima-base
-Pin: version *
-Pin-Priority: -1
-
 Package: gnome-control-center
 Pin: version *
 Pin-Priority: -1
@@ -42,18 +38,6 @@ Package: apache2-bin
 Pin: version *
 Pin-Priority: -1
 
-Package: apache2
-Pin: version *
-Pin-Priority: -1
-
-Package: iceweasel
-Pin: version *
-Pin-Priority: -1
-
-Package: exim4
-Pin: version *
-Pin-Priority: -1
-
 Package: geoip-bin
 Pin: version *
 Pin-Priority: -1
@@ -79,9 +63,7 @@ Pin: version *
 Pin-Priority: -1
 
 Package: gnome-menus
-Pin: version *Package: *
-Pin: release n=testing
-Pin-Priority: -1
+Pin: version *
 Pin-Priority: -1
 
 Package: gnome-mime-data
@@ -164,7 +146,7 @@ Package: manpages
 Pin: version *
 Pin-Priority: -1
 
-Package: libreoffice-help-es
+Package: libreoffice-help-en-us
 Pin: version *
 Pin-Priority: -1
 
@@ -192,10 +174,6 @@ Package: phython-pyinotify
 Pin: version *
 Pin-Priority: -1
 
-Package: gvfs-fuse
-Pin: version *
-Pin-Priority: -1
-
 Package: dialog
 Pin: version *
 Pin-Priority: -1
@@ -208,10 +186,6 @@ Package: tk
 Pin: version *
 Pin-Priority: -1
 
-Package: thunar-volman
-Pin: version *
-Pin-Priority: -1
-
 Package: whiptail
 Pin: version *
 Pin-Priority: -1
@@ -221,5 +195,73 @@ Pin: version *
 Pin-Priority: -1
 
 Package: avahi-daemon
+Pin: version *
+Pin-Priority: -1
+
+Package: iceweasel
+Pin: release n=experimental
+Pin-Priority: 600
+
+Package: iceweasel-l10n-es-es
+Pin: release n=experimental
+Pin-Priority: 600
+
+Package: *
+Pin: release n=experimental
+Pin-Priority: 1
+
+Package: gdisk
+Pin: version *
+Pin-Priority: -1
+
+Package: gdisk-noicu
+Pin: version *
+Pin-Priority: -1
+
+Package: xsel
+Pin: version *
+Pin-Priority: -1
+
+Package: python-progressbar
+Pin: version *
+Pin-Priority: -1
+
+Package: libjpeg-progs
+Pin: version *
+Pin-Priority: -1
+
+Package: curl
+Pin: version *
+Pin-Priority: -1
+
+Package: links
+Pin: version *
+Pin-Priority: -1
+
+Package: elinks
+Pin: version *
+Pin-Priority: -1
+
+Package: lynx
+Pin: version *
+Pin-Priority: -1
+
+Package: unhide.rb
+Pin: version *
+Pin-Priority: -1
+
+Package: unhide
+Pin: version *
+Pin-Priority: -1
+
+Package: rarian-compat
+Pin: version *
+Pin-Priority: -1
+
+Package: tor-geoipdb
+Pin: version *
+Pin-Priority: -1
+
+Package: yelp
 Pin: version *
 Pin-Priority: -1

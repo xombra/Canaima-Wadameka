@@ -1,1 +1,2 @@
 deb http://packages.linuxmint.com/ debian main upstream import backport romeo
+deb-src http://packages.linuxmint.com/ debian main upstream import backport romeo

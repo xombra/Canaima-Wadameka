@@ -77,7 +77,8 @@ LB_FDISK="fdisk.distrib"
 
 # $LB_LOSETUP: set losetup program
 # (Default: autodetected)
-LB_LOSETUP="losetup"
+#LB_LOSETUP="losetup"
+LB_LOSETUP="autodetected"
 
 # $LB_MODE: set distribution mode
 # (Default: debian)
