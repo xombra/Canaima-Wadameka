@@ -1,4 +1,17 @@
-commit 19fcf4ed82ee8ce363b69daa51f462f5006d9e05 (HEAD, origin/master, origin/HEAD, master)
+commit c241d07d01cb5227bb93aed8c95a856c8f565161 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Sep 28 20:27:20 2014 -0430
+
+    * Agragados Plugines WOT - HTTPS Anywhere - APPT
+    * Cambios en paquetes
+
+commit 1373db3b10d1869c0f9c34212e7bfd281369918d
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Sep 24 19:55:38 2014 -0430
+
+    * changelog
+
+commit 19fcf4ed82ee8ce363b69daa51f462f5006d9e05
 Author: xombra <xombra.com@gmail.com>
 Date:   Wed Sep 24 19:54:50 2014 -0430
 
