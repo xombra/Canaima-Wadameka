@@ -1,0 +1,22 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "Develop and Debug Chrome Apps & Extensions.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV/GMX7sjLe3ceUizalvfZK0qhsWnXcjJ3cCbYvXFo43Q2F7SZM8/0roex0wSpNRSO1j9c/m7YXLYBAOiy21ERRJEVEIvOvWp1LLeoBSsbQnnhSPKInqUrkA8fMRCqI0gHRUK3K7dIiOC2A7jkWUMs4DqRiQSkntUUGzVIoY6OYQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "31.0.1650.8",
+   "name": "Chrome Apps & Extensions Developer Tool",
+   "permissions": [ "management", "developerPrivate", "activityLogPrivate" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.18"
+}

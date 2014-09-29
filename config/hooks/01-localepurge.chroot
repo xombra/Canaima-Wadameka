@@ -124,9 +124,9 @@ locale-gen  es_ES.UTF-8 UTF-8
 echo "#######################################################"
 echo "## hardlink por favor espere                         ##"
 echo "#######################################################"
-# hardlink -f -x /sys -t -o /
+hardlink -f -x /sys -t -o /
 echo "## prelink ##"
-# prelink -amR
+prelink -amR
 systemctl disable ssh
 echo "#######################################################"
 echo "#######################################################"

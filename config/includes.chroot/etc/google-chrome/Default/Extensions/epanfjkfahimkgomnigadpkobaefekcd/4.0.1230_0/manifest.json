@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "almond-min.js", "jquery-min.js", "underscore-min.js", "api-background.js", "background.js", "dropbox-min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/Icon.png",
+      "default_title": "DoNotTrackMe: Online Privacy Protection v4.0.1230"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "almond-min.js", "jquery-min.js", "underscore-min.js", "backbone-min.js", "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "iframe_content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "Protect your privacy. Stop companies & advertisers from tracking your browsing and sending you spam email.",
+   "icons": {
+      "128": "images/Icon-128.png",
+      "16": "images/Icon-16.png",
+      "48": "images/Icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZ1YcwVaEuDiAEIXikSOHsko3mhhI8roIunPTk6ibIgGGXMOgyWOle5a5O7g/0Bsmmo3cGkfDx/AXBYjHhLAR5R78Vda5j14y1cJadxKRzbQtR+ZzEGYleOYXz0Zk0LN97mlnog74ydS2GKe2ve4+6r49FX/RbhnalDII2Xz4/hwIDAQAB",
+   "manifest_version": 2,
+   "name": "DoNotTrackMe: Online Privacy Protection",
+   "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "\u003Call_urls>", "contextMenus", "clipboardWrite", "storage", "proxy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.1230",
+   "web_accessible_resources": [ "pages/application.css", "images/Icon.png", "pages/images/ajax_loader.gif", "pages/images/maskedcard.png", "pages/images/masked_carda.png", "pages/images/glyphicons-halflings.png", "pages/images/glyphicons-halflings-white.png", "pages/images/back.png", "pages/images/refresh.png", "pages/images/help.png", "pages/images/settings.png", "pages/images/maskmail-icon.png", "pages/images/maskmail-icon-green.png", "pages/images/maskmail-icon-grey.png", "pages/images/maskmail-icon-red.png", "pages/images/disclosemail-icon.png", "pages/images/maskphone-icon.png", "pages/images/maskphone-icon-green.png", "pages/images/maskphone-icon-grey.png", "pages/images/maskphone-icon-red.png", "pages/images/disclosephone-icon.png", "pages/images/maskcard-icon.png", "pages/images/maskcard-icon-green.png", "pages/images/maskcard-icon-grey.png", "pages/images/maskcard-icon-red.png", "pages/images/search-icon-green.png", "pages/images/search-icon-grey.png", "pages/images/search-icon-red.png", "pages/images/masked_card_gold.png", "pages/images/masked_card_black.png", "pages/images/secure-lock.png", "pages/images/globe-green.png", "pages/images/globe-grey.png", "pages/images/globe-red.png", "pages/images/key-green.png", "pages/images/key-grey.png", "pages/images/key-red.png", "pages/images/disclosecard-icon.png", "pages/images/password-icon.png", "pages/images/user-icon.png", "pages/images/manage/dd_close_icon.png", "pages/images/manage/dd_question_icon.png", "pages/images/manage/dd_settings_icon.png", "pages/images/manage/dd_down_icon.png", "pages/images/manage/dntme_logo_short_green.png", "pages/images/manage/dntme_logo.png", "pages/images/close-grey.png", "pages/images/close-blue.png", "pages/images/close-greyDarkest.png", "pages/images/close-white.png", "pages/images/arrow-opened.png", "pages/images/arrow-closed.png", "pages/images/card-lock.png", "pages/images/blocked.png", "pages/images/unblocked.png", "pages/images/selected.png", "pages/images/unselected.png", "pages/images/switches.png", "pages/images/word_switches.png", "pages/images/knob.png", "pages/images/dashboard-blue.png", "pages/images/dashboard-lightBlue.png", "pages/images/badge/bronze.png", "pages/images/badge/silver.png", "pages/images/badge/gold.png", "pages/images/badge/platinum.png", "pages/images/badge/panelMedalBronze.png", "pages/images/badge/panelMedalSilver.png", "pages/images/badge/panelMedalGold.png", "pages/images/badge/panelMedalPlatinum.png", "pages/images/badge/plusonecard.png", "pages/images/badge/nomedal.png", "pages/images/badge/bronzeMedal.png", "pages/images/badge/silverMedal.png", "pages/images/badge/goldMedal.png", "pages/images/badge/platinumMedal.png", "pages/fonts/258B2A_0_0.eot", "pages/fonts/258B2A_0_0.ttf", "pages/fonts/258B2A_0_0.woff", "pages/fonts/258B2A_1_0.eot", "pages/fonts/258B2A_1_0.ttf", "pages/fonts/258B2A_1_0.woff", "pages/fonts/262442_2_0.eot", "pages/fonts/262442_2_0.woff", "pages/fonts/262442_2_0.ttf", "pages/fonts/OpenSansRegular.eot", "pages/fonts/OpenSansRegular.woff", "pages/fonts/OpenSansRegular.ttf", "pages/fonts/OpenSansBold.eot", "pages/fonts/OpenSansBold.woff", "pages/fonts/OpenSansBold.ttf", "pages/images/dnt-field-icon.png", "pages/images/accounts.png", "pages/images/wallet.png", "pages/images/masking.png", "pages/images/tracking.png", "pages/images/dnt-ui-header-logo.png", "pages/images/dnt-ui-header-home.png", "pages/images/dnt-ui-header-help.png", "pages/images/dnt-ui-header-settings.png", "pages/images/dnt-ui-header-settings-grey.png", "pages/images/dnt-ui-footer-heart.png", "pages/images/dnt-ui-footer-new.png", "pages/images/dnt-ui-header-close.png", "pages/images/dnt-ui-drawer-arrow-open.png", "pages/images/dnt-ui-drawer-arrow-closed.png", "pages/images/dnt-ui-thumbsup.png", "pages/images/dnt-ui-thumbsup-blue.png", "pages/images/dnt-ui-weekly-report.png", "pages/images/dnt-address-icon.png" ]
+}

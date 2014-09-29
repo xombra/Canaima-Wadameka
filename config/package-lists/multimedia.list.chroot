@@ -1,6 +1,7 @@
 alsa-base
 alsa-utils
 brasero
+gimp
 gstreamer0.10-alsa
 gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-base

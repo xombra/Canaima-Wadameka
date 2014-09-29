@@ -7,7 +7,6 @@ dmraid
 dnsmasq
 gcp
 grub-pc
-hardlink
 iproute2
 isolinux
 laptop-detect

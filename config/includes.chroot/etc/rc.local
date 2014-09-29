@@ -10,11 +10,12 @@
 # bits.
 #
 # By default this script does nothing.
+# change by @Sinfallas
 num_cpus=$(grep -c processor /proc/cpuinfo)
-# modprobe zram zram_num_devices=$num_cpus
-# echo $((100*1024*1024)) > /sys/block/zram0/disksize
-# mkswap /dev/zram0
-# swapon -p 50 /dev/zram0
+modprobe zram zram_num_devices=$num_cpus
+echo $((100*1024*1024)) > /sys/block/zram0/disksize
+mkswap /dev/zram0
+swapon -p 50 /dev/zram0
 mkdir -p /dev/cgroup/cpu
 mount -t cgroup cgroup /dev/cgroup/cpu -o cpu
 mkdir -m 0777 /dev/cgroup/cpu/user
@@ -25,4 +26,5 @@ swapon -p 25 -f $miswap
 rmmod -f ip_tables ip6_tables iptable_filter iptable_mangle iptable_nat iptable_raw bluetooth rfcomm
 service anacron stop
 service cron stop
+
 exit 0
