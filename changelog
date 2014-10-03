@@ -1,4 +1,16 @@
-commit dc75d68948bd2153407f9f8ac755f17161e48df8 (HEAD, origin/master, origin/HEAD, master)
+commit 4294205a04f3ccf5129db111117d192f41467b50 (HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Oct 3 19:12:32 2014 -0430
+
+    * se arreglan los repos
+
+commit d0b2754eb79e6f10af6c9061fde8e90c2afe369b (origin/master, origin/HEAD)
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Oct 3 19:09:36 2014 -0430
+
+    * changelog
+
+commit dc75d68948bd2153407f9f8ac755f17161e48df8
 Author: xombra <xombra.com@gmail.com>
 Date:   Fri Oct 3 19:08:47 2014 -0430
 
