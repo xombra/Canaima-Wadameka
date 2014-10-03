@@ -18,7 +18,7 @@ Global {
     usefontsize=0
     fontsize=10    
     background=1
-    backgroundfile=/usr/share/images/desktop-base/background.png
+    backgroundfile=/usr/share/lxpanel/images/background.png
 }
 
 Plugin {
