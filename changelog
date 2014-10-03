@@ -1,4 +1,16 @@
-commit d03cc58e852287c847d2ce8235f06e5b1b3c49b1 (HEAD, origin/master, origin/HEAD, master)
+commit dc75d68948bd2153407f9f8ac755f17161e48df8 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Oct 3 19:08:47 2014 -0430
+
+    * se repara lxpanel
+
+commit dfd0f945cbea80c2571d69cf57a6e8c9e1ffaeab
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Oct 3 13:03:21 2014 -0430
+
+    * changelog
+
+commit d03cc58e852287c847d2ce8235f06e5b1b3c49b1
 Author: xombra <xombra.com@gmail.com>
 Date:   Fri Oct 3 13:02:29 2014 -0430
 
