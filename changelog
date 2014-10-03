@@ -1,4 +1,16 @@
-commit c241d07d01cb5227bb93aed8c95a856c8f565161 (HEAD, origin/master, origin/HEAD, master)
+commit d03cc58e852287c847d2ce8235f06e5b1b3c49b1 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Fri Oct 3 13:02:29 2014 -0430
+
+    * Ajustes menores - Eliminacion de redundancia en paquetes
+
+commit a712ad28fcc1b2af9d19119478aebb936f928c8c
+Author: xombra <xombra.com@gmail.com>
+Date:   Sun Sep 28 20:51:14 2014 -0430
+
+    * changelog
+
+commit c241d07d01cb5227bb93aed8c95a856c8f565161
 Author: xombra <xombra.com@gmail.com>
 Date:   Sun Sep 28 20:27:20 2014 -0430
 
