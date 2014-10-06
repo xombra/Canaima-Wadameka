@@ -1,10 +1,22 @@
-commit 5ad40c059b0702735b02861827ff182cf0d5472f (HEAD, master)
+commit d618edff1e6c07d658243a67ebdff69ead5fb774 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Oct 6 18:16:40 2014 -0430
+
+    * Cambios Menores de conf
+
+commit 557a417fab2ed1e1ba3f360a5af5a820caf77370
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Oct 6 15:26:56 2014 -0430
+
+    * changelog
+
+commit 5ad40c059b0702735b02861827ff182cf0d5472f
 Author: xombra <xombra.com@gmail.com>
 Date:   Mon Oct 6 13:09:00 2014 -0430
 
     * Cambios menores
 
-commit 3a3525693d828b1d22cace88d0c49cc628c504f8 (origin/master, origin/HEAD)
+commit 3a3525693d828b1d22cace88d0c49cc628c504f8
 Author: xombra <xombra.com@gmail.com>
 Date:   Fri Oct 3 19:13:22 2014 -0430
 
