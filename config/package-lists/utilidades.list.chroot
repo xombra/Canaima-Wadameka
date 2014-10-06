@@ -23,11 +23,9 @@ powertop
 prelink
 preload
 psad
-scrot
 ssh-client
 synaptic
 simple-scan
-xterm
 udevil
 udisks
 unrar-free
@@ -36,5 +34,6 @@ usb-modeswitch
 usbmuxd
 usbutils
 usbview
+xterm
 yad
 htop

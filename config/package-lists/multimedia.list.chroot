@@ -1,6 +1,5 @@
 alsa-base
 alsa-utils
-brasero
 gimp
 gstreamer0.10-alsa
 gstreamer0.10-plugins-bad
@@ -20,5 +19,6 @@ pulseaudio-module-jack
 qjackctl
 vlc
 vlc-plugin-pulse
+xfburn
 xsane
 htop

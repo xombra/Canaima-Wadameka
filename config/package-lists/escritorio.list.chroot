@@ -1,3 +1,4 @@
+jwm
 fdpowermon
 fdpowermon-icons
 gksu
@@ -10,14 +11,14 @@ lxde-common
 lxlauncher
 lxmenu-data
 lxpolkit
-lxsession
-lxsession-logout
 lxtask
+menu
 menu-l10n
 menu-xdg
 mint-x-icons
 xcompmgr
 thunar-data
 thunar-archive-plugin
+x11-utils
 x11-session-utils
 htop
