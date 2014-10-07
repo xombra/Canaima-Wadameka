@@ -1,3 +1,15 @@
+Package: iceweasel
+Pin: version *
+Pin-Priority: -1
+
+Package: iceweasel-l10n-es-es
+Pin: version *
+Pin-Priority: -1
+
+Package: w3m
+Pin: version *
+Pin-Priority: -1
+
 Package: gnome-control-center
 Pin: version *
 Pin-Priority: -1
@@ -198,18 +210,6 @@ Package: avahi-daemon
 Pin: version *
 Pin-Priority: -1
 
-Package: iceweasel
-Pin: version *
-Pin-Priority: -1
-
-Package: iceweasel-l10n-es-es
-Pin: version *
-Pin-Priority: -1
-
-Package: w3m
-Pin: version *
-Pin-Priority: -1
-
 Package: *
 Pin: release n=experimental
 Pin-Priority: 1
@@ -259,10 +259,6 @@ Pin: version *
 Pin-Priority: -1
 
 Package: rarian-compat
-Pin: version *
-Pin-Priority: -1
-
-Package: tor-geoipdb
 Pin: version *
 Pin-Priority: -1
 

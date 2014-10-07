@@ -40,7 +40,7 @@ echo "#######################################################"
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 lighttpd
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel lxmusic attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 lighttpd 
 echo "#######################################################"
 echo "##           autoremove                              ##"
 echo "#######################################################"
