@@ -1,4 +1,16 @@
-commit 8adc5f2dd96f924c1b2022b7e9bfb031f445938f (HEAD, origin/master, origin/HEAD, master)
+commit 73f3fa185670d120bbf10c4a9043b365f52f84c9 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Oct 7 14:20:18 2014 -0430
+
+    Cambios en la conf de LXDE
+
+commit 1603813ac42a46175d0a2fd9c7a730772ba8c1c6
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Oct 7 13:46:29 2014 -0430
+
+    * changelog
+
+commit 8adc5f2dd96f924c1b2022b7e9bfb031f445938f
 Author: xombra <xombra.com@gmail.com>
 Date:   Tue Oct 7 13:45:41 2014 -0430
 
