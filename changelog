@@ -1,4 +1,16 @@
-commit d618edff1e6c07d658243a67ebdff69ead5fb774 (HEAD, origin/master, origin/HEAD, master)
+commit 8adc5f2dd96f924c1b2022b7e9bfb031f445938f (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Oct 7 13:45:41 2014 -0430
+
+    * Cambios en paquetes y configuraciones
+
+commit 6452744080819d44f824bed2cd2c88b359e1b7f8
+Author: xombra <xombra.com@gmail.com>
+Date:   Mon Oct 6 18:17:27 2014 -0430
+
+    * changelog
+
+commit d618edff1e6c07d658243a67ebdff69ead5fb774
 Author: xombra <xombra.com@gmail.com>
 Date:   Mon Oct 6 18:16:40 2014 -0430
 
