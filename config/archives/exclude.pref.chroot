@@ -1,11 +1,3 @@
-Package: iceweasel
-Pin: version *
-Pin-Priority: -1
-
-Package: iceweasel-l10n-es-es
-Pin: version *
-Pin-Priority: -1
-
 Package: w3m
 Pin: version *
 Pin-Priority: -1

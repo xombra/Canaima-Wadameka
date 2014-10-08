@@ -40,7 +40,7 @@ echo "#######################################################"
 echo "#######################################################"
 echo "##               PURGE                              ##"
 echo "#######################################################"
-apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel lxmusic attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common apache2 lighttpd 
+apt-get -y purge $(deborphan --libdevel) $(deborphan --find-config) iceweasel lxmusic attr bluez bluez-firmware build-essential dpkg-dev linux-wlan-ng-doc man-db manpages aptitude libc6-dev python-dnspython samba-vfs-modules geoip-database vim-tiny vim-common
 echo "#######################################################"
 echo "##           autoremove                              ##"
 echo "#######################################################"
@@ -114,6 +114,7 @@ rm -f /var/cache/apt/srcpkgcache.bin
 rm -f /usr/share/doc/desktop-base/README.Debian
 rm -rf /etc/apache2
 rm -rf /etc/iceweasel
+rm -rf /etc/lighttpd
 echo "#######################################################"
 echo "## limpieza de log ####################################"
 echo "#######################################################"
@@ -129,6 +130,11 @@ hardlink -f -x /sys -t -o /
 echo "## prelink ##"
 prelink -amR
 systemctl disable ssh
+echo "#######################################################"
+echo "## Cambiando propietario de grupo/usuario a .config##"
+echo "#######################################################"
+chgrp -R user /home/user/.config
+chown -hR user /home/user/.config
 echo "#######################################################"
 echo "#######################################################"
 echo "## Fin de Script realizado por @sinfallas            ##"
