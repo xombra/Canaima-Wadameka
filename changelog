@@ -1,4 +1,16 @@
-commit 73f3fa185670d120bbf10c4a9043b365f52f84c9 (HEAD, origin/master, origin/HEAD, master)
+commit b988380e8b44631e8e053a1f8aad076a0574de04 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Oct 8 10:48:34 2014 -0430
+
+    * Eliminacion de paquetes redundantes
+
+commit e834042b0515567739c84b7ca59ff72435b4c40a
+Author: xombra <xombra.com@gmail.com>
+Date:   Tue Oct 7 14:21:31 2014 -0430
+
+    * changelog
+
+commit 73f3fa185670d120bbf10c4a9043b365f52f84c9
 Author: xombra <xombra.com@gmail.com>
 Date:   Tue Oct 7 14:20:18 2014 -0430
 
