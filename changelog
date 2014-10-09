@@ -1,4 +1,23 @@
-commit b988380e8b44631e8e053a1f8aad076a0574de04 (HEAD, origin/master, origin/HEAD, master)
+commit 1be81c38f120478f978013e11f1245fe39394202 (HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Oct 8 16:41:38 2014 -0430
+
+    * Cambios en gestion de purga y permisos
+
+commit 634640e4c3368e24dd5ebaf259231212e50c8c5f
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Oct 8 16:33:39 2014 -0430
+
+    * Cambios en conf LXDE y supresion temporal de brltty para ser
+    * colocado en script
+
+commit 0a717e23182eea57dcf74dda434139e95f95bb21 (origin/master, origin/HEAD)
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Oct 8 10:49:14 2014 -0430
+
+    * changelog
+
+commit b988380e8b44631e8e053a1f8aad076a0574de04
 Author: xombra <xombra.com@gmail.com>
 Date:   Wed Oct 8 10:48:34 2014 -0430
 
