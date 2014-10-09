@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://dnt.abine.com/#/chromeapp"
+      }
+   },
+   "description": "Register and shop on sites with private info. Also, get the DoNotTrackMe extension to stop sneaky companies from tracking you.",
+   "icons": {
+      "128": "128x128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4MvROQr1p3SB34fqGbVd4FOkFgUIrbB5RZ33n7nps0z2MHPxMAtHDCFL5CI3am8nDm2ntOK305AfGzbwjkOHdaSSzP9VjH9qxrXA2l0ne1eo8dEFzE+M1mMH7dbVCb+7+6HWtmnDz0wUJtz+G65950AVbc29eqi3w7ACyWHJRWqiIDgYZ1qPul5E/c02VMtJIeETQ6/+Y7pXMvomn/zZ+vZQwvptWWDDX3h2mT+UMOF8mAWA7jxG2G7JEH77GAIYE7KhtbKG0Bs88CijGg/UjfRsyMMI0y2xirw1rQGXbCVTjoXjdokW7k4RzzvQbSACRfIwBto+Uyyu/gUsOKyQdwIDAQAB",
+   "manifest_version": 2,
+   "name": "DoNotTrackMe Privacy Dashboard",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

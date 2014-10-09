@@ -2,156 +2,143 @@
 # Use preference dialog in lxpanel to adjust config when you can.
 
 Global {
-    edge=top
-    allign=left
-    margin=0
-    widthtype=percent
-    width=100
-    height=26
-    transparent=1
-    tintcolor=0
-    alpha=43
-    autohide=0
-    heightwhenhidden=2
-    setdocktype=1
-    setpartialstrut=1
-    usefontcolor=1
-    fontsize=10
-    fontcolor=#ffffff
-    usefontsize=0
-    background=0
-    backgroundfile=/usr/share/lxpanel/images/background.png
-    iconsize=24
+  edge=top
+  allign=left
+  margin=0
+  widthtype=percent
+  width=100
+  height=26
+  transparent=1
+  alpha=49
+  autohide=0
+  heightwhenhidden=2
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontsize=10
+  fontcolor=#ffffff
+  usefontsize=0
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  iconsize=24
+  tintcolor=#ffffff
 }
-
 Plugin {
-    type = space
-    Config {
-        Size=2
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=menu
+  Config {
+    image=/usr/share/lxde/images/lxde-icon.png
+    system {
     }
-}
-
-Plugin {
-    type = menu
-    Config {
-        image=/usr/share/lxde/images/lxde-icon.png
-        system {
-        }
-        separator {
-        }
-        item {
-            command=run
-        }
-        separator {
-        }
-        item {
-            image=gnome-logout
-            command=logout
-        }
+    separator {
     }
-}
-
-Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=lxde-x-www-browser.desktop
-        }
-        Button {
-            id=/usr/share/applications/Thunar.desktop
-        }
+    item {
+      command=run
     }
-}
-
-Plugin {
-    type = space
-    Config {
-        Size=4
+    separator {
     }
-}
-
-Plugin {
-    type = wincmd
-    Config {
-        image=window-manager
-        Button1=iconify
-        Button2=shade
-        Toggle=0
+    item {
+      image=gnome-logout
+      command=logout
     }
+  }
 }
-
 Plugin {
-    type = space
-    Config {
-        Size=4
+  type=launchbar
+  Config {
+    Button {
+      id=lxde-x-www-browser.desktop
     }
-}
-
-Plugin {
-    type = pager
-}
-
-Plugin {
-    type = space
-    Config {
-        Size=4
+    Button {
+      id=/usr/share/applications/Thunar.desktop
     }
+  }
 }
-
 Plugin {
-    type = taskbar
-    expand=1
-    Config {
-        tooltips=1
-        IconsOnly=0
-        ShowAllDesks=0
-        UseMouseWheel=1
-        UseUrgencyHint=1
-        FlatButton=0
-        MaxTaskWidth=150
-        spacing=1
-        GroupedTasks=0
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=wincmd
+  Config {
+    image=window-manager
+    Button1=iconify
+    Button2=shade
+    Toggle=0
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=taskbar
+  expand=1
+  Config {
+    tooltips=1
+    IconsOnly=0
+    ShowAllDesks=0
+    UseMouseWheel=1
+    UseUrgencyHint=1
+    FlatButton=0
+    MaxTaskWidth=150
+    spacing=1
+    GroupedTasks=0
+  }
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=volumealsa
+  Config {
+  }
+}
+Plugin {
+  type=thermal
+  Config {
+    NormalColor=#088A08
+    Warning1Color=#fff000
+    Warning2Color=#ff0000
+    CustomLevels=1
+    Warning1Temp=140
+    Warning2Temp=145
+    AutomaticSensor=1
+    AutomaticLevels=1
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%I:%M
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=lxde-logout.desktop
     }
+  }
 }
-
-Plugin {
-    type = tray
-}
-
-Plugin {
-    type = volumealsa
-}
-
-Plugin {
-    type = thermal
-    Config {
-        NormalColor=#088A08
-        Warning1Color=#fff000
-        Warning2Color=#ff0000
-        CustomLevels=1
-        Warning1Temp=85
-        Warning2Temp=90
-        AutomaticSensor=1
-    }
-}
-
-Plugin {
-    type = dclock
-    Config {
-        ClockFmt=%I:%M
-        TooltipFmt=%A %x
-        BoldFont=0
-        IconOnly=0
-        CenterText=0
-    }
-}
-
-Plugin {
-    type = launchbar
-    Config {
-        Button {
-            id=lxde-logout.desktop
-        }
-    }
-}
-

@@ -1,0 +1,1466 @@
+{
+   "mm_address_helper_abine_address": {
+      "description": "no description",
+      "message": "Fill Abine's Billing Address (For Masked Card)"
+   },
+   "mm_address_helper_add_new": {
+      "description": "no description",
+      "message": "Add new address"
+   },
+   "mm_address_helper_use": {
+      "description": "no description",
+      "message": "Fill \"$1\" address"
+   },
+   "mm_dntme_account_locked": {
+      "description": "no description",
+      "message": "Oops! Your account is locked contact our \u003Ca class='help-link'>support team\u003C/a>."
+   },
+   "mm_dntme_accounts_goto_dashboard": {
+      "description": "no description",
+      "message": "Go to Accounts Dashboard"
+   },
+   "mm_dntme_accounts_password": {
+      "description": "no description",
+      "message": "Suggest strong passwords is"
+   },
+   "mm_dntme_accounts_save": {
+      "description": "no description",
+      "message": "Account auto-fill & login is"
+   },
+   "mm_dntme_alltime_blocked": {
+      "description": "no description",
+      "message": "You've blocked \u003Cb>$1\u003C/b> trackers!"
+   },
+   "mm_dntme_alltime_blocked_small": {
+      "description": "no description",
+      "message": "Blocked \u003Cb>$1\u003C/b> trackers!"
+   },
+   "mm_dntme_back": {
+      "description": "no description",
+      "message": "Go back"
+   },
+   "mm_dntme_back_br": {
+      "description": "no description",
+      "message": "Go\u003Cbr>back"
+   },
+   "mm_dntme_blocked": {
+      "description": "no description",
+      "message": "blocked"
+   },
+   "mm_dntme_blocked_at": {
+      "description": "no description",
+      "message": "blocked"
+   },
+   "mm_dntme_card_alert_panelAtRisk": {
+      "description": "no description",
+      "message": "Your credit card is at risk here."
+   },
+   "mm_dntme_card_alert_panelEarned": {
+      "description": "no description",
+      "message": "You've earned 1 free Masked Card!"
+   },
+   "mm_dntme_card_alert_panelGotIt": {
+      "description": "no description",
+      "message": "Got it"
+   },
+   "mm_dntme_card_alert_panelProtectWith": {
+      "description": "no description",
+      "message": "Protect your credit card with a single-use, prepaid card."
+   },
+   "mm_dntme_card_alert_panelRedeemYourCard": {
+      "description": "no description",
+      "message": "Redeem your Masked Card right on the checkout page!"
+   },
+   "mm_dntme_card_alert_panelUseMask": {
+      "description": "no description",
+      "message": "Use a Mask Card to protect your card when prompted."
+   },
+   "mm_dntme_change_email_message": {
+      "description": "no description",
+      "message": "\u003Cb>Note:\u003C/b> Your new Masked Email forwards to $1 (and not $2). \u003CBr/>You can \u003Ca href='#' id='changeSetting'>change this setting here\u003C/a>."
+   },
+   "mm_dntme_chart_y2_axis_title": {
+      "description": "no description",
+      "message": "Daily # trackers blocked"
+   },
+   "mm_dntme_chart_y_axis_title": {
+      "description": "no description",
+      "message": "Total # trackers blocked"
+   },
+   "mm_dntme_clear_skies": {
+      "description": "no description",
+      "message": "No trackers found"
+   },
+   "mm_dntme_clear_skies_subtext": {
+      "description": "no description",
+      "message": "All clear, Captain!"
+   },
+   "mm_dntme_complete_setup": {
+      "description": "no description",
+      "message": "Complete setup:"
+   },
+   "mm_dntme_complete_setup_button": {
+      "description": "no description",
+      "message": "Complete setup"
+   },
+   "mm_dntme_congrats": {
+      "description": "no description",
+      "message": "CONGRATS!"
+   },
+   "mm_dntme_create_account": {
+      "description": "no description",
+      "message": "Create account"
+   },
+   "mm_dntme_dashboard_accounts": {
+      "description": "no description",
+      "message": "Accounts"
+   },
+   "mm_dntme_dashboard_done": {
+      "description": "no description",
+      "message": "Done"
+   },
+   "mm_dntme_dashboard_get_app": {
+      "description": "no description",
+      "message": "Complete"
+   },
+   "mm_dntme_dashboard_has_dropbox": {
+      "description": "no description",
+      "message": "Backup & Sync: \u003Cbr>\u003Cspan class=\"green\">synced\u003C/span>"
+   },
+   "mm_dntme_dashboard_has_mobile_app": {
+      "description": "no description",
+      "message": "Mobile app: \u003Cbr>\u003Cspan class=\"green\">installed\u003C/span>"
+   },
+   "mm_dntme_dashboard_masking": {
+      "description": "no description",
+      "message": "Masking"
+   },
+   "mm_dntme_dashboard_no_dropbox": {
+      "description": "no description",
+      "message": "Backup & Sync: \u003Cbr>\u003Cspan class=\"red\">NOT\u003C/span> synced"
+   },
+   "mm_dntme_dashboard_no_mobile_app": {
+      "description": "no description",
+      "message": "Mobile app: \u003Cbr>\u003Cspan class=\"red\">NOT\u003C/span> installed"
+   },
+   "mm_dntme_dashboard_setup_sync": {
+      "description": "no description",
+      "message": "Complete"
+   },
+   "mm_dntme_dashboard_show_details": {
+      "description": "no description",
+      "message": "show details"
+   },
+   "mm_dntme_dashboard_tracking": {
+      "description": "no description",
+      "message": "Tracking"
+   },
+   "mm_dntme_dashboard_wallet": {
+      "description": "no description",
+      "message": "Wallet"
+   },
+   "mm_dntme_disable_on_this_page": {
+      "description": "no description",
+      "message": "Disable on this page"
+   },
+   "mm_dntme_disable_on_this_site": {
+      "description": "no description",
+      "message": "Disable on this site"
+   },
+   "mm_dntme_disable_panel": {
+      "description": "no description",
+      "message": "Disable Panel?"
+   },
+   "mm_dntme_disabled_in_settings": {
+      "description": "no description",
+      "message": "Disabled under settings"
+   },
+   "mm_dntme_dont_track_browsing": {
+      "description": "no description",
+      "message": "Don't track my browsing"
+   },
+   "mm_dntme_dont_track_card": {
+      "description": "no description",
+      "message": "Don't track my credit card"
+   },
+   "mm_dntme_dont_track_email": {
+      "description": "no description",
+      "message": "Don't track my email"
+   },
+   "mm_dntme_dont_track_logins": {
+      "description": "no description",
+      "message": "Don't save my logins"
+   },
+   "mm_dntme_dont_track_passwords": {
+      "description": "no description",
+      "message": "Don't suggest passwords"
+   },
+   "mm_dntme_dont_track_phone": {
+      "description": "no description",
+      "message": "Don't track my phone"
+   },
+   "mm_dntme_dont_track_search": {
+      "description": "no description",
+      "message": "Don't track my searches"
+   },
+   "mm_dntme_duplicate_email": {
+      "description": "no description",
+      "message": "Whoops! The email \u003Cb>$1\u003C/b> has already been used for DoNotTrackMe.\u003Cbr/>\u003Ca href='javascript:void(0);' id='loginButton'>Login\u003C/button> \u003Ca id='retryEmail'>(or use a different email)\u003C/a>"
+   },
+   "mm_dntme_earned_medal": {
+      "description": "no description",
+      "message": "Congratulations! You've earned a $1 medal!"
+   },
+   "mm_dntme_enter_email": {
+      "description": "no description",
+      "message": "Enter your email, then choose:"
+   },
+   "mm_dntme_enter_email_simple": {
+      "description": "no description",
+      "message": "Enter your email"
+   },
+   "mm_dntme_enter_password_simple": {
+      "description": "no description",
+      "message": "Enter password"
+   },
+   "mm_dntme_feedback_submit": {
+      "description": "no description",
+      "message": "Submit"
+   },
+   "mm_dntme_for_all_sites": {
+      "description": "no description",
+      "message": "for all websites"
+   },
+   "mm_dntme_for_this_site": {
+      "description": "no description",
+      "message": "for this site"
+   },
+   "mm_dntme_for_this_website": {
+      "description": "no description",
+      "message": "for this website"
+   },
+   "mm_dntme_forgot_my_password": {
+      "description": "no description",
+      "message": "I forgot my password"
+   },
+   "mm_dntme_free_member": {
+      "description": "no description",
+      "message": "\u003Cspan class=blue>Free member\u003C/span> since \u003Cspan class=date>\u003C/span>"
+   },
+   "mm_dntme_funword1": {
+      "description": "no description",
+      "message": "Nice!"
+   },
+   "mm_dntme_funword2": {
+      "description": "no description",
+      "message": "Wow!"
+   },
+   "mm_dntme_funword3": {
+      "description": "no description",
+      "message": "Sweet!"
+   },
+   "mm_dntme_funword4": {
+      "description": "no description",
+      "message": "Rock on!"
+   },
+   "mm_dntme_global_defaults": {
+      "description": "no description",
+      "message": "Global defaults"
+   },
+   "mm_dntme_help": {
+      "description": "no description",
+      "message": "help"
+   },
+   "mm_dntme_help_browsing": {
+      "description": "no description",
+      "message": "Turn tracker blocking on or off across all sites."
+   },
+   "mm_dntme_help_card": {
+      "description": "no description",
+      "message": "Premium feature: Turn card panels (that offer option to mask your card on website forms) on or off across all sites."
+   },
+   "mm_dntme_help_dont_save_accounts": {
+      "description": "no description",
+      "message": "Select if you do not want to save your login accounts on this site"
+   },
+   "mm_dntme_help_email": {
+      "description": "no description",
+      "message": "Turn email panels (that offer option to mask your email on website forms) on or off across all sites."
+   },
+   "mm_dntme_help_global_defaults": {
+      "description": "no description",
+      "message": "These settings apply to all websites you visit."
+   },
+   "mm_dntme_help_helpmelogin": {
+      "description": "no description",
+      "message": "Since your Masked Emails are often used as logins for websites, we can automatically type them into email boxes on login forms for you."
+   },
+   "mm_dntme_help_others": {
+      "description": "no description",
+      "message": "Let us know why you turned off blocking here:"
+   },
+   "mm_dntme_help_phone": {
+      "description": "no description",
+      "message": "Premium feature: Turn phone panels (that offer option to mask your phone on website forms) on or off across all sites."
+   },
+   "mm_dntme_help_rememberaccounts": {
+      "description": "no description",
+      "message": "Remember login accounts"
+   },
+   "mm_dntme_help_search": {
+      "description": "no description",
+      "message": "Protect your searches"
+   },
+   "mm_dntme_help_searchtrackerinfo": {
+      "description": "no description",
+      "message": "Show tracker information with search results"
+   },
+   "mm_dntme_help_shouldsenderrorreports": {
+      "description": "no description",
+      "message": "To help us improve the product, enabling this preference sends anonymous error and usage data to our servers."
+   },
+   "mm_dntme_help_showintheknowgrowls": {
+      "description": "no description",
+      "message": "Notifies you of websites that have suffered a data breach (on the top right of your browser screen) as you browse the web."
+   },
+   "mm_dntme_help_showmedals": {
+      "description": "no description",
+      "message": "Privacy Medals are meant to be a fun form of encouragement for stopping lots of trackers."
+   },
+   "mm_dntme_help_shownotifications": {
+      "description": "no description",
+      "message": "DoNotTrackMe occasionally shows notifications on the top right of your browser screen (like when you create a new Masked Email)."
+   },
+   "mm_dntme_help_showsearchtrackerinfo": {
+      "description": "no description",
+      "message": "Displays the number of trackers detected on a site linked from a search result."
+   },
+   "mm_dntme_help_showtrackersonload": {
+      "description": "no description",
+      "message": "Displays the number of trackers blocked for every website (on the top right of your browser screen) as you browse the web."
+   },
+   "mm_dntme_help_showweeklyreports": {
+      "description": "no description",
+      "message": "A summary report of your blocked trackers is presented to you every Sunday."
+   },
+   "mm_dntme_help_suggestaddresses": {
+      "description": "no description",
+      "message": "Suggest filling your address into form fields."
+   },
+   "mm_dntme_help_suggestions": {
+      "description": "no description",
+      "message": "Based on user feedback we sometimes unblock certain trackers by default to allow some websites to function properly."
+   },
+   "mm_dntme_help_suggeststrongpassword": {
+      "description": "no description",
+      "message": "Suggest strong password panels on register forms"
+   },
+   "mm_dntme_help_trusted_browsing": {
+      "description": "no description",
+      "message": "Select if you trust that they don't track your browsing"
+   },
+   "mm_dntme_help_trusted_card": {
+      "description": "no description",
+      "message": "Select if you trust that they don't lose your credit card"
+   },
+   "mm_dntme_help_trusted_email": {
+      "description": "no description",
+      "message": "Select if you trust that they don't spam your email"
+   },
+   "mm_dntme_help_trusted_phone": {
+      "description": "no description",
+      "message": "Select if you trust that they don't spam your phone"
+   },
+   "mm_dntme_help_trusted_sites": {
+      "description": "no description",
+      "message": "List of websites you trust with your personal information."
+   },
+   "mm_dntme_helpmelogin": {
+      "description": "no description",
+      "message": "Auto fill masked emails for logins"
+   },
+   "mm_dntme_hide_tracking_companies": {
+      "description": "no description",
+      "message": "Hide tracking companies"
+   },
+   "mm_dntme_info": {
+      "description": "no description",
+      "message": "info"
+   },
+   "mm_dntme_intrusive_not_now": {
+      "description": "no description",
+      "message": "Not now"
+   },
+   "mm_dntme_intrusive_register": {
+      "description": "no description",
+      "message": "Register"
+   },
+   "mm_dntme_intrusive_submit": {
+      "description": "no description",
+      "message": "Submit"
+   },
+   "mm_dntme_invalid_card": {
+      "description": "no description",
+      "message": "Please enter a valid credit card number to mask."
+   },
+   "mm_dntme_invalid_email": {
+      "description": "no description",
+      "message": "Please provide a valid email address."
+   },
+   "mm_dntme_invalid_email_server_error": {
+      "description": "no description",
+      "message": "Please provide a valid email address.  You can't use a masked email as your primary account address.\u003Cbr/>\u003Ca id='retryEmail'>Try a different email\u003C/a>"
+   },
+   "mm_dntme_invalid_password": {
+      "description": "no description",
+      "message": "Please provide a valid password."
+   },
+   "mm_dntme_join_and_protect": {
+      "description": "no description",
+      "message": "Join the community\u003Cbr>and protect your email now:"
+   },
+   "mm_dntme_learn_more": {
+      "description": "no description",
+      "message": "Learn more"
+   },
+   "mm_dntme_masking_card": {
+      "description": "no description",
+      "message": "Mask my credit card is"
+   },
+   "mm_dntme_masking_email": {
+      "description": "no description",
+      "message": "Mask my email is"
+   },
+   "mm_dntme_masking_goto_dashboard": {
+      "description": "no description",
+      "message": "Go to Masking Dashboard"
+   },
+   "mm_dntme_masking_phone": {
+      "description": "no description",
+      "message": "Mask my phone is"
+   },
+   "mm_dntme_more_options": {
+      "description": "no description",
+      "message": "More options"
+   },
+   "mm_dntme_more_options_in_dashboard": {
+      "description": "no description",
+      "message": "More settings in your \u003Cb>Privacy Dashboard\u003C/b>"
+   },
+   "mm_dntme_more_settings": {
+      "description": "no description",
+      "message": "more settings"
+   },
+   "mm_dntme_new_premium_added": {
+      "description": "no description",
+      "message": "New Premium Feature Added"
+   },
+   "mm_dntme_new_version_available": {
+      "description": "no description",
+      "message": "new version $1 available"
+   },
+   "mm_dntme_not_suggested": {
+      "description": "no description",
+      "message": "not suggested"
+   },
+   "mm_dntme_please_fill_reason": {
+      "description": "no description",
+      "message": "Please enter a reason."
+   },
+   "mm_dntme_preferences": {
+      "description": "no description",
+      "message": "Preferences"
+   },
+   "mm_dntme_premium": {
+      "description": "no description",
+      "message": "PREMIUM"
+   },
+   "mm_dntme_premium_member": {
+      "description": "no description",
+      "message": "\u003Cspan class=blue>Premium member\u003C/span>"
+   },
+   "mm_dntme_privacy_dashboard": {
+      "description": "no description",
+      "message": "PRIVACY DASHBOARD"
+   },
+   "mm_dntme_reason_other": {
+      "description": "no description",
+      "message": "Other reason."
+   },
+   "mm_dntme_reason_site_not_working": {
+      "description": "no description",
+      "message": "The site is not working properly."
+   },
+   "mm_dntme_register_error": {
+      "description": "no description",
+      "message": "Oops! An unknown error occurred - are you connected to the internet? Please \u003Ca id='retryEmail'>try again later\u003C/a>, or contact our \u003Ca class='help-link'>support team\u003C/a>."
+   },
+   "mm_dntme_reload_required": {
+      "description": "no description",
+      "message": "This page has not been scanned.  Please reload page."
+   },
+   "mm_dntme_rememberaccounts": {
+      "description": "no description",
+      "message": "Remember Login Accounts"
+   },
+   "mm_dntme_server_maintenance": {
+      "description": "no description",
+      "message": "Sorry, but we are currently performing a maintenance update. Please try again shortly or for more information \u003Ca id='statusPageLink' target='_blank' href='https://www.abine.com/status'>click here\u003C/a>."
+   },
+   "mm_dntme_service_unavailable": {
+      "description": "no description",
+      "message": "Oops. Looks like there was a problem retrieving data. Try refreshing the page with your browser.  If this continues to happen, check out \u003Ca href='https://www.abine.com/status' target='_blank'>our server maintenance page\u003C/a> or contact our support team."
+   },
+   "mm_dntme_settings": {
+      "description": "no description",
+      "message": "Settings"
+   },
+   "mm_dntme_shouldsenderrorreports": {
+      "description": "no description",
+      "message": "Send anonymous data"
+   },
+   "mm_dntme_showintheknowgrowls": {
+      "description": "no description",
+      "message": "Show data breach notifications"
+   },
+   "mm_dntme_showmedals": {
+      "description": "no description",
+      "message": "Show Medals"
+   },
+   "mm_dntme_shownotifications": {
+      "description": "no description",
+      "message": "Show notifications on top right"
+   },
+   "mm_dntme_showsearchtrackerinfo": {
+      "description": "no description",
+      "message": "Show tracker info on search results"
+   },
+   "mm_dntme_showtrackersonload": {
+      "description": "no description",
+      "message": "Show tracker info on every page"
+   },
+   "mm_dntme_showweeklyreports": {
+      "description": "no description",
+      "message": "Show weekly reports"
+   },
+   "mm_dntme_sign_in": {
+      "description": "no description",
+      "message": "Sign in"
+   },
+   "mm_dntme_sign_in_to_your": {
+      "description": "no description",
+      "message": "Sign in to your"
+   },
+   "mm_dntme_sign_in_to_your_account": {
+      "description": "no description",
+      "message": "account"
+   },
+   "mm_dntme_suggestaddresses": {
+      "description": "no description",
+      "message": "Suggest auto-filling addresses"
+   },
+   "mm_dntme_suggested": {
+      "description": "no description",
+      "message": "suggested"
+   },
+   "mm_dntme_suggestions": {
+      "description": "no description",
+      "message": "Use Abine tracker suggestions"
+   },
+   "mm_dntme_suggeststrongpassword": {
+      "description": "no description",
+      "message": "Suggest strong password"
+   },
+   "mm_dntme_support_online_privacy": {
+      "description": "no description",
+      "message": "Support Online Privacy"
+   },
+   "mm_dntme_thanks_for_feedback": {
+      "description": "no description",
+      "message": "Thank you for your valuable feedback."
+   },
+   "mm_dntme_toggled_account": {
+      "description": "no description",
+      "message": "Saving logins turned $1 for this website."
+   },
+   "mm_dntme_toggled_address": {
+      "description": "no description",
+      "message": "Auto-fill address turned $1 for this website."
+   },
+   "mm_dntme_toggled_card": {
+      "description": "no description",
+      "message": "Card Masking turned $1 for this website."
+   },
+   "mm_dntme_toggled_email": {
+      "description": "no description",
+      "message": "Email Masking turned $1 for this website."
+   },
+   "mm_dntme_toggled_password": {
+      "description": "no description",
+      "message": "Password suggestions turned $1 for this website."
+   },
+   "mm_dntme_toggled_phone": {
+      "description": "no description",
+      "message": "Phone Masking turned $1 for this website."
+   },
+   "mm_dntme_toggled_real_Card": {
+      "description": "no description",
+      "message": "Auto-fill credit card turned $1 for this website."
+   },
+   "mm_dntme_toggled_reload": {
+      "description": "no description",
+      "message": "Reload the page to apply your new settings."
+   },
+   "mm_dntme_toggled_tracker": {
+      "description": "no description",
+      "message": "You've $1 all tracking on this website."
+   },
+   "mm_dntme_tracker": {
+      "description": "no description",
+      "message": "tracker"
+   },
+   "mm_dntme_trackers": {
+      "description": "no description",
+      "message": "trackers"
+   },
+   "mm_dntme_tracking_attempts_blocked": {
+      "description": "no description",
+      "message": "tracking attempts blocked"
+   },
+   "mm_dntme_tracking_blocker": {
+      "description": "no description",
+      "message": "Tracker blocking is"
+   },
+   "mm_dntme_tracking_disabled": {
+      "description": "no description",
+      "message": "tracking allowed at"
+   },
+   "mm_dntme_tracking_goto_dashboard": {
+      "description": "no description",
+      "message": "Go to Tracking Dashboard"
+   },
+   "mm_dntme_tracking_popup": {
+      "description": "no description",
+      "message": "Trackers popup is"
+   },
+   "mm_dntme_trusted_sites": {
+      "description": "no description",
+      "message": "Trusted Sites"
+   },
+   "mm_dntme_unblocked": {
+      "description": "no description",
+      "message": "unblocked"
+   },
+   "mm_dntme_upgrade_to_premium": {
+      "description": "no description",
+      "message": "FREE USER"
+   },
+   "mm_dntme_version": {
+      "description": "no description",
+      "message": "VERSION"
+   },
+   "mm_dntme_version_not_allowed": {
+      "description": "no description",
+      "message": "Sorry! It looks like you already have a MaskMe account. Unfortunately, DoNotTrackMe's email masking only works for users who have never used MaskMe before. \u003Ca id='dnt2upgrade'>Learn more.\u003C/a>"
+   },
+   "mm_dntme_view_maskmed_card": {
+      "description": "no description",
+      "message": "View Masked Cards"
+   },
+   "mm_dntme_view_maskmed_email": {
+      "description": "no description",
+      "message": "View Masked Emails"
+   },
+   "mm_dntme_view_maskmed_logins": {
+      "description": "no description",
+      "message": "View Saved Logins"
+   },
+   "mm_dntme_view_maskmed_passwords": {
+      "description": "no description",
+      "message": "View Passwords"
+   },
+   "mm_dntme_view_maskmed_phone": {
+      "description": "no description",
+      "message": "View Masked Phones"
+   },
+   "mm_dntme_view_tracking_companies": {
+      "description": "no description",
+      "message": "View tracking companies"
+   },
+   "mm_dntme_wallet_address": {
+      "description": "no description",
+      "message": "Auto-fill addresses is"
+   },
+   "mm_dntme_wallet_card": {
+      "description": "no description",
+      "message": "Mask my credit card is"
+   },
+   "mm_dntme_wallet_goto_dashboard": {
+      "description": "no description",
+      "message": "Go to Wallet Dashboard"
+   },
+   "mm_dntme_wallet_real_card": {
+      "description": "no description",
+      "message": "Auto-fill credit card is"
+   },
+   "mm_dntme_weekly_report_title": {
+      "description": "no description",
+      "message": "\u003Cspan>\u003C/span>: Your weekly tracker report is ready to view &rarr;"
+   },
+   "mm_dntme_who_are_they": {
+      "description": "no description",
+      "message": "Learn more about tracking companies"
+   },
+   "mm_dntme_why_sign_in": {
+      "description": "no description",
+      "message": "Why do I have to create an account?"
+   },
+   "mm_dntme_wrong_email": {
+      "description": "no description",
+      "message": "Looks like your email address or password was incorrect. \u003Ca id='retryEmail'>Please retry with valid credentials.\u003C/a>"
+   },
+   "mm_dntme_wrong_password": {
+      "description": "no description",
+      "message": "Looks like your password was wrong. \u003Ca id='retryEmail'>Please retry with valid credentials.\u003C/a>"
+   },
+   "mm_dntme_your_version": {
+      "description": "no description",
+      "message": "You currently have version"
+   },
+   "mm_dntme_youve_blocked_over": {
+      "description": "no description",
+      "message": "You've blocked over"
+   },
+   "mm_dntme_youve_earned": {
+      "description": "no description",
+      "message": "You've earned:"
+   },
+   "mm_duckbone_default_form_error": {
+      "description": "no description",
+      "message": "Please fix the errors below"
+   },
+   "mm_duckbone_default_form_submit_text": {
+      "description": "no description",
+      "message": "Save"
+   },
+   "mm_email_helper_accountDisabled": {
+      "description": "no description",
+      "message": "Uh oh! Masked Emails have been disabled for your account."
+   },
+   "mm_email_helper_accountEnableLink": {
+      "description": "no description",
+      "message": "Re-enable Masked Emails"
+   },
+   "mm_email_helper_controlMasked": {
+      "description": "no description",
+      "message": "Click here to control your new Masked Email."
+   },
+   "mm_email_helper_created": {
+      "description": "no description",
+      "message": "created"
+   },
+   "mm_email_helper_discloseEmail": {
+      "description": "no description",
+      "message": "Use My Email"
+   },
+   "mm_email_helper_maskMyEmail": {
+      "description": "no description",
+      "message": "Mask My Email"
+   },
+   "mm_email_helper_nextDisclose": {
+      "description": "no description",
+      "message": "Next time you hit 'Use my Email', DoNotTrackMe \u003Cbr/> will make your life easier by filling in your email."
+   },
+   "mm_email_helper_recommended": {
+      "description": "no description",
+      "message": "\u003Cspan class='num-trackers'>$1 trackers here\u003C/span>. Masking Recommended."
+   },
+   "mm_email_helper_serverIsDown": {
+      "description": "no description",
+      "message": "Oops! Error creating email."
+   },
+   "mm_email_helper_tryAgainLater": {
+      "description": "no description",
+      "message": "click to report error"
+   },
+   "mm_email_helper_turn_off": {
+      "description": "no description",
+      "message": "Turn-off panels"
+   },
+   "mm_email_helper_turn_on": {
+      "description": "no description",
+      "message": "Turn-on panels"
+   },
+   "mm_email_helper_use": {
+      "description": "no description",
+      "message": "Use"
+   },
+   "mm_email_helper_whatIsThis": {
+      "description": "no description",
+      "message": "What is this?"
+   },
+   "mm_help_cards_checkOutThe": {
+      "description": "no description",
+      "message": "Check out the Masked Cards page"
+   },
+   "mm_help_cards_faq": {
+      "description": "no description",
+      "message": "Masked Cards FAQ"
+   },
+   "mm_help_cards_faq_billing": {
+      "description": "no description",
+      "message": "What billing information should I enter into the website checkout form?"
+   },
+   "mm_help_cards_faq_chargebacks": {
+      "description": "no description",
+      "message": "What if I want to get a refund for a purchase on a Masked Card? How do you handle charge-backs?"
+   },
+   "mm_help_cards_faq_more": {
+      "description": "no description",
+      "message": "Masked Cards Frequently Asked Questions"
+   },
+   "mm_help_cards_faq_refund": {
+      "description": "no description",
+      "message": "Can I get a refund for Masked Cards I don't use?"
+   },
+   "mm_help_cards_faq_statement": {
+      "description": "no description",
+      "message": "What appears on my credit card statement?"
+   },
+   "mm_help_cards_faq_use": {
+      "description": "no description",
+      "message": "Where can I use Masked Cards?"
+   },
+   "mm_help_cards_ifYouWere": {
+      "description": "no description",
+      "message": "If you were in the middle of a purchase, refresh that page to see the 'Mask My Card' option."
+   },
+   "mm_help_cards_lookForThis": {
+      "description": "no description",
+      "message": "Look for this option when you click credit card fields:"
+   },
+   "mm_help_cards_remember": {
+      "description": "no description",
+      "message": "Remember:"
+   },
+   "mm_help_cards_sendUsEmail": {
+      "description": "no description",
+      "message": "Send us an email"
+   },
+   "mm_help_cards_thisIsBeta": {
+      "description": "no description",
+      "message": "this is a beta feature. We'd love to hear your thoughts."
+   },
+   "mm_help_cards_topFive": {
+      "description": "no description",
+      "message": "Top 5 Frequently Asked Questions"
+   },
+   "mm_help_cards_youreReady": {
+      "description": "no description",
+      "message": "You're ready to start using Masked Cards."
+   },
+   "mm_loading_display_Clouds": {
+      "description": "no description",
+      "message": "Flying through the clouds..."
+   },
+   "mm_loading_display_Crunching": {
+      "description": "no description",
+      "message": "Crunching some bits..."
+   },
+   "mm_loading_display_HangOn": {
+      "description": "no description",
+      "message": "Hang on.  This is taking a while..."
+   },
+   "mm_loading_display_Loading": {
+      "description": "no description",
+      "message": "Loading..."
+   },
+   "mm_loading_display_LotOfAccounts": {
+      "description": "no description",
+      "message": "You must have a lot of data..."
+   },
+   "mm_loading_display_Sorry": {
+      "description": "no description",
+      "message": "Sorry.  You can try waiting longer, or refreshing the page.  If nothing works, \u003Ca href='#errorReport/$1'>click here to report this issue.\u003C/a>."
+   },
+   "mm_loading_display_StillWorking": {
+      "description": "no description",
+      "message": "Still working..."
+   },
+   "mm_loading_display_Tubes": {
+      "description": "no description",
+      "message": "Navigating Internet tubes..."
+   },
+   "mm_loading_display_Whoops": {
+      "description": "no description",
+      "message": "Whoops! Something went wrong. Please contact our support team by \u003Ca href='#errorReport/$1'>clicking here.\u003C/a>"
+   },
+   "mm_loading_display_Whoops_Panel": {
+      "description": "no description",
+      "message": "Whoops! Something went wrong. \u003Ca id='linkToErrorReport' style='cursor:pointer;'>Click to contact support.\u003C/a>"
+   },
+   "mm_loading_display_login": {
+      "description": "no description",
+      "message": "Please wait..."
+   },
+   "mm_loading_display_register0": {
+      "description": "no description",
+      "message": "Please wait..."
+   },
+   "mm_loading_display_register1": {
+      "description": "no description",
+      "message": "Masking your email..."
+   },
+   "mm_loading_display_register2": {
+      "description": "no description",
+      "message": "Setting up email forwarding..."
+   },
+   "mm_loading_display_register3": {
+      "description": "no description",
+      "message": "Next time masking will be quick..."
+   },
+   "mm_loading_display_register4": {
+      "description": "no description",
+      "message": "Almost done..."
+   },
+   "mm_loading_display_register_use0": {
+      "description": "no description",
+      "message": "Please wait..."
+   },
+   "mm_loading_display_register_use1": {
+      "description": "no description",
+      "message": "Next time you can click 'Use my Email' before typing anything..."
+   },
+   "mm_loading_display_register_use2": {
+      "description": "no description",
+      "message": "Going forward you can automatically fill in your email..."
+   },
+   "mm_loading_display_register_use3": {
+      "description": "no description",
+      "message": "Try to Mask your email sometime... You'll love it..."
+   },
+   "mm_loading_display_register_use4": {
+      "description": "no description",
+      "message": "Almost done..."
+   },
+   "mm_login_helper_use": {
+      "description": "no description",
+      "message": "Log in as:"
+   },
+   "mm_notification_helper_anyName": {
+      "description": "no description",
+      "message": "Use any name you want"
+   },
+   "mm_notification_helper_block_them": {
+      "description": "no description",
+      "message": "If \u003Cb>$1\u003C/b> spams you, block them any time \u003Cspan id='here'>here\u003C/span>."
+   },
+   "mm_notification_helper_change_password_msg": {
+      "description": "no description",
+      "message": "Just in case you're updating this..."
+   },
+   "mm_notification_helper_chatNow": {
+      "description": "no description",
+      "message": "Click here to chat with support"
+   },
+   "mm_notification_helper_email_forward_to": {
+      "description": "no description",
+      "message": "These emails will forward to \u003Cb>$1\u003C/b>."
+   },
+   "mm_notification_helper_got_it": {
+      "description": "no description",
+      "message": "Got it!"
+   },
+   "mm_notification_helper_growl": {
+      "description": "no description",
+      "message": "In The Know"
+   },
+   "mm_notification_helper_ignore": {
+      "description": "no description",
+      "message": "Ignore"
+   },
+   "mm_notification_helper_learn_more": {
+      "description": "no description",
+      "message": "Learn more"
+   },
+   "mm_notification_helper_never": {
+      "description": "no description",
+      "message": "Never for this site"
+   },
+   "mm_notification_helper_save_login": {
+      "description": "no description",
+      "message": "Save Password"
+   },
+   "mm_notification_helper_save_login_msg": {
+      "description": "no description",
+      "message": "DoNotTrackMe will securely save your password here:"
+   },
+   "mm_notification_helper_settings": {
+      "description": "no description",
+      "message": "Change settings"
+   },
+   "mm_notification_helper_viewFromDashboard": {
+      "description": "no description",
+      "message": "You can view your Masked Cards from \u003Ca href='#' id='cardDashboard' style='text-decoration:underline;'>your privacy dashboard.\u003C/a>"
+   },
+   "mm_notification_helper_what_happened_to_email": {
+      "description": "no description",
+      "message": "One time tutorial:\u003Cbr>What just happened to your email?"
+   },
+   "mm_notification_helper_will_email_to": {
+      "description": "no description",
+      "message": "\u003Cb>$1\u003C/b> will email to \u003Cb>$2\u003C/b>."
+   },
+   "mm_password_helper_differentSpecialChars": {
+      "description": "no description",
+      "message": "Try a password with different special characters"
+   },
+   "mm_password_helper_generateStrong": {
+      "description": "no description",
+      "message": "Make Me A Strong Password"
+   },
+   "mm_password_helper_moreOptions": {
+      "description": "no description",
+      "message": "More Options"
+   },
+   "mm_password_helper_noNumbers": {
+      "description": "no description",
+      "message": "Try a password with no numbers"
+   },
+   "mm_password_helper_noSpecialChars": {
+      "description": "no description",
+      "message": "Try a password with no special characters"
+   },
+   "mm_password_helper_or": {
+      "description": "no description",
+      "message": "OR"
+   },
+   "mm_password_helper_typePassword": {
+      "description": "no description",
+      "message": "Just type in your password. DoNotTrackMe will still save it."
+   },
+   "mm_payment_error": {
+      "description": "no description",
+      "message": "Sorry for the interruption, but something went wrong. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_abine": {
+      "description": "no description",
+      "message": "Oops! There's been a serious error. Please try again, and \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us\u003C/a> ASAP."
+   },
+   "mm_payment_error_banned_domain": {
+      "description": "no description",
+      "message": "Sorry for the inconvenience, but due to website-specific restrictions, you cannot used Masked Cards on $1. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_billing": {
+      "description": "no description",
+      "message": "Sorry, but we weren't able to charge your card on file. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_declined": {
+      "description": "no description",
+      "message": "Sorry, but we weren't able to charge your card on file. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_duplicate_card_ban": {
+      "description": "no description",
+      "message": "Sorry, but your account has been restricted due to using a credit card tied to a previous account in our system. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_global_limit": {
+      "description": "no description",
+      "message": "Sorry, you have reached a temporary limit on creating Masked Cards. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_grey_listed": {
+      "description": "no description",
+      "message": "Sorry for the interruption, but we need you to verify your card on file before creating any more Masked Cards. \u003Ca id='verificationLink' href='$1' target='_blank'>Verify now.\u003C/a>"
+   },
+   "mm_payment_error_hard_limit": {
+      "description": "no description",
+      "message": "Sorry, but there’s an issue with your account.  \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_high_risk_country": {
+      "description": "no description",
+      "message": "Sorry, but Masked Cards are only available to U.S. users at this time. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_provider": {
+      "description": "no description",
+      "message": "Sorry, but we’re having difficulty creating a Masked Card for you here. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_refund": {
+      "description": "no description",
+      "message": "Sorry! There was an error closing your card. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_rejected_domain": {
+      "description": "no description",
+      "message": "Sorry for the inconvenience, but due to website-specific restrictions, you cannot used Masked Cards on $1. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_error_soft_limit": {
+      "description": "no description",
+      "message": "Sorry for the interruption, but we need you to verify your card on file before creating any more Masked Cards. \u003Ca id='verificationLink' href='$1' target='_blank'>Verify now.\u003C/a>"
+   },
+   "mm_payment_error_validation_input": {
+      "description": "no description",
+      "message": "Sorry, the amount must be a valid amount in dollars and cents."
+   },
+   "mm_payment_error_validation_max": {
+      "description": "no description",
+      "message": "Sorry, but you can’t create a Masked Card for greater than $1 because you haven’t verified your card on file yet. To increase this limit, \u003Ca id='verificationLink' href='$2' target='_blank'>verify your card\u003C/a>."
+   },
+   "mm_payment_error_validation_min": {
+      "description": "no description",
+      "message": "Sorry, but you can’t create a Masked Card for under $1. But don’t worry: you can make a $1 card and then close the card to refund what you don’t spend."
+   },
+   "mm_payment_error_validation_verified": {
+      "description": "no description",
+      "message": "Sorry, but you can’t create a Masked Card for that amount. The amount must be between $1 and $2."
+   },
+   "mm_payment_error_verified_soft_limit": {
+      "description": "no description",
+      "message": "Sorry for the interruption, but you’ve reached a temporary limit on your Masked Cards. \u003Ca class='chatNow' href='javascript:void(0);'>Chat with us live\u003C/a> between 9 AM - 5 PM EST or \u003Ca href='https://dnt.abine.com/#help' target='_blank'>contact us so we can help\u003C/a>."
+   },
+   "mm_payment_helper_activateMasked": {
+      "description": "no description",
+      "message": "Click here to activate Masked Cards."
+   },
+   "mm_payment_helper_address": {
+      "description": "no description",
+      "message": "Address"
+   },
+   "mm_payment_helper_apt": {
+      "description": "no description",
+      "message": "Address 2"
+   },
+   "mm_payment_helper_card": {
+      "description": "no description",
+      "message": "card"
+   },
+   "mm_payment_helper_card_complete_title": {
+      "description": "no description",
+      "message": "Enter your billing information to finish:"
+   },
+   "mm_payment_helper_chargeWillBe": {
+      "description": "no description",
+      "message": "Charge will be applied to card ending in"
+   },
+   "mm_payment_helper_chargedNow": {
+      "description": "no description",
+      "message": "now and expire in \u003Cspan id='monthsExpired'>\u003C/span> months. Is this OK?"
+   },
+   "mm_payment_helper_city": {
+      "description": "no description",
+      "message": "City"
+   },
+   "mm_payment_helper_confirmSub": {
+      "description": "no description",
+      "message": "Your card ending in $1 will be charged $$\u003Cspan class='confirmAmount'>\u003C/span>"
+   },
+   "mm_payment_helper_credit_card_number": {
+      "description": "no description",
+      "message": "Credit Card Number"
+   },
+   "mm_payment_helper_cvc": {
+      "description": "no description",
+      "message": "CVC:"
+   },
+   "mm_payment_helper_cvv": {
+      "description": "no description",
+      "message": "CVV"
+   },
+   "mm_payment_helper_dontAsk": {
+      "description": "no description",
+      "message": "Don't ask me in the future"
+   },
+   "mm_payment_helper_dummy_card_ready": {
+      "description": "no description",
+      "message": "Here's your new private, secure card"
+   },
+   "mm_payment_helper_duplicate_email": {
+      "description": "no description",
+      "message": "Whoops! The email \u003Cb>$1\u003C/b> has already been used for DoNotTrackMe.\u003Cbr/>\u003Cbutton id=loginButton class='btn btn-mini btn-primary'>Login\u003C/button> (or use a different email)"
+   },
+   "mm_payment_helper_email": {
+      "description": "no description",
+      "message": "Email address"
+   },
+   "mm_payment_helper_enter_card": {
+      "description": "no description",
+      "message": "To protect your card, enter it and then choose Mask."
+   },
+   "mm_payment_helper_expDate": {
+      "description": "no description",
+      "message": "Exp Date:"
+   },
+   "mm_payment_helper_expires": {
+      "description": "no description",
+      "message": "Expires"
+   },
+   "mm_payment_helper_fill_all_required": {
+      "description": "no description",
+      "message": "Fill all required fields"
+   },
+   "mm_payment_helper_finishUpTitle": {
+      "description": "no description",
+      "message": "Finish up - Confirm your Masked Card"
+   },
+   "mm_payment_helper_first_name": {
+      "description": "no description",
+      "message": "First name"
+   },
+   "mm_payment_helper_goPremiumCheckboxLabel": {
+      "description": "no description",
+      "message": "Go Premium - protect all your purchases for $$45/year."
+   },
+   "mm_payment_helper_greatThey": {
+      "description": "no description",
+      "message": "Great! They'll never see your real card. Please confirm a charge of $$\u003Cspan class='confirmAmount'>\u003C/span>"
+   },
+   "mm_payment_helper_help_1": {
+      "description": "no description",
+      "message": "Make sure to \u003Cb>use Abine's Billing Address\u003C/b>:"
+   },
+   "mm_payment_helper_help_2": {
+      "description": "no description",
+      "message": "Remember: you will see \u003Cb>a charge from 'Abine, Inc' for $1\u003C/b> in your credit card bill for this Masked Card."
+   },
+   "mm_payment_helper_help_3": {
+      "description": "no description",
+      "message": "See FAQs"
+   },
+   "mm_payment_helper_howMuch": {
+      "description": "no description",
+      "message": "How much are you going to spend here?"
+   },
+   "mm_payment_helper_inlineFaqAreThereAdditional": {
+      "description": "no description",
+      "message": "Are there additional fees?"
+   },
+   "mm_payment_helper_inlineFaqClose": {
+      "description": "no description",
+      "message": "You can close a specific Masked Card at any time, which gives you an automatic refund of any money left after any pending and completed transactions on that Masked Card. \u003Ca href='#' id='viewCardsDashboard'>View my Masked Cards\u003C/a>"
+   },
+   "mm_payment_helper_inlineFaqGotIt": {
+      "description": "no description",
+      "message": "Got it"
+   },
+   "mm_payment_helper_inlineFaqMaskedCardsAre": {
+      "description": "no description",
+      "message": "Masked Cards are real MasterCards that function like pre-paid gift cards that you can create on the fly as you shop."
+   },
+   "mm_payment_helper_inlineFaqNoAdditionalFees": {
+      "description": "no description",
+      "message": "No. When you create a card, you'll be charged by Abine, Inc. for the amount you specify (the amount you're going to spend). There are no additional fees."
+   },
+   "mm_payment_helper_inlineFaqWhatAre": {
+      "description": "no description",
+      "message": "What are Masked Cards?"
+   },
+   "mm_payment_helper_inlineFaqWhatIfIDont": {
+      "description": "no description",
+      "message": "What if I don't use my card or change my mind?"
+   },
+   "mm_payment_helper_invalid_email_server_error": {
+      "description": "no description",
+      "message": "Please provide a valid email address.  You can't use a masked email as your primary account address.\u003Cbr/>Try a different email"
+   },
+   "mm_payment_helper_isThisFor": {
+      "description": "no description",
+      "message": "Is this for a subscription?"
+   },
+   "mm_payment_helper_last_name": {
+      "description": "no description",
+      "message": "Last name"
+   },
+   "mm_payment_helper_maskCard": {
+      "description": "no description",
+      "message": "Mask My Card"
+   },
+   "mm_payment_helper_maskIt": {
+      "description": "no description",
+      "message": "Mask it: Limit the bill. Protect your card #."
+   },
+   "mm_payment_helper_monthlyPrice": {
+      "description": "no description",
+      "message": "Monthly Price:"
+   },
+   "mm_payment_helper_nevermind": {
+      "description": "no description",
+      "message": "Nevermind"
+   },
+   "mm_payment_helper_next": {
+      "description": "no description",
+      "message": "Next"
+   },
+   "mm_payment_helper_no_additional_fee": {
+      "description": "no description",
+      "message": "(\u003Ca class='cash-for-cards-webapp-faq' href='javascript:void(0);'>no additional fee\u003C/a>)"
+   },
+   "mm_payment_helper_non_us1": {
+      "description": "no description",
+      "message": "We apologize, but Masked Cards are currently only available to U.S. users. International support will arrive in 2014. Please note that \u003Ca id='phonesPageLink' href='$1' target='_blank'>Masked Phones\u003C/a> is still available outside of the U.S. \u003Cbr/>Even better, as a way to make it up to our international users, we don't charge you extra for receiving and making masked calls (even though it costs us extra!)."
+   },
+   "mm_payment_helper_non_us3": {
+      "description": "no description",
+      "message": "Sorry, but at this time Masked Cards are only available for U.S. users. We hope to add international support in the near future."
+   },
+   "mm_payment_helper_nonzero_months": {
+      "description": "no description",
+      "message": "Months must be greater than 0."
+   },
+   "mm_payment_helper_numberOfMonths": {
+      "description": "no description",
+      "message": "Number of months you want:"
+   },
+   "mm_payment_helper_outOfCardsCheck": {
+      "description": "no description",
+      "message": "You've run out of free Masked Cards. Please check the box to protect all your purchases for $$45/year."
+   },
+   "mm_payment_helper_paymentsr2_ready": {
+      "description": "no description",
+      "message": "We are ready to create a Masked Card for you. Use the Masked Card instead of your real card to protect this purchase."
+   },
+   "mm_payment_helper_paymentsr2_willBeCharged": {
+      "description": "no description",
+      "message": "Your card ending in $1 will be charged $$\u003Cspan class='confirmAmount'>\u003C/span> (the amount you're going to spend here) by Abine, Inc. to fund the Masked Card."
+   },
+   "mm_payment_helper_paymentsr2_willBeChargedUpgradePremium": {
+      "description": "no description",
+      "message": "Your card ending in $1 will be charged $$\u003Cspan class='confirmAmount'>\u003C/span> (the amount you're going to spend here) by Abine, Inc. to fund the Masked Card. You'll also be upgraded to premium service for $$45/year."
+   },
+   "mm_payment_helper_per_card_fee": {
+      "description": "no description",
+      "message": "(\u003Ca class='cash-for-cards-webapp-faq' href='javascript:void(0);'>per card fee\u003C/a>)"
+   },
+   "mm_payment_helper_pleaseEnter": {
+      "description": "no description",
+      "message": "Please enter the exact amount for this transaction."
+   },
+   "mm_payment_helper_please_wait": {
+      "description": "no description",
+      "message": "Please wait checking for service availability..."
+   },
+   "mm_payment_helper_premium_register_done": {
+      "description": "no description",
+      "message": "Mask My Credit Card"
+   },
+   "mm_payment_helper_premium_register_help": {
+      "description": "no description",
+      "message": "Free for 30 days, then $$5 per month. Cancel anytime.  \u003Cspan>More offer details.\u003C/span>"
+   },
+   "mm_payment_helper_protectYourCardInFew": {
+      "description": "no description",
+      "message": "Protect your credit card in just a few clicks."
+   },
+   "mm_payment_helper_register_error": {
+      "description": "no description",
+      "message": "Oops! An unknown error occurred - are you connected to the internet? Please try again later, or contact our \u003Ca class='help-link'>support team\u003C/a>."
+   },
+   "mm_payment_helper_safestWayTitle": {
+      "description": "no description",
+      "message": "Masked Cards - The safest way to shop online"
+   },
+   "mm_payment_helper_secure": {
+      "description": "no description",
+      "message": "HTTPS secure"
+   },
+   "mm_payment_helper_setupMasked": {
+      "description": "no description",
+      "message": "Click here to setup Masked Cards."
+   },
+   "mm_payment_helper_state": {
+      "description": "no description",
+      "message": "State/Province"
+   },
+   "mm_payment_helper_this_card_will_cost": {
+      "description": "no description",
+      "message": "This Masked Card will cost you $$\u003Cspan class='confirmAmount'>\u003C/span>"
+   },
+   "mm_payment_helper_toYourCardEnding": {
+      "description": "no description",
+      "message": "to your card ending in $1 before we make you a Masked Card."
+   },
+   "mm_payment_helper_upgradeMaskedCard": {
+      "description": "no description",
+      "message": "Try Masked Cards."
+   },
+   "mm_payment_helper_useCardEnding": {
+      "description": "no description",
+      "message": "Use card ending in"
+   },
+   "mm_payment_helper_useCardName": {
+      "description": "no description",
+      "message": "Use '$1' card"
+   },
+   "mm_payment_helper_useMyCard": {
+      "description": "no description",
+      "message": "Use My Card"
+   },
+   "mm_payment_helper_useMyMasked": {
+      "description": "no description",
+      "message": "Use My Masked Card"
+   },
+   "mm_payment_helper_usesCard": {
+      "description": "no description",
+      "message": "create private card"
+   },
+   "mm_payment_helper_valid_card_number": {
+      "description": "no description",
+      "message": "Please enter valid card number."
+   },
+   "mm_payment_helper_version_not_allowed": {
+      "description": "no description",
+      "message": "Sorry! It looks like you already have a MaskMe account. Unfortunately, DoNotTrackMe's email masking only works for users who have never used MaskMe before. \u003Ca id='dnt2upgrade'>Learn more.\u003C/a>"
+   },
+   "mm_payment_helper_wallet": {
+      "description": "no description",
+      "message": "Auto-fill Forms"
+   },
+   "mm_payment_helper_yescreatecard": {
+      "description": "no description",
+      "message": "Yes, Create Card"
+   },
+   "mm_payment_helper_you_have_1_free_card": {
+      "description": "no description",
+      "message": "You have 1 free Masked Card."
+   },
+   "mm_payment_helper_you_have_free_cards": {
+      "description": "no description",
+      "message": "You have $1 free Masked Cards."
+   },
+   "mm_payment_helper_zip": {
+      "description": "no description",
+      "message": "Zip"
+   },
+   "mm_phone_helper_disclosePhone": {
+      "description": "no description",
+      "message": "Disclose My Phone"
+   },
+   "mm_phone_helper_maskPhone": {
+      "description": "no description",
+      "message": "Mask My Phone"
+   },
+   "mm_phone_helper_pleaseValidate": {
+      "description": "no description",
+      "message": "Please validate your phone number to mask it."
+   },
+   "mm_phone_helper_setupMasked": {
+      "description": "no description",
+      "message": "Click here to set up Masked Phone."
+   },
+   "mm_phone_helper_upgradeMaskedPhone": {
+      "description": "no description",
+      "message": "Try Masked Phones."
+   },
+   "mm_phone_helper_usesPhone": {
+      "description": "no description",
+      "message": "your Masked Phone"
+   },
+   "mm_pwhint_default": {
+      "description": "no description",
+      "message": "Never set up"
+   },
+   "mm_unlock_panel_login": {
+      "description": "no description",
+      "message": "Login"
+   },
+   "mm_unlock_panel_login_message": {
+      "description": "no description",
+      "message": "You have not logged into DoNotTrackMe."
+   }
+}

@@ -1,4 +1,2 @@
 [Command]
-FileManager=pcmanfm %s
-Terminal=x-terminal-emulator
 Logout=lxde-logout
