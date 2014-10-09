@@ -131,11 +131,6 @@ echo "## prelink ##"
 prelink -amR
 systemctl disable ssh
 echo "#######################################################"
-echo "## Cambiando propietario de grupo/usuario a .config##"
-echo "#######################################################"
-chgrp -R user /home/user/.config
-chown -hR user /home/user/.config
-echo "#######################################################"loca
 echo "#######################################################"
 echo "## Fin de Script realizado por @sinfallas            ##"
 echo "## actualizaciones y limpieza listo!!!               ##"

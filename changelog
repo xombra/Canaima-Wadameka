@@ -1,4 +1,16 @@
-commit 1be81c38f120478f978013e11f1245fe39394202 (HEAD, master)
+commit 2a8c9d77035cb9c1bab9ed0e8bfba4e05acfbd99 (HEAD, origin/master, origin/HEAD, master)
+Author: xombra <xombra.com@gmail.com>
+Date:   Thu Oct 9 15:21:45 2014 -0430
+
+    * Cambios en conf LXDE y uso de Chromium
+
+commit a8d44dd98641556ca293c0b203b33c565c5c39ec
+Author: xombra <xombra.com@gmail.com>
+Date:   Wed Oct 8 21:15:19 2014 -0430
+
+    * changelog
+
+commit 1be81c38f120478f978013e11f1245fe39394202
 Author: xombra <xombra.com@gmail.com>
 Date:   Wed Oct 8 16:41:38 2014 -0430
 
@@ -11,7 +23,7 @@ Date:   Wed Oct 8 16:33:39 2014 -0430
     * Cambios en conf LXDE y supresion temporal de brltty para ser
     * colocado en script
 
-commit 0a717e23182eea57dcf74dda434139e95f95bb21 (origin/master, origin/HEAD)
+commit 0a717e23182eea57dcf74dda434139e95f95bb21
 Author: xombra <xombra.com@gmail.com>
 Date:   Wed Oct 8 10:49:14 2014 -0430
 
