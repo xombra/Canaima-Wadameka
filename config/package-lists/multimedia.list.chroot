@@ -17,6 +17,7 @@ pitivi
 pulseaudio
 pulseaudio-module-jack
 qjackctl
+vgrabbj
 vlc
 vlc-plugin-pulse
 xfburn
